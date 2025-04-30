@@ -760,3 +760,24 @@ a.custom-video-btn.custom-button-bg__gradient {
     filter: blur(10px); /* Apply blur effect */
     z-index: -1; /* Position behind the element */
   }
+
+  .section-7 {
+    background-image: linear-gradient(
+      180deg,
+      #000000,
+      #07071c,
+      #3b021c
+    );
+  }
+  .footer__gradient-line {
+    background-image: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0)
+    );
+    height: 1px;
+  }
+  .section-7 .columns-38.w-row:before,
+  .section-7 .columns-38.w-row:after {
+    display: none;
+  }

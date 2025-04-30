@@ -11,8 +11,10 @@
     <meta content="About" property="og:title" />
     <meta content="About" property="twitter:title" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="./styles/navstyle.css" />
+    <link rel="stylesheet" href="./src/about/style.css" />
     <link
-      href="https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/css/bonifaces-wondrous-site.webflow.5f01ea274.css"
+      href="./src/about/webflow.css"
       rel="stylesheet"
       type="text/css"
     />
@@ -26,6 +28,7 @@
       src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"
       type="text/javascript"
     ></script>
+    <script href="./src/about/script.js" type="text/javascript"></script>
     <script type="text/javascript">
       WebFont.load({
         google: {
@@ -91,168 +94,71 @@
       .new-lp__c-trustpilot.is--free-training {
         cursor: pointer;
       }
+      
+:root {
+    --blur-lg: 8px;
+  }
+
+  .body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(135deg, rgba(34, 0, 51, 1) 0%, rgba(60, 0, 90, 1) 30%, rgba(0, 0, 0, 1) 100%) !important;
+    position: relative;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /* overflow: hidden; */
+  }
+
+  .pyramid {
+    position: fixed;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid #ffcc00;
+    filter: blur(var(--blur-lg));
+    opacity: 0.2;
+    z-index: -1;
+  }
+
+  .pyramid.left {
+    top: 40%;
+    left: 10%;
+  }
+  
+  .pyramid.left-top {
+    top: 20%;
+    left: 15%;
+    border-bottom: 200px solid #1836bb;
+  }
+  
+  .pyramid.right {
+    top: 40%;
+    right: 10%;
+  }
+  
+  .pyramid.right-top {
+    top: 20%;
+    right: 15%;
+    border-bottom: 200px solid #1836bb;
+  }
     </style>
   </head>
-  <body class="body-2">
+  <body
+   class="body"
+  >
     <article class="section-header">
       <div class="w-layout-blockcontainer container-22 w-container">
         <div class="columns-19 w-row">
           <div class="column-33 logo-column w-col w-col-3">
             <img
               class="image-27 has-link"
-              src="https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/661faeee3f12c1a427d3b038_PNG%204%20(1).png"
+              src="./images/logo.png"
               alt=""
               sizes="(max-width: 479px) 36px, (max-width: 767px) 19vw, (max-width: 991px) 20vw, 21vw"
-              data-target="_self"
-              loading="lazy"
-              data-link="https://www.membershipedu.com/"
-              srcset="
-                https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/661faeee3f12c1a427d3b038_PNG%204%20(1)-p-500.png    500w,
-                https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/661faeee3f12c1a427d3b038_PNG%204%20(1)-p-800.png    800w,
-                https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/661faeee3f12c1a427d3b038_PNG%204%20(1)-p-1080.png  1080w,
-                https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/661faeee3f12c1a427d3b038_PNG%204%20(1)-p-1600.png  1600w,
-                https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/661faeee3f12c1a427d3b038_PNG%204%20(1)-p-2000.png  2000w,
-                https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/661faeee3f12c1a427d3b038_PNG%204%20(1)-p-2600.png  2600w,
-                https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/661faeee3f12c1a427d3b038_PNG%204%20(1)-p-3200.png  3200w,
-                https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/661faeee3f12c1a427d3b038_PNG%204%20(1).png        13453w
-              "
             />
             <div class="glass-btn d-none w-embed">
-              <style>
-                .glass-btn {
-                  cursor: pointer;
-                  background-image: linear-gradient(
-                    134deg,
-                    rgba(255, 255, 255, 0.4),
-                    rgba(255, 255, 255, 0) 87%
-                  );
-                  border-radius: 100rem;
-                  padding: 1px;
-                }
-                .glass-btn__burger-icon {
-                  -webkit-backdrop-filter: blur(1rem);
-                  backdrop-filter: blur(1rem);
-                  background-color: rgba(25, 25, 41, 0.8);
-                  border-radius: 100rem;
-                  justify-content: center;
-                  align-items: center;
-                  height: 100%;
-                  padding: 0.5rem;
-                  transition: box-shadow 0.2s;
-                  display: flex;
-                  color: #fff;
-                }
-              </style>
-              <style>
-                .menu-container {
-                  width: 100%;
-                  max-width: 300px;
-                  background-color: #fff;
-                  color: #000012;
-                  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-                  position: fixed;
-                  top: 0;
-                  right: 0;
-                  height: 100vh;
-                  overflow-y: auto;
-                  transition: transform 0.3s ease;
-                  transform: translateX(100%);
-                  background-attachment: scroll;
-                }
-
-                .menu-header {
-                  display: flex;
-                  justify-content: space-between;
-                  align-items: center;
-                  padding: 16px 20px;
-                  border-bottom: 1px solid #ddd;
-                }
-
-                .close-btn {
-                  font-size: 30px;
-                  cursor: pointer;
-                }
-
-                .login-btn {
-                  font-size: 16px;
-                  font-weight: 400;
-                  color: #000012;
-                  cursor: pointer;
-                  text-decoration: none;
-                }
-
-                .menu-list {
-                  list-style-type: none;
-                  padding: 0;
-                  margin: 0;
-                  text-align: left;
-                  font-family: Montserrat, sans-serif;
-                  font-weight: 600;
-                }
-
-                .menu-item {
-                  padding: 10px 20px;
-                  font-size: 20px;
-                }
-
-                .menu-item a {
-                  text-decoration: none;
-                  color: #000012;
-                }
-
-                .menu-item a.active {
-                  color: #007aff;
-                }
-
-                .menu-heading {
-                  padding: 16px;
-                  font-size: 12px;
-                  color: #76798d;
-                  text-transform: uppercase;
-                }
-
-                .submenu-item {
-                  padding: 10px 20px;
-                  font-size: 20px;
-                }
-
-                .submenu-item a {
-                  text-decoration: none;
-                  color: #000012;
-                }
-
-                /* Custom scrollbar */
-                .menu-container::-webkit-scrollbar {
-                  width: 2px;
-                }
-
-                .menu-container::-webkit-scrollbar-thumb {
-                  background-color: transparent;
-                }
-
-                .menu-container:hover::-webkit-scrollbar-thumb {
-                  background-color: #aaa;
-                }
-
-                /* To show the menu */
-                .menu-container.open {
-                  transform: translateX(0);
-                }
-
-                .menu-list .link-active a {
-                  color: #485a88;
-                }
-
-                .menu-list .menu-btn-item {
-                  padding: 20px;
-                }
-
-                .menu-list .menu-btn-item a.nav-link.nav-btn-link {
-                  width: 100%;
-                  padding: 16px;
-                  font-size: 16px;
-                }
-              </style>
               <div class="glass-btn__burger-icon">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -287,22 +193,18 @@
               <div class="menu-container">
                 <div class="menu-header">
                   <span class="close-btn">&times;</span>
-                  <a
-                    class="login-btn"
-                    href="https://boniface-ogunti.mykajabi.com/login"
-                    >Login</a
-                  >
+                  <a class="login-btn" href="">Login</a>
                 </div>
                 <ul class="menu-list">
-                  <li class="menu-item"><a href="index.html">Home</a></li>
+                  <li class="menu-item link-active">
+                    <a href="index.html">Home</a>
+                  </li>
                   <li class="menu-item">
                     <a href="students-success-hub.html">Success</a>
                   </li>
-                  <li class="menu-item">
-                    <a href="https://www.membershipedu.com/program">Program</a>
-                  </li>
+                  <li class="menu-item"><a href="">Program</a></li>
                   <li class="menu-heading">Company</li>
-                  <li class="submenu-item link-active">
+                  <li class="submenu-item">
                     <a href="about.html">About Us</a>
                   </li>
                   <li class="submenu-item"><a href="press.html">Press</a></li>
@@ -316,16 +218,10 @@
                   <li class="submenu-item"><a href="blogs.html">Blog</a></li>
                   <li class="submenu-item"><a href="">Help Center</a></li>
                   <li class="submenu-item">
-                    <a href="membership-calculator.html"
-                      >Membership Calculator</a
-                    >
+                    <a href="membership-calculator.html">Rio Calculator</a>
                   </li>
                   <li class="menu-btn-item">
-                    <a
-                      href="https://go.membershipedu.com/"
-                      target="_blank"
-                      class="nav-link nav-btn-link"
-                    >
+                    <a href="" target="_blank" class="nav-link nav-btn-link">
                       <span>Watch Free Training</span>
                       <div class="button__bg-gradient"></div>
                     </a>
@@ -336,100 +232,9 @@
           </div>
           <div class="column-34 d-none-mob w-col w-col-6">
             <div class="html-embed-3 w-embed">
-              <style>
-                .nav-menu .nav-link {
-                  text-transform: uppercase;
-                }
-                .section-27 .column-34.w-col .w-embed {
-                  z-index: 99;
-                }
-                .nav-dropdown {
-                  display: flex;
-                  justify-content: center;
-                  background: #fff;
-                  border-radius: 5px;
-                  width: 710px;
-                  max-width: 100%;
-                  padding: 8px;
-                  margin-top: 30px;
-                }
-                .nav-dropdown-wrap {
-                  width: 100%;
-                  padding: 8px;
-                  position: absolute;
-                  top: 55px;
-                  opacity: 0;
-                  transition: opacity 0.2s ease-in-out, top 0.2s ease-in-out;
-                  pointer-events: none;
-                }
-                .nav-dropdown-wrap.dropdown-1 {
-                  left: -40px;
-                }
-                .nav-dropdown-wrap.dropdown-2 {
-                  left: 110px;
-                }
-                .nav-dropdown .nav-link:hover {
-                  background-color: rgb(0 0 0 / 10%);
-                }
-                .nav-link.has-dropdown:hover .nav-dropdown-wrap {
-                  opacity: 1;
-                  top: 40px;
-                  pointer-events: auto;
-                }
-                .nav-dropdown-column .nav-link-text {
-                  color: #000012;
-                  font-size: 15px;
-                  font-weight: 600;
-                  margin-bottom: 5px;
-                }
-                .nav-link-description {
-                  font-size: 15px;
-                  color: #76798d;
-                  text-transform: capitalize;
-                }
-                .nav-link-img-wrap {
-                  margin-top: 10px;
-                }
-                .nav-link-img-wrap .nav-link_img {
-                  border-radius: 10px;
-                }
-                .nav-dropdown-column {
-                  display: flex;
-                  flex-direction: column;
-                  width: 50%;
-                }
-                .nav-menu {
-                  display: flex;
-                  justify-content: center;
-                  align-items: center;
-                }
-                .nav-menu .nav-link {
-                  text-decoration: none;
-                  color: #c9d1e2;
-                  font-size: 15px;
-                  padding: 16px;
-                  border-radius: 5px;
-                  cursor: pointer;
-                  transition: 0.2s ease-in-out;
-                }
-
-                .nav-menu .nav-link.link-active,
-                .nav-menu .nav-link:hover {
-                  color: #fff;
-                }
-                .nav-link.has-dropdown .nav-link-inner-text {
-                  display: flex;
-                  justify-content: center;
-                  align-items: center;
-                  gap: 5px;
-                }
-                .nav-link.has-dropdown .nav-link-inner-text span.has-arrow {
-                  display: inline-flex;
-                }
-              </style>
               <div class="nav-menu">
-                <a href="index.html" class="nav-link">Home</a>
-                <div class="nav-link has-dropdown link-active">
+                <a href="index.html" class="nav-link link-active">Home</a>
+                <div class="nav-link has-dropdown">
                   <div class="nav-link-inner-text">
                     <span>Company</span>
                     <span class="has-arrow">
@@ -453,19 +258,13 @@
                   <div class="nav-dropdown-wrap dropdown-1">
                     <div class="nav-dropdown">
                       <div class="nav-dropdown-column">
-                        <a href="about.html" class="nav-link link-active">
+                        <a href="about.html" class="nav-link">
                           <div class="nav-link-text">About Us</div>
-                          <div class="nav-link-description">
-                            MembershipEDU.com is an online education platform
-                            that combines courses, communities and coaching to
-                            create sustainable income through memberships.
-                          </div>
+                          <div class="nav-link-description"></div>
                         </a>
                         <a href="press.html" class="nav-link">
                           <div class="nav-link-text">Press</div>
-                          <div class="nav-link-description">
-                            Pushing Membership Model To The Forefront.
-                          </div>
+                          <div class="nav-link-description"></div>
                         </a>
                         <a href="contact.html" class="nav-link">
                           <div class="nav-link-text">Contact Us</div>
@@ -481,9 +280,7 @@
                           <div class="nav-link-text">
                             Careers - We’re hiring!
                           </div>
-                          <div class="nav-link-description">
-                            Make your next career move the best one.
-                          </div>
+                          <div class="nav-link-description"></div>
                           <div class="nav-link-img-wrap">
                             <img
                               src="https://assets-global.website-files.com/65fc810e091c7ea4dc2da4c1/66310844af15b855b8764563_Boni%20face%20pop-up%20.png"
@@ -522,10 +319,7 @@
                       <div class="nav-dropdown-column">
                         <a href="blogs.html" class="nav-link">
                           <div class="nav-link-text">Blog</div>
-                          <div class="nav-link-description">
-                            MembershipEDU's latest news, articles, tips and
-                            tricks.
-                          </div>
+                          <div class="nav-link-description"></div>
                         </a>
                         <a
                           href="https://help.membershipedu.com/en"
@@ -537,9 +331,9 @@
                           </div>
                         </a>
                         <a href="membership-calculator.html" class="nav-link">
-                          <div class="nav-link-text">Membership Calculator</div>
+                          <div class="nav-link-text">Rio Calculator</div>
                           <div class="nav-link-description">
-                            Instantly predict your membership earnings
+                            Instantly predict your CloudBootcamp.AI earnings
                           </div>
                         </a>
                       </div>
@@ -554,7 +348,7 @@
                           </div>
                           <div class="nav-link-description">
                             Create a massive passive income stream by creating a
-                            membership business
+                            CloudBootcamp.AI business
                           </div>
                           <div class="nav-link-img-wrap">
                             <img
@@ -567,60 +361,16 @@
                     </div>
                   </div>
                 </div>
-                <a href="https://www.membershipedu.com/program" class="nav-link"
-                  >Program</a
-                >
+                <a href="" class="nav-link">Program</a>
               </div>
             </div>
           </div>
           <div class="column-1 d-none-mob w-col w-col-3">
             <div class="w-embed">
-              <style>
-                .custom-button-bg__gradient,
-                a.nav-link.nav-btn-link {
-                  background-image: linear-gradient(223deg, #e63887, #6b4fca);
-                  background-color: #d36c9a;
-                  border-radius: 10px;
-                  text-transform: capitalize;
-                  position: relative;
-                  overflow: hidden;
-                  text-align: center;
-                  color: #fff;
-                  transition: transform 0.2s;
-                  text-decoration: none;
-                }
-                .custom-button-bg__gradient:hover {
-                  transform: scale(1.02);
-                }
-                a.nav-link.nav-btn-link.custom-button-bg__gradient span {
-                  z-index: 9;
-                  position: relative;
-                }
-                a.nav-link.nav-btn-link.custom-button-bg__gradient:hover:after {
-                  opacity: 1;
-                }
-                a.nav-link.nav-btn-link.custom-button-bg__gradient:after {
-                  content: "";
-                  opacity: 0;
-                  background-image: linear-gradient(223deg, #d2166b, #4a22d0);
-                  width: 100%;
-                  height: 100%;
-                  transition: opacity 0.3s ease-out;
-                  position: absolute;
-                  top: 0%;
-                  bottom: auto;
-                  left: 50%;
-                  right: auto;
-                  transform: translate(-50%);
-                  z-index: 1;
-                }
-              </style>
               <div class="nav-menu">
-                <a href="https://class.membershipedu.com/login" class="nav-link"
-                  >Login</a
-                >
+                <a href="" class="nav-link">Login</a>
                 <a
-                  href="https://go.membershipedu.com/"
+                  href=""
                   target="_blank"
                   class="nav-link nav-btn-link custom-button-bg__gradient"
                   ><span>Watch Free Training</span></a
@@ -631,62 +381,7 @@
         </div>
       </div>
       <div class="w-embed w-script">
-        <style>
-          .nav__bottom-line {
-            z-index: 2;
-            opacity: 0.4;
-            background-image: linear-gradient(
-              to right,
-              rgba(0, 0, 0, 0),
-              #fff 50%,
-              rgba(0, 0, 0, 0)
-            );
-            width: 100%;
-            height: 1px;
-            position: relative;
-          }
-          .section-header {
-            transition: 0.3s ease-out;
-          }
-          @media (min-width: 1261px) {
-            .d-none {
-              display: none !important;
-            }
-          }
-          @media (max-width: 1260px) {
-            .d-none-mob {
-              display: none !important;
-            }
-            .logo-column {
-              width: 100% !important;
-            }
-          }
-          @media (max-width: 480px) {
-            .section-header {
-              padding: 0px;
-            }
-          }
-        </style>
         <div class="nav__bottom-line"></div>
-        <script>
-          // script.js
-          let lastScrollTop = 0;
-          const header = document.querySelector(".section-header");
-
-          window.addEventListener("scroll", () => {
-            const scrollTop =
-              window.pageYOffset || document.documentElement.scrollTop;
-
-            if (scrollTop > lastScrollTop) {
-              // Downscroll
-              header.style.top = "-100px"; // Adjust based on header height
-            } else {
-              // Upscroll
-              header.style.top = "0";
-            }
-            lastScrollTop = scrollTop;
-          });
-        </script>
       </div>
     </article>
     <section class="section-9">
@@ -853,10 +548,13 @@
             class="text-span-11"
             >our biggest goal was to impact people&#x27;s lives.</span
           > -->
-          <span class="text-span-12">Our mission is We help people go from underpaid and overlooked to highly-paid and in-demand by mastering cloud engineering skills that employers actually need.</span>
+          <span class="text-span-12"
+            >Our mission is We help people go from underpaid and overlooked to
+            highly-paid and in-demand by mastering cloud engineering skills that
+            employers actually need.</span
+          >
           <!-- <span class="text-span-13"
             >sustainable income through memberships.</span -->
-          
         </h2>
         <div class="html-embed-28 w-embed w-script">
           <style>
@@ -979,7 +677,7 @@
                     "
                   />
                   <img
-                    src="https://assets-global.website-files.com/65fc810e091c7ea4dc2da4c1/662f8737ad4fc70c8a9a6f7e_Logo%20(1).png"
+                    src="./images/logo-2.png"
                     loading="eager"
                     alt="Publishing.com press icon"
                     class="product__icon is--icon is--big"
@@ -1089,7 +787,9 @@
           </script>
         </div>
         <h2 class="heading-62">
-          Our vision is To build a world where anyone can break into tech, build generational wealth, and live life on their terms — without needing a degree or years of experience.
+          Our vision is To build a world where anyone can break into tech, build
+          generational wealth, and live life on their terms — without needing a
+          degree or years of experience.
         </h2>
         <h4 class="heading-63">
           Imagine all of the following available under one roof…
@@ -1205,349 +905,14 @@
         </div>
       </div>
     </section>
+    <div class="pyramid left-top"></div>
+    <div class="pyramid left"></div>
+    <div class="pyramid right-top"></div>
+    <div class="pyramid right"></div>
     <section class="section-11">
       <div class="w-layout-blockcontainer container-30 w-container">
         <div class="html-embed-15 w-embed">
-          <style>
-            .html-embed-15,
-            .html-embed-16,
-            .html-embed-17,
-            .html-embed-18,
-            .html-embed-19,
-            .html-embed-20 {
-              z-index: 1 !important;
-              position: relative !important;
-            }
-            .section.is--timeline {
-              padding-top: 0;
-              padding-bottom: 0;
-              position: relative;
-            }
-            .container {
-              max-width: 90rem;
-              margin-left: auto;
-              margin-right: auto;
-              padding-left: 3.125rem;
-              padding-right: 3.125rem;
-            }
-            .story__overlay-fade.is--bottom {
-              background-image: linear-gradient(
-                to top,
-                #000012,
-                rgba(0, 0, 18, 0)
-              );
-              top: auto;
-              bottom: 0%;
-              left: 0%;
-              right: 0%;
-            }
-            .story__overlay-fade {
-              background-image: linear-gradient(
-                to bottom,
-                #000012,
-                rgba(0, 0, 18, 0) 99%
-              );
-              height: 5rem;
-              position: absolute;
-              top: 0%;
-              bottom: auto;
-              left: 0%;
-              right: 0%;
-            }
-            .c-story {
-              flex-direction: column;
-              justify-content: flex-start;
-              align-items: center;
-              width: 100%;
-              display: flex;
-              position: relative;
-            }
-            .c-story__progress {
-              z-index: -3;
-              background-color: rgba(255, 255, 255, 0.1);
-              flex-direction: column;
-              justify-content: flex-start;
-              align-items: center;
-              width: 0.35rem;
-              height: 100%;
-              display: flex;
-              position: absolute;
-            }
-            .c-story__progress-line {
-              background-image: linear-gradient(#976cf2, #5a36ec);
-              border-radius: 100rem;
-              width: 0.35rem;
-              height: 50vh;
-              position: fixed;
-              top: 0;
-            }
-            .story__collection {
-              width: 100%;
-            }
-            .story-first__up {
-              background-color: #000012;
-              flex-direction: column;
-              align-items: center;
-              display: flex;
-            }
-            .story-card__c-img {
-              background-image: linear-gradient(#000bff, #ad00ff);
-              border-radius: 1.09375rem;
-              padding: 1px;
-            }
-            .story-card__inner {
-              background-color: var(--dark-blue);
-              border-radius: 1.03125rem;
-              padding: 0.375rem;
-            }
-            img {
-              max-width: 100%;
-              display: inline-block;
-            }
-            .story-card__img {
-              object-fit: cover;
-              border-radius: 0.725rem;
-              width: 25.75rem;
-              height: 17.9375rem;
-              background-color: #fff;
-            }
-            .story-first__c-text {
-              flex-direction: column;
-              align-items: center;
-              max-width: 50rem;
-              margin-top: 2.5rem;
-              margin-bottom: 1.25rem;
-              display: flex;
-            }
-            .story__date {
-              -webkit-text-fill-color: transparent;
-              background-image: linear-gradient(#fc5bff, #bc2dff);
-              -webkit-background-clip: text;
-              background-clip: text;
-              margin-bottom: 0;
-              font-size: 1.375rem;
-              font-weight: 500;
-            }
-            .story__title.is--first-last {
-              text-align: center;
-              max-width: 39.625rem;
-              font-size: 3.25rem;
-              margin-top: 45px;
-            }
-            .story__title {
-              color: #fff;
-              margin-top: 0.625rem;
-              margin-bottom: 0.625rem;
-              font-size: 1.375rem;
-            }
-            .story-first__down {
-              flex-direction: column;
-              align-items: center;
-              margin-bottom: 11.1875rem;
-              display: flex;
-            }
-            .story__dot {
-              background-image: linear-gradient(to bottom, #fc5bff, #bc2dff);
-              box-shadow: 0 0 1rem 1rem #000012;
-              border-radius: 100rem;
-              justify-content: center;
-              align-items: center;
-              width: 1rem;
-              min-width: 1rem;
-              max-width: 1rem;
-              height: 1rem;
-              min-height: 1rem;
-              max-height: 1rem;
-              display: flex;
-              position: relative;
-              overflow: hidden;
-            }
-            .w-layout-grid {
-              grid-row-gap: 16px;
-              grid-column-gap: 16px;
-              grid-template-rows: auto auto;
-              grid-template-columns: 1fr 1fr;
-              grid-auto-columns: 1fr;
-              display: grid;
-            }
-            .story__grid {
-              grid-column-gap: 0rem;
-              grid-row-gap: 2rem;
-              grid-template-rows: auto;
-              grid-template-columns: 1fr 6rem 1fr;
-              padding-top: 5rem;
-              padding-bottom: 5rem;
-            }
-            .story__left {
-              justify-content: flex-end;
-              display: flex;
-            }
-            .story-card {
-              display: flex;
-              position: relative;
-            }
-            .story-card__c-img {
-              background-image: linear-gradient(#000bff, #ad00ff);
-              border-radius: 1.09375rem;
-              padding: 1px;
-            }
-            .story-card__inner {
-              background-color: #000012;
-              border-radius: 1.03125rem;
-              padding: 0.375rem;
-            }
-            .w-dyn-hide,
-            .w-dyn-bind-empty,
-            .w-condition-invisible {
-              display: none !important;
-            }
-            .story-card__inc5000-sticker {
-              width: 9.375rem;
-              height: 9.375rem;
-              position: absolute;
-              top: -2.1875rem;
-              bottom: auto;
-              left: -2.8875rem;
-              right: auto;
-              transform: rotate(-35deg);
-            }
-            .story__center {
-              justify-content: center;
-              align-items: center;
-              display: flex;
-            }
-            .story-dot__color.is--gradient {
-              z-index: 1;
-              background-image: linear-gradient(#fc5bff, #bc2dff);
-            }
 
-            .story-dot__color {
-              border-radius: 100rem;
-              width: 1rem;
-              min-width: 1rem;
-              max-width: 1rem;
-              height: 1rem;
-              min-height: 1rem;
-              max-height: 1rem;
-              position: absolute;
-            }
-            .story-dot__color.is--grey {
-              background-color: #767f97;
-            }
-            .story__right {
-              display: flex;
-            }
-
-            .story-grid__c-text {
-              color: #d4dce5;
-              flex-direction: column;
-              justify-content: center;
-              max-width: 30rem;
-              display: flex;
-            }
-            .story__date {
-              -webkit-text-fill-color: transparent;
-              background-image: linear-gradient(#fc5bff, #bc2dff);
-              -webkit-background-clip: text;
-              background-clip: text;
-              margin-bottom: 0;
-              font-size: 1.375rem;
-              font-weight: 500;
-            }
-            .story__title {
-              color: #fff;
-              margin-top: 0.625rem;
-              margin-bottom: 0.625rem;
-              font-size: 1.375rem;
-            }
-            .story__paragraph {
-              color: #a7b7df;
-              font-size: 1rem;
-              line-height: 1.5;
-            }
-
-            @media screen and (max-width: 991px) {
-              .container {
-                padding-left: 1.5rem;
-                padding-right: 1.5rem;
-              }
-              .c-story__progress {
-                left: 0.07rem;
-              }
-              .story__c-first {
-                flex-direction: row;
-                align-items: stretch;
-                padding-bottom: 5rem;
-                display: flex;
-              }
-              .story-first__up {
-                padding-left: 1.5rem;
-              }
-              .story-card__img {
-                width: 100rem;
-              }
-              .story-first__c-text {
-                align-items: flex-start;
-                margin-top: 2rem;
-                margin-bottom: 0;
-              }
-              .story__date {
-                text-align: left;
-                font-size: 26px;
-              }
-              .story__title.is--first-last {
-                text-align: left;
-                font-size: 1.375rem;
-              }
-              .story-first__down {
-                order: -1;
-                justify-content: flex-start;
-                align-items: flex-start;
-                margin-bottom: 0;
-              }
-              .story__dot {
-                width: 0.5rem;
-                min-width: 0.5rem;
-                max-width: 0.5rem;
-                height: 0.5rem;
-                min-height: 0.5rem;
-                max-height: 0.5rem;
-              }
-              .story__grid {
-                grid-template-columns: 1.5rem 1fr;
-              }
-              .story__left {
-                flex-direction: column;
-              }
-              #w-node-_7bc2019d-db85-8525-9d61-467225166275-1a698aa1 {
-                order: -9999;
-              }
-              .story__dot {
-                width: 0.5rem;
-                min-width: 0.5rem;
-                max-width: 0.5rem;
-                height: 0.5rem;
-                min-height: 0.5rem;
-                max-height: 0.5rem;
-              }
-              #w-node-_7bc2019d-db85-8525-9d61-467225166277-1a698aa1 {
-                grid-area: span 1 / span 2 / span 1 / span 2;
-              }
-              .story__right {
-                padding-left: 1.85rem;
-              }
-              .story__date {
-                text-align: left;
-                font-size: 1.675rem;
-              }
-              .story__paragraph {
-                font-size: 1.25rem;
-              }
-              .story__center {
-                justify-content: flex-start;
-              }
-            }
-          </style>
         </div>
         <div class="html-embed-16 w-embed">
           <section class="section is--timeline">
@@ -1560,7 +925,7 @@
                 <div class="story__collection w-dyn-list">
                   <div role="list" class="w-dyn-items">
                     <div role="listitem" class="w-dyn-item">
-                      <div class="story__c-first" style="">
+                      <div class="story__c-first" >
                         <div class="story-first__up">
                           <div class="story-card__c-img">
                             <div class="story-card__inner">
@@ -1631,7 +996,9 @@
                         >
                           <div class="story-grid__c-text">
                             <!-- <div class="story__date">2018</div> -->
-                            <div class="story__title">Hands-on AWS projects that build your portfolio</div>
+                            <div class="story__title">
+                              Hands-on AWS projects that build your portfolio
+                            </div>
                             <!-- <div class="story__paragraph">
                               
                             </div> -->
@@ -1750,7 +1117,9 @@
                         >
                           <div class="story-grid__c-text">
                             <!-- <div class="story__date">2020</div> -->
-                            <div class="story__title">1:1 mentorship from experienced cloud engineers</div>
+                            <div class="story__title">
+                              1:1 mentorship from experienced cloud engineers
+                            </div>
                             <!-- <div class="story__paragraph">
                               Boniface Ogunti moved to Atlanta, Georgia. He
                               quickly became the new face of the town and he now
@@ -1806,7 +1175,9 @@
                         >
                           <div class="story-grid__c-text">
                             <!-- <div class="story__date">2021</div> -->
-                            <div class="story__title">Live support sessions to keep you moving forward</div>
+                            <div class="story__title">
+                              Live support sessions to keep you moving forward
+                            </div>
                             <!-- <div class="story__paragraph">
                               Membership community launched and 200+ students
                               joining in the first month. Boniface Ogunti ended
@@ -2136,9 +1507,7 @@
         <h1 class="heading-68">Building the learning platform of the future</h1>
         <div id="buillogo" class="html-embed-29 w-embed w-script">
           <style>
-            body {
-              background-color: #000;
-            }
+          
             .product__c-icon-2 {
               justify-content: center;
               align-items: center;
@@ -2280,7 +1649,7 @@
                   "
                 >
                   <img
-                    src="https://assets-global.website-files.com/65fc810e091c7ea4dc2da4c1/6630d15000a8e5ddb0ad200a_Boniface%20MOVE.png"
+                    src="./images/logo-2.png"
                     loading="eager"
                     alt="Publishing.com press icon"
                     class="product__icon-2 is--icon is--big"
@@ -2301,75 +1670,6 @@
               </div>
             </div>
           </section>
-
-          <script>
-            const body_2 = document.body;
-
-            body_2.addEventListener("mousemove", handleMouseMove_2);
-
-            function handleMouseMove_2(event) {
-              const offsetX =
-                ((event.clientX - window.innerWidth / 2) / window.innerWidth) *
-                20;
-              const offsetY =
-                ((event.clientY - window.innerHeight / 2) /
-                  window.innerHeight) *
-                20;
-
-              const productIcon = document.querySelector(
-                ".product__c-icon-2.is--big.is--linkedin-2"
-              );
-              productIcon.style.transform = `translate3d(${offsetX}px, ${offsetY}px, 0)`;
-
-              const productBlur = document.querySelector(
-                ".product-icon__blur-2.is--big"
-              );
-              productBlur.style.transform = `translate3d(${offsetX}px, ${offsetY}px, 0)`;
-
-              const productIconImage = document.querySelector(
-                ".product__icon-2.is--icon.is--big"
-              );
-              productIconImage.style.transform = `translate3d(${offsetX}px, ${offsetY}px, 0)`;
-            }
-
-            body_2.addEventListener("mouseleave", () => {
-              const productIcon = document.querySelector(
-                ".product__c-icon-2.is--big.is--linkedin-2"
-              );
-              productIcon.style.transform = "translate3d(0, 0, 0)";
-
-              const productBlur = document.querySelector(
-                ".product-icon__blur-2.is--big"
-              );
-              productBlur.style.transform = "translate3d(0, 0, 0)";
-
-              const productIconImage = document.querySelector(
-                ".product__icon-2.is--icon.is--big"
-              );
-              productIconImage.style.transform = "translate3d(0, 0, 0)";
-            });
-
-            // Animation loop function
-            function animate_2() {
-              // Calculate scale value between 0 and 1.2
-              const scale = Math.min(
-                1.3,
-                Math.max(0, Math.sin(Date.now() / 1000) * 0.2 + 1)
-              );
-
-              // Apply transform with scale3d to the element
-              const productBlur = document.querySelector(
-                ".product-icon__blur-2.is--big"
-              );
-              productBlur.style.transform = `translate3d(0px, 0px, 0px) scale3d(${scale}, ${scale}, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)`;
-
-              // Call animate function again for the next frame
-              requestAnimationFrame(animate_2);
-            }
-
-            // Start the animation loop
-            animate_2();
-          </script>
         </div>
         <img
           src="https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/663df0b2bd98b8a3cbdc5fb2_Mobile.png"
@@ -2625,9 +1925,6 @@
         </div>
         <div class="html-embed-27 w-embed w-script">
           <style>
-            body {
-              background-color: #000;
-            }
             .product__c-icon-1 {
               justify-content: center;
               align-items: center;
@@ -2731,7 +2028,7 @@
                     "
                   ></div>
                   <img
-                    src="https://assets-global.website-files.com/65fc810e091c7ea4dc2da4c1/662f8737ad4fc70c8a9a6f7e_Logo%20(1).png"
+                    src="./images/logo-1.png"
                     loading="eager"
                     alt="Publishing.com press icon"
                     class="product__icon-1 is--icon is--big"
@@ -2831,28 +2128,6 @@
     </section>
     <section class="section-7">
       <div class="html-embed-14 w-embed">
-        <style>
-          .section-7 {
-            background-image: linear-gradient(
-              180deg,
-              #000000,
-              #07071c,
-              #3b021c
-            );
-          }
-          .footer__gradient-line {
-            background-image: linear-gradient(
-              90deg,
-              rgba(255, 255, 255, 0.2),
-              rgba(255, 255, 255, 0)
-            );
-            height: 1px;
-          }
-          .section-7 .columns-38.w-row:before,
-          .section-7 .columns-38.w-row:after {
-            display: none;
-          }
-        </style>
         <div class="footer__gradient-line"></div>
       </div>
       <div class="div-block-2">
@@ -2860,11 +2135,11 @@
           <div class="column-60 w-col w-col-3">
             <h1 class="heading-22">CloudBootcamp.AI</h1>
             <p class="paragraph-11">
-                We help people go from underpaid and overlooked to highly-paid and in-demand by mastering cloud engineering skills that employers actually need.
+                We help IT professionals break out of low-paying roles and transition into $150K+ cloud engineering careers, even without prior cloud experience.
             </p>
-            <p class="paragraph-11">
-              Email: contact@cloudbootcamp.ai <br />Dover, DE 19901<br />
-            </p>
+            <p class="paragraph-11">Email: tayolusi@cloudbootcamp.ai</p>
+            <p class="paragraph-11">Phone: 240-932-8770</p>
+            <p class="paragraph-11">Hours: Monday–Friday, 9 AM–6 PM EST</p>
             <div class="columns-7 w-row">
               <div class="column-21 w-col w-col-3">
                 <img
@@ -2900,14 +2175,18 @@
           <div class="column-59 w-col w-col-9">
             <div class="columns-38 w-row">
               <div class="column-87 w-col w-col-4">
-                <h5 class="heading-55"><strong>Company</strong></h5>
+                <h5 class="heading-55">
+                  <strong>Company</strong>
+                </h5>
                 <div class="text-block-2">
                   <a href="about.html">Our Story</a>
                 </div>
                 <div class="text-block-2">
                   <a href="contact.html">Contact</a>
                 </div>
-                <div class="text-block-2"><a href="press.html">Press</a></div>
+                <div class="text-block-2">
+                  <a href="press.html">Press</a>
+                </div>
                 <div class="text-block-2">
                   <a href="careers.html">Careers</a>
                 </div>
@@ -2915,7 +2194,7 @@
               <div class="column-88 w-col w-col-4">
                 <h5 class="heading-55">Resources</h5>
                 <div class="text-block-2">
-                  <a href="https://go.membershipedu.com/"
+                  <a href=""
                     >Attend Free Training</a
                   >
                 </div>
@@ -2924,9 +2203,7 @@
                   <a href="students-success-hub.html">Student Testimonials</a>
                 </div>
                 <div class="text-block-2">
-                  <a href="membership-calculator.html"
-                    >Membership  Calculator</a
-                  >
+                  <a href="membership-calculator.html">Rio  Calculator</a>
                 </div>
               </div>
               <div class="column-89 w-col w-col-4">
@@ -2949,16 +2226,10 @@
         </div>
         <div>
           <p class="paragraph-12">
-            *DISCLAIMER: All testimonials shown are real but do not claim to
-            represent typical results. Any success depends on many variables
-            which are unique to each individual, including commitment and
-            effort. Testimonial results are meant to demonstrate what the most
-            dedicated students have done and should not be considered average.
-            MembershipEDU.com makes no guarantee of any financial gain from the
-            use of its products.<br />
+            # 1 AWS Cloud Engineer Program In The World
           </p>
           <p class="paragraph-40">
-            © 2024 MembershipEDU.com. All rights reserved.
+            © 2025 CloudBootCamp.ai. All rights reserved.
           </p>
         </div>
         <div class="w-embed">
@@ -2974,7 +2245,7 @@
         <div class="columns-39 w-row">
           <div class="column-61 w-col w-col-5">
             <img
-              src="https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662bc00909141bdcc8245dcb_medu.png"
+              src="./images/logo.png"
               loading="lazy"
               alt=""
               class="image-38"
