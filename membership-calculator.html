@@ -7,15 +7,25 @@
 >
   <head>
     <meta charset="utf-8" />
-    <title>Rio Calculator</title>
-    <meta content="Rio Calculator" property="og:title" />
-    <meta content="Rio Calculator" property="twitter:title" />
+    <title>Cloud Career Income Calculator</title>
+    <meta
+      content=" Cloud Career Income Calculator
+    "
+      property="og:title"
+    />
+    <meta
+      content=" Cloud Career Income Calculator
+    "
+      property="twitter:title"
+    />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link
       href="https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/css/bonifaces-wondrous-site.webflow.5f01ea274.css"
       rel="stylesheet"
       type="text/css"
     />
+    <link rel="stylesheet" href="./styles/navstyle.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link
       href="https://fonts.gstatic.com"
@@ -99,160 +109,12 @@
         <div class="columns-19 w-row">
           <div class="column-33 logo-column w-col w-col-3">
             <img
-              class="image-41 has-link"
-              src="https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/663116741eaae0ed9d496889_PNG%203%20(1).png"
+              class="image-27 has-link"
+              src="./images/logo.png"
               alt=""
-              sizes="(max-width: 479px) 36px, (max-width: 767px) 19vw, 20vw"
-              data-target="_self"
-              loading="lazy"
-              data-link="https://www.Rioedu.com/"
-              srcset="
-                https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/663116741eaae0ed9d496889_PNG%203%20(1)-p-500.png    500w,
-                https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/663116741eaae0ed9d496889_PNG%203%20(1)-p-800.png    800w,
-                https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/663116741eaae0ed9d496889_PNG%203%20(1)-p-1080.png  1080w,
-                https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/663116741eaae0ed9d496889_PNG%203%20(1)-p-1600.png  1600w,
-                https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/663116741eaae0ed9d496889_PNG%203%20(1)-p-2000.png  2000w,
-                https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/663116741eaae0ed9d496889_PNG%203%20(1)-p-2600.png  2600w,
-                https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/663116741eaae0ed9d496889_PNG%203%20(1)-p-3200.png  3200w,
-                https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/663116741eaae0ed9d496889_PNG%203%20(1).png        13452w
-              "
+              sizes="(max-width: 479px) 36px, (max-width: 767px) 19vw, (max-width: 991px) 20vw, 21vw"
             />
             <div class="glass-btn d-none w-embed">
-              <style>
-                .glass-btn {
-                  cursor: pointer;
-                  background-image: linear-gradient(
-                    134deg,
-                    rgba(255, 255, 255, 0.4),
-                    rgba(255, 255, 255, 0) 87%
-                  );
-                  border-radius: 100rem;
-                  padding: 1px;
-                }
-                .glass-btn__burger-icon {
-                  -webkit-backdrop-filter: blur(1rem);
-                  backdrop-filter: blur(1rem);
-                  background-color: #f3f5f8;
-                  border-radius: 100rem;
-                  justify-content: center;
-                  align-items: center;
-                  height: 100%;
-                  padding: 0.5rem;
-                  transition: box-shadow 0.2s;
-                  display: flex;
-                  color: #000012;
-                }
-              </style>
-              <style>
-                .menu-container {
-                  width: 100%;
-                  max-width: 300px;
-                  background-color: #fff;
-                  color: #000012;
-                  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-                  position: fixed;
-                  top: 0;
-                  right: 0;
-                  height: 100vh;
-                  overflow-y: auto;
-                  transition: transform 0.3s ease;
-                  transform: translateX(100%);
-                  background-attachment: scroll;
-                }
-
-                .menu-header {
-                  display: flex;
-                  justify-content: space-between;
-                  align-items: center;
-                  padding: 16px 20px;
-                  border-bottom: 1px solid #ddd;
-                }
-
-                .close-btn {
-                  font-size: 30px;
-                  cursor: pointer;
-                }
-
-                .login-btn {
-                  font-size: 16px;
-                  font-weight: 400;
-                  color: #000012;
-                  cursor: pointer;
-                  text-decoration: none;
-                }
-
-                .menu-list {
-                  list-style-type: none;
-                  padding: 0;
-                  margin: 0;
-                  text-align: left;
-                  font-family: Montserrat, sans-serif;
-                  font-weight: 600;
-                }
-
-                .menu-item {
-                  padding: 10px 20px;
-                  font-size: 20px;
-                }
-
-                .menu-item a {
-                  text-decoration: none;
-                  color: #000012;
-                }
-
-                .menu-item a.active {
-                  color: #007aff;
-                }
-
-                .menu-heading {
-                  padding: 16px;
-                  font-size: 12px;
-                  color: #76798d;
-                  text-transform: uppercase;
-                }
-
-                .submenu-item {
-                  padding: 10px 20px;
-                  font-size: 20px;
-                }
-
-                .submenu-item a {
-                  text-decoration: none;
-                  color: #000012;
-                }
-
-                /* Custom scrollbar */
-                .menu-container::-webkit-scrollbar {
-                  width: 2px;
-                }
-
-                .menu-container::-webkit-scrollbar-thumb {
-                  background-color: transparent;
-                }
-
-                .menu-container:hover::-webkit-scrollbar-thumb {
-                  background-color: #aaa;
-                }
-
-                /* To show the menu */
-                .menu-container.open {
-                  transform: translateX(0);
-                }
-
-                .menu-list .link-active a {
-                  color: #485a88;
-                }
-
-                .menu-list .menu-btn-item {
-                  padding: 20px;
-                }
-
-                .menu-list .menu-btn-item a.nav-link.nav-btn-link {
-                  width: 100%;
-                  padding: 16px;
-                  font-size: 16px;
-                }
-              </style>
               <div class="glass-btn__burger-icon">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -287,20 +149,16 @@
               <div class="menu-container">
                 <div class="menu-header">
                   <span class="close-btn">&times;</span>
-                  <a
-                    class="login-btn"
-                    href="https://boniface-ogunti.mykajabi.com/login"
-                    >Login</a
-                  >
+                  <a class="login-btn" href="">Login</a>
                 </div>
                 <ul class="menu-list">
-                  <li class="menu-item"><a href="index.html">Home</a></li>
+                  <li class="menu-item link-active">
+                    <a href="index.html">Home</a>
+                  </li>
                   <li class="menu-item">
                     <a href="students-success-hub.html">Success</a>
                   </li>
-                  <li class="menu-item">
-                    <a href="https://www.Rioedu.com/program">Program</a>
-                  </li>
+                  <li class="menu-item"><a href="">Program</a></li>
                   <li class="menu-heading">Company</li>
                   <li class="submenu-item">
                     <a href="about.html">About Us</a>
@@ -314,18 +172,14 @@
                   </li>
                   <li class="menu-heading">Learn</li>
                   <li class="submenu-item"><a href="blogs.html">Blog</a></li>
+                  <li class="submenu-item"><a href="">Help Center</a></li>
                   <li class="submenu-item">
-                    <a href="https://help.Rioedu.com/en">Help Center</a>
-                  </li>
-                  <li class="submenu-item link-active">
-                    <a href="Rio-calculator.html">Rio Calculator</a>
+                    <a href="membership-calculator.html">
+                      Cloud Career Income Calculator
+                    </a>
                   </li>
                   <li class="menu-btn-item">
-                    <a
-                      href="https://go.Rioedu.com/"
-                      target="_blank"
-                      class="nav-link nav-btn-link"
-                    >
+                    <a href="" target="_blank" class="nav-link nav-btn-link">
                       <span>Watch Free Training</span>
                       <div class="button__bg-gradient"></div>
                     </a>
@@ -336,97 +190,8 @@
           </div>
           <div class="column-34 d-none-mob w-col w-col-6">
             <div class="html-embed-3 w-embed">
-              <style>
-                .section-27 .column-34.w-col .w-embed {
-                  z-index: 99;
-                }
-                .nav-dropdown {
-                  display: flex;
-                  justify-content: center;
-                  background: #fff;
-                  border-radius: 5px;
-                  width: 710px;
-                  max-width: 100%;
-                  padding: 8px;
-                  margin-top: 30px;
-                }
-                .nav-dropdown-wrap {
-                  width: 100%;
-                  padding: 8px;
-                  position: absolute;
-                  top: 55px;
-                  opacity: 0;
-                  transition: opacity 0.2s ease-in-out, top 0.2s ease-in-out;
-                  pointer-events: none;
-                }
-                .nav-dropdown-wrap.dropdown-1 {
-                  left: -40px;
-                }
-                .nav-dropdown-wrap.dropdown-2 {
-                  left: 110px;
-                }
-                .nav-dropdown .nav-link:hover {
-                  background-color: rgb(0 0 0 / 10%);
-                }
-                .nav-link.has-dropdown:hover .nav-dropdown-wrap {
-                  opacity: 1;
-                  top: 40px;
-                  pointer-events: auto;
-                }
-                .nav-dropdown-column .nav-link-text {
-                  color: #000012;
-                  font-size: 15px;
-                  font-weight: 600;
-                  margin-bottom: 5px;
-                }
-                .nav-link-description {
-                  font-size: 15px;
-                  color: #76798d;
-                  text-transform: capitalize;
-                }
-                .nav-link-img-wrap {
-                  margin-top: 10px;
-                }
-                .nav-link-img-wrap .nav-link_img {
-                  border-radius: 10px;
-                }
-                .nav-dropdown-column {
-                  display: flex;
-                  flex-direction: column;
-                  width: 50%;
-                }
-                .nav-menu {
-                  display: flex;
-                  justify-content: center;
-                  align-items: center;
-                }
-                .nav-menu .nav-link {
-                  text-decoration: none;
-                  color: #76798d;
-                  font-size: 15px;
-                  padding: 16px;
-                  border-radius: 5px;
-                  cursor: pointer;
-                  transition: 0.2s ease-in-out;
-                  text-transform: uppercase;
-                }
-
-                .nav-menu .nav-link.link-active,
-                .nav-menu .nav-link:hover {
-                  color: #000012;
-                }
-                .nav-link.has-dropdown .nav-link-inner-text {
-                  display: flex;
-                  justify-content: center;
-                  align-items: center;
-                  gap: 5px;
-                }
-                .nav-link.has-dropdown .nav-link-inner-text span.has-arrow {
-                  display: inline-flex;
-                }
-              </style>
               <div class="nav-menu">
-                <a href="index.html" class="nav-link">Home</a>
+                <a href="index.html" class="nav-link link-active">Home</a>
                 <div class="nav-link has-dropdown">
                   <div class="nav-link-inner-text">
                     <span>Company</span>
@@ -459,23 +224,27 @@
                           <div class="nav-link-text">Press</div>
                           <div class="nav-link-description"></div>
                         </a>
-                        <a href="contact.html" class="nav-link">
-                          <div class="nav-link-text">Contact Us</div>
-                          <div class="nav-link-description">
-                            You have questions?
-                            <br />
-                            We got answers.
-                          </div>
-                        </a>
                       </div>
-                      <div class="nav-dropdown-column">
+                      <a href="contact.html" class="nav-link">
+                        <div class="nav-link-text">Contact Us</div>
+                        <div class="nav-link-description">
+                          You have questions?
+                          <br />
+                          We got answers.
+                        </div>
+                        <div class="nav-link-img-wrap">
+                          <img
+                            src="./images/contactus.avif"
+                            class="nav-link_img"
+                          />
+                        </div>
+                      </a>
+                      <!-- <div class="nav-dropdown-column">
                         <a href="careers.html" class="nav-link">
                           <div class="nav-link-text">
                             Careers - We’re hiring!
                           </div>
-                          <div class="nav-link-description">
-                            Make your next career move the best one.
-                          </div>
+                          <div class="nav-link-description"></div>
                           <div class="nav-link-img-wrap">
                             <img
                               src="https://assets-global.website-files.com/65fc810e091c7ea4dc2da4c1/66310844af15b855b8764563_Boni%20face%20pop-up%20.png"
@@ -483,12 +252,12 @@
                             />
                           </div>
                         </a>
-                      </div>
+                      </div> -->
                     </div>
                   </div>
                 </div>
                 <a href="students-success-hub.html" class="nav-link">Success</a>
-                <div class="nav-link has-dropdown link-active">
+                <div class="nav-link has-dropdown">
                   <div class="nav-link-inner-text">
                     <span>Learn</span>
                     <span class="has-arrow">
@@ -512,33 +281,41 @@
                   <div class="nav-dropdown-wrap dropdown-2">
                     <div class="nav-dropdown">
                       <div class="nav-dropdown-column">
-                        <a href="blogs.html" class="nav-link link-active">
+                        <a href="blogs.html" class="nav-link">
                           <div class="nav-link-text">Blog</div>
                           <div class="nav-link-description"></div>
                         </a>
-                        <a href="https://help.Rioedu.com/en" class="nav-link">
+                        <a
+                          href="https://help.membershipedu.com/en"
+                          class="nav-link"
+                        >
                           <div class="nav-link-text">Help Center</div>
                           <div class="nav-link-description">
                             Need assistance? Reach out to our help center.
                           </div>
                         </a>
-                        <a href="Rio-calculator.html" class="nav-link">
-                          <div class="nav-link-text">Rio Calculator</div>
+                        <a href="membership-calculator.html" class="nav-link">
+                          <div class="nav-link-text">
+                            Cloud Career Income Calculator
+                          </div>
                           <div class="nav-link-description">
-                            <!-- Instantly predict your Rio earnings -->
+                            Instantly predict your CloudBootcamp.AI earnings
                           </div>
                         </a>
                       </div>
                       <div class="nav-dropdown-column">
                         <a
-                          href="https://go.Rioedu.com/"
+                          href="https://go.membershipedu.com/"
                           target="_blank"
                           class="nav-link"
                         >
                           <div class="nav-link-text">
                             Watch The Free Training
                           </div>
-                          <div class="nav-link-description"></div>
+                          <div class="nav-link-description">
+                            Create a massive passive income stream by creating a
+                            CloudBootcamp.AI business
+                          </div>
                           <div class="nav-link-img-wrap">
                             <img
                               src="https://assets-global.website-files.com/65fc810e091c7ea4dc2da4c1/6630c72e6aadb837514904eb_Boniface%20pop-up%20%20(1).png"
@@ -550,61 +327,16 @@
                     </div>
                   </div>
                 </div>
-                <a href="https://www.Rioedu.com/program" class="nav-link"
-                  >Program</a
-                >
+                <a href="" class="nav-link">Program</a>
               </div>
             </div>
           </div>
           <div class="column-1 d-none-mob w-col w-col-3">
             <div class="w-embed">
-              <style>
-                .custom-button-bg__gradient,
-                a.nav-link.nav-btn-link {
-                  background-image: linear-gradient(223deg, #e63887, #6b4fca);
-                  background-color: #d36c9a;
-                  border-radius: 10px;
-                  text-transform: capitalize;
-                  position: relative;
-                  overflow: hidden;
-                  text-align: center;
-                  color: #fff;
-                  transition: transform 0.2s;
-                  text-decoration: none;
-                }
-                .custom-button-bg__gradient:hover {
-                  transform: scale(1.02);
-                  color: #fff !important;
-                }
-                a.nav-link.nav-btn-link.custom-button-bg__gradient span {
-                  z-index: 9;
-                  position: relative;
-                }
-                a.nav-link.nav-btn-link.custom-button-bg__gradient:hover:after {
-                  opacity: 1;
-                }
-                a.nav-link.nav-btn-link.custom-button-bg__gradient:after {
-                  content: "";
-                  opacity: 0;
-                  background-image: linear-gradient(223deg, #d2166b, #4a22d0);
-                  width: 100%;
-                  height: 100%;
-                  transition: opacity 0.3s ease-out;
-                  position: absolute;
-                  top: 0%;
-                  bottom: auto;
-                  left: 50%;
-                  right: auto;
-                  transform: translate(-50%);
-                  z-index: 1;
-                }
-              </style>
               <div class="nav-menu">
-                <a href="https://class.Rioedu.com/login" class="nav-link"
-                  >Login</a
-                >
+                <a href="" class="nav-link">Login</a>
                 <a
-                  href="https://go.Rioedu.com/"
+                  href=""
                   target="_blank"
                   class="nav-link nav-btn-link custom-button-bg__gradient"
                   ><span>Watch Free Training</span></a
@@ -615,63 +347,7 @@
         </div>
       </div>
       <div class="w-embed w-script">
-        <style>
-          .nav__bottom-line {
-            z-index: 2;
-            opacity: 0.4;
-            background-image: linear-gradient(
-              to right,
-              rgba(0, 0, 0, 0),
-              #fff 50%,
-              rgba(0, 0, 0, 0)
-            );
-            width: 100%;
-            height: 1px;
-            position: relative;
-          }
-          .section-header {
-            transition: 0.3s ease-out;
-            background-color: rgba(255, 255, 255, 0.8) !important;
-          }
-          @media (min-width: 1261px) {
-            .d-none {
-              display: none !important;
-            }
-          }
-          @media (max-width: 1260px) {
-            .d-none-mob {
-              display: none !important;
-            }
-            .logo-column {
-              width: 100% !important;
-            }
-          }
-          @media (max-width: 480px) {
-            .section-header {
-              padding: 0px;
-            }
-          }
-        </style>
         <div class="nav__bottom-line"></div>
-        <script>
-          // script.js
-          let lastScrollTop = 0;
-          const header = document.querySelector(".section-header");
-
-          window.addEventListener("scroll", () => {
-            const scrollTop =
-              window.pageYOffset || document.documentElement.scrollTop;
-
-            if (scrollTop > lastScrollTop) {
-              // Downscroll
-              header.style.top = "-100px"; // Adjust based on header height
-            } else {
-              // Upscroll
-              header.style.top = "0";
-            }
-            lastScrollTop = scrollTop;
-          });
-        </script>
       </div>
     </article>
     <section class="section-33">
@@ -775,7 +451,7 @@
       </div>
       <div class="w-layout-blockcontainer container-57 w-container">
         <h1 class="heading-95">
-          <strong class="bold-text-5">Rio <br />Calculator</strong>
+          <strong class="bold-text-5"> Cloud Career Income Calculator </strong>
         </h1>
         <div id="secondcalku" class="w-embed">
           <a
@@ -816,10 +492,14 @@
           ></a>
         </div>
         <h1 class="heading-96">
-          <strong class="bold-text-6"
-            >Estimate how much much monthly or yearly recurring <br />revenue
-            you could generate from your Rio business.<br
-          /></strong>
+          <strong class="bold-text-6">
+            Estimate how much you could earn as a remote Cloud Engineer — with
+            one job or by stacking contracts.
+          </strong>
+          <p class="" style="font-size: 1rem">
+            Use this calculator to visualize your income potential based on the
+            number of roles, average salary, and contract duration.
+          </p>
         </h1>
         <div class="w-layout-blockcontainer container-58 w-container">
           <div class="w-embed w-script">
@@ -1014,10 +694,10 @@
             <div class="calc-btn-container">
               <div class="calc-btn-row">
                 <div class="calc-menu-btn calc-mmr-btn calc-btn-active">
-                  Rio MRR Calculator
+                  Cloud Career Income Calculator
                 </div>
                 <div class="calc-menu-btn calc-ylm-btn">
-                  Yearly/Lifetime Rio Calculator
+                  Yearly/Lifetime Cloud Career Income Calculator
                 </div>
               </div>
             </div>
@@ -1026,37 +706,50 @@
                 <div class="calc-col calc-col-light">
                   <div class="calc-inp">
                     <label>
-                      <span>New Members Gained (Every Month)</span>
+                      <span> Job Roles Secured (Per Year) </span>
                       <p>
-                        List the number of members you expect to gain each month
-                        on average.
+                        Enter how many cloud roles or contracts you expect to
+                        land in a year.
                       </p>
                     </label>
                     <input type="number" class="mg-inp" placeholder="20" />
                   </div>
                   <div class="calc-inp">
                     <label>
-                      <span>Members Cancel/Churn (Every Month)</span>
+                      <span>Average Annual Salary per Role ($) </span>
                       <p>
-                        List the number of members you expect to lose each month
-                        on average.
+                        What’s the average salary per role you aim for? (e.g.,
+                        $130,000)
                       </p>
                     </label>
                     <input type="number" class="mc-inp" placeholder="5" />
                   </div>
                   <div class="calc-inp">
                     <label>
-                      <span>Price ($/month)</span>
+                      <span> Job Stacking Start Month</span>
                       <p>
-                        List the amount you plan on charging members to join
-                        your program on a monthly basis.
+                        When do you plan to add a second/third job?
+                        (e.g., Month 6)
+                       
+                      </p>
+                    </label>
+                    <input type="number" class="mp-inp" placeholder="0" />
+                  </div>
+                  <div class="calc-inp">
+                    <label>
+                      <span> Timeframe</span>
+                      <p>
+                        How long do you want to calculate earnings over?
+                        (1 year, 2 years, 3 years)
+                       
+                       
                       </p>
                     </label>
                     <input type="number" class="mp-inp" placeholder="0" />
                   </div>
                   <div class="calc-inp">
                     <button class="calc-btn calc-mmr-btn" disabled>
-                      <span>Calculate</span>
+                      <span>Calculate My Cloud Income</span>
                       <div class="button__bg-gradient"></div>
                     </button>
                   </div>
@@ -1326,41 +1019,18 @@
     </section>
     <section class="section-7">
       <div class="html-embed-14 w-embed">
-        <style>
-          .section-7 {
-            background-image: linear-gradient(
-              180deg,
-              #000000,
-              #07071c,
-              #3b021c
-            );
-          }
-          .footer__gradient-line {
-            background-image: linear-gradient(
-              90deg,
-              rgba(255, 255, 255, 0.2),
-              rgba(255, 255, 255, 0)
-            );
-            height: 1px;
-          }
-          .section-7 .columns-38.w-row:before,
-          .section-7 .columns-38.w-row:after {
-            display: none;
-          }
-        </style>
         <div class="footer__gradient-line"></div>
       </div>
       <div class="div-block-2">
         <div class="columns-58 w-row">
           <div class="column-60 w-col w-col-3">
-            <h1 class="heading-22">RioEDU.com</h1>
+            <h1 class="heading-22">CloudBootcamp.AI</h1>
             <p class="paragraph-11">
-              We help people earn money with Rio business and create stable
-              income any where in the world.
+                We help IT professionals break out of low-paying roles and transition into $150K+ cloud engineering careers, even without prior cloud experience.
             </p>
-            <p class="paragraph-11">
-              8 The Green, Suite <br />Dover, DE 19901<br />
-            </p>
+            <p class="paragraph-11">Email: tayolusi@cloudbootcamp.ai</p>
+            <p class="paragraph-11">Phone: 240-932-8770</p>
+            <p class="paragraph-11">Hours: Monday–Friday, 9 AM–6 PM EST</p>
             <div class="columns-7 w-row">
               <div class="column-21 w-col w-col-3">
                 <img
@@ -1396,14 +1066,18 @@
           <div class="column-59 w-col w-col-9">
             <div class="columns-38 w-row">
               <div class="column-87 w-col w-col-4">
-                <h5 class="heading-55"><strong>Company</strong></h5>
+                <h5 class="heading-55">
+                  <strong>Company</strong>
+                </h5>
                 <div class="text-block-2">
                   <a href="about.html">Our Story</a>
                 </div>
                 <div class="text-block-2">
                   <a href="contact.html">Contact</a>
                 </div>
-                <div class="text-block-2"><a href="press.html">Press</a></div>
+                <div class="text-block-2">
+                  <a href="press.html">Press</a>
+                </div>
                 <div class="text-block-2">
                   <a href="careers.html">Careers</a>
                 </div>
@@ -1411,14 +1085,16 @@
               <div class="column-88 w-col w-col-4">
                 <h5 class="heading-55">Resources</h5>
                 <div class="text-block-2">
-                  <a href="https://go.Rioedu.com/">Attend Free Training</a>
+                  <a href=""
+                    >Attend Free Training</a
+                  >
                 </div>
                 <div class="text-block-2">Get Our Book</div>
                 <div class="text-block-2">
                   <a href="students-success-hub.html">Student Testimonials</a>
                 </div>
                 <div class="text-block-2">
-                  <a href="Rio-calculator.html">Rio  Calculator</a>
+                  <a href="membership-calculator.html">Rio  Calculator</a>
                 </div>
               </div>
               <div class="column-89 w-col w-col-4">
@@ -1441,15 +1117,11 @@
         </div>
         <div>
           <p class="paragraph-12">
-            *DISCLAIMER: All testimonials shown are real but do not claim to
-            represent typical results. Any success depends on many variables
-            which are unique to each individual, including commitment and
-            effort. Testimonial results are meant to demonstrate what the most
-            dedicated students have done and should not be considered average.
-            RioEDU.com makes no guarantee of any financial gain from the use of
-            its products.<br />
+            # 1 AWS Cloud Engineer Program In The World
           </p>
-          <p class="paragraph-40">© 2024 RioEDU.com. All rights reserved.</p>
+          <p class="paragraph-40">
+            © 2025 CloudBootCamp.ai. All rights reserved.
+          </p>
         </div>
         <div class="w-embed">
           <style>
@@ -1464,7 +1136,7 @@
         <div class="columns-39 w-row">
           <div class="column-61 w-col w-col-5">
             <img
-              src="https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662bc00909141bdcc8245dcb_medu.png"
+              src="./images/logo.png"
               loading="lazy"
               alt=""
               class="image-38"
@@ -1474,7 +1146,7 @@
             <h1 class="heading-56">
               <strong class="bold-text-16"
                 ><em class="italic-text-2"
-                  >#1 Rio Community In The World</em
+                  >#1 CloudBootcamp.AI Community In The World</em
                 ></strong
               >
             </h1>
