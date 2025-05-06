@@ -1,0 +1,601 @@
+/* faq css */
+.c-faq {
+    flex-direction: column;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    max-width: 55rem;
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+  .product-card {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-image: linear-gradient(
+      302deg,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0.1)
+    );
+    border-radius: 1.25rem;
+    padding: 0.125rem;
+    position: relative;
+    overflow: hidden;
+    transform: translate(0);
+  }
+  .product-card.is--faq {
+    cursor: pointer;
+    border-radius: 0.5rem;
+    min-height: auto;
+    margin-bottom: 1.25rem;
+  }
+  .product-card::before,
+  .product-card:after {
+    /* border-radius: inherit; */
+    content: "";
+    height: 100%;
+    left: 0px;
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    transition: opacity 500ms;
+    width: 100%;
+  }
+  .product-card:before {
+    background: radial-gradient(
+      65rem circle at var(--mouse-x) var(--mouse-y),
+      rgba(255, 255, 255, 0.06),
+      transparent 40%
+    );
+    z-index: 3;
+  }
+  .product-card::after {
+    background: radial-gradient(
+      100rem circle at var(--mouse-x) var(--mouse-y),
+      rgba(255, 255, 255, 0.4),
+      transparent 15%
+    );
+    z-index: 1;
+  }
+  .faq-btn {
+    z-index: 3;
+    cursor: pointer;
+    background-image: linear-gradient(
+      149deg,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0.15)
+    );
+    border-radius: 100rem;
+    width: 2.75rem;
+    height: 2.75rem;
+    padding: 1px;
+    position: absolute;
+    top: 1.25rem;
+    bottom: auto;
+    left: auto;
+    right: 1.75rem;
+  }
+  .faq-btn__inner {
+    background-color: rgba(25, 25, 47, 0.84);
+    border-radius: 100rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    transition: box-shadow 0.2s;
+    display: flex;
+  }
+
+  .product-slider__nav-icon {
+    width: 1rem;
+    height: 1rem;
+  }
+  .c-faq.is--card-blur img {
+    max-width: 100%;
+    display: inline-block;
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+  .product-card__content.is--faq {
+    border-radius: 0.4375rem;
+    padding: 1.75rem 1.75rem 0;
+  }
+  .product-card__content {
+    z-index: 2;
+    background-color: #141422;
+    border-radius: 1.1875rem;
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .product-card__faq-title {
+    margin-right: 4.7rem;
+    font-size: 1.375rem;
+  }
+  .product-card__faq-c-text {
+    z-index: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 46.25rem;
+    padding-bottom: 1.75rem;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+  }
+  .product-card__text.is--faq {
+    margin-top: 1.5rem;
+  }
+
+  .product-card__text {
+    line-height: 1.5;
+    overflow: hidden;
+  }
+  .is--card-blur:hover > .product-card::after {
+    opacity: 1;
+  }
+  .product-card:hover::before {
+    opacity: 1;
+  }
+
+  @media screen and (max-width: 991px) {
+    .c-faq {
+      margin-top: 2.5rem;
+    }
+    .faq-btn {
+      width: 2rem;
+      height: 2rem;
+      top: 1rem;
+    }
+    .product-card__content.is--faq {
+      padding-top: 1.25rem;
+      padding-left: 1.25rem;
+      padding-right: 1.25rem;
+    }
+    .product-card__faq-title {
+      margin-right: 3rem;
+      font-size: 1.125rem;
+    }
+    .product-card__faq-c-text {
+      padding-bottom: 1.25rem;
+    }
+    .product-card__text.is--faq {
+      font-size: 0.875rem;
+    }
+  }
+  .product-card__content.is--faq {
+    text-align: left;
+  }
+  strong.bold-text {
+    background-image: linear-gradient(
+      170deg,
+      #fc5bff,
+      #bc2dff 37%
+    ) !important;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin-bottom: 1rem;
+    font-size: 1.375rem;
+    font-weight: 500;
+  }
+
+
+  .c-faq {
+    flex-direction: column;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    max-width: 55rem;
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+  .product-card2 {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-image: linear-gradient(
+      302deg,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0.1)
+    );
+    border-radius: 1.25rem;
+    padding: 0.125rem;
+    position: relative;
+    overflow: hidden;
+    transform: translate(0);
+  }
+  .product-card2.is--faq {
+    cursor: pointer;
+    border-radius: 0.5rem;
+    min-height: auto;
+    margin-bottom: 1.25rem;
+  }
+  .product-card2::before,
+  .product-card2:after {
+    /* border-radius: inherit; */
+    content: "";
+    height: 100%;
+    left: 0px;
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    transition: opacity 500ms;
+    width: 100%;
+  }
+  .product-card2:before {
+    background: radial-gradient(
+      65rem circle at var(--mouse-x) var(--mouse-y),
+      rgba(255, 255, 255, 0.06),
+      transparent 40%
+    );
+    z-index: 3;
+  }
+  .product-card2::after {
+    background: radial-gradient(
+      100rem circle at var(--mouse-x) var(--mouse-y),
+      rgba(255, 255, 255, 0.4),
+      transparent 15%
+    );
+    z-index: 1;
+  }
+  .faq-btn {
+    z-index: 3;
+    cursor: pointer;
+    background-image: linear-gradient(
+      149deg,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0.15)
+    );
+    border-radius: 100rem;
+    width: 2.75rem;
+    height: 2.75rem;
+    padding: 1px;
+    position: absolute;
+    top: 1.25rem;
+    bottom: auto;
+    left: auto;
+    right: 1.75rem;
+  }
+  .faq-btn__inner {
+    background-color: rgba(25, 25, 47, 0.84);
+    border-radius: 100rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    transition: box-shadow 0.2s;
+    display: flex;
+  }
+
+  .product-slider__nav-icon2 {
+    width: 1rem;
+    height: 1rem;
+  }
+  .c-faq.is--card-blur2 img {
+    max-width: 100%;
+    display: inline-block;
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+  .product-card__content.is--faq {
+    border-radius: 0.4375rem;
+    padding: 1.75rem 1.75rem 0;
+  }
+  .product-card__content {
+    z-index: 2;
+    background-color: #141422;
+    border-radius: 1.1875rem;
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .product-card__faq-title {
+    margin-right: 4.7rem;
+    font-size: 1.375rem;
+  }
+  .product-card__faq-c-text2 {
+    z-index: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 46.25rem;
+    padding-bottom: 1.75rem;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+  }
+  .product-card__text.is--faq {
+    margin-top: 1.5rem;
+  }
+
+  .product-card__text {
+    line-height: 1.5;
+    overflow: hidden;
+  }
+  .is--card-blur2:hover > .product-card2::after {
+    opacity: 1;
+  }
+  .product-card2:hover::before {
+    opacity: 1;
+  }
+
+  @media screen and (max-width: 991px) {
+    .c-faq {
+      margin-top: 2.5rem;
+    }
+    .faq-btn {
+      width: 2rem;
+      height: 2rem;
+      top: 1rem;
+    }
+    .product-card__content.is--faq {
+      padding-top: 1.25rem;
+      padding-left: 1.25rem;
+      padding-right: 1.25rem;
+    }
+    .product-card__faq-title {
+      margin-right: 3rem;
+      font-size: 1.125rem;
+    }
+    .product-card__faq-c-text2 {
+      padding-bottom: 1.25rem;
+    }
+    .product-card__text.is--faq {
+      font-size: 0.875rem;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .heading-79.grad-text {
+      padding-top: 0px;
+    }
+    .heading-79 {
+      letter-spacing: 0;
+      font-size: 30px;
+      line-height: 35px;
+    }
+    .heading-111,
+    .heading-113,
+    .heading-114 {
+      font-size: 30px;
+    }
+    .paragraph-47 {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    .paragraph-47 {
+      font-size: 18px;
+      line-height: 28.8px;
+    }
+    .container-48 {
+      margin-top: 0px;
+    }
+    .heading-115.grad-text {
+      font-size: 30px;
+      line-height: 34px;
+    }
+    .button-3-button__bg-gradient {
+      max-width: 100%;
+    }
+    .button-3-button__bg-gradient {
+      width: 100%;
+    }
+  }
+
+  .according-wrapper {
+    background-color: #141422;
+    border-width: 0;
+    border-radius: 10px;
+  }
+  .acoodin-pannel {
+    text-align: left;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .acood-paira {
+      font-size: 1rem !important;
+      font-weight: 400 !important;
+    }
+    .accodin-icon-warpper {
+      width: 50px !important;
+    }
+  }
+
+  .accodin-icon-warpper {
+    width: 30px;
+  }
+  acodin-heding {
+    font-weight: 400 !important;
+  }
+
+  .section-7 {
+    background-image: linear-gradient(
+      180deg,
+      #000000,
+      #07071c,
+      #3b021c
+    );
+  }
+  .footer__gradient-line {
+    background-image: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0)
+    );
+    height: 1px;
+  }
+  .section-7 .columns-38.w-row:before,
+  .section-7 .columns-38.w-row:after {
+    display: none;
+  }
+
+  .c-faq {
+    flex-direction: column;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    max-width: 55rem;
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+  .product-card1 {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-image: linear-gradient(
+      302deg,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0.1)
+    );
+    border-radius: 1.25rem;
+    padding: 0.125rem;
+    position: relative;
+    overflow: hidden;
+    transform: translate(0);
+  }
+  .product-card1.is--faq {
+    cursor: pointer;
+    border-radius: 0.5rem;
+    min-height: auto;
+    margin-bottom: 1.25rem;
+  }
+  .product-card1::before,
+  .product-card1:after {
+    /* border-radius: inherit; */
+    content: "";
+    height: 100%;
+    left: 0px;
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    transition: opacity 500ms;
+    width: 100%;
+  }
+  .product-card1:before {
+    background: radial-gradient(
+      65rem circle at var(--mouse-x) var(--mouse-y),
+      rgba(255, 255, 255, 0.06),
+      transparent 40%
+    );
+    z-index: 3;
+  }
+  .product-card1::after {
+    background: radial-gradient(
+      100rem circle at var(--mouse-x) var(--mouse-y),
+      rgba(255, 255, 255, 0.4),
+      transparent 15%
+    );
+    z-index: 1;
+  }
+  .faq-btn {
+    z-index: 3;
+    cursor: pointer;
+    background-image: linear-gradient(
+      149deg,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0.15)
+    );
+    border-radius: 100rem;
+    width: 2.75rem;
+    height: 2.75rem;
+    padding: 1px;
+    position: absolute;
+    top: 1.25rem;
+    bottom: auto;
+    left: auto;
+    right: 1.75rem;
+  }
+  .faq-btn__inner {
+    background-color: rgba(25, 25, 47, 0.84);
+    border-radius: 100rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    transition: box-shadow 0.2s;
+    display: flex;
+  }
+
+  .product-slider__nav-icon1 {
+    width: 1rem;
+    height: 1rem;
+  }
+  .c-faq.is--card-blur1 img {
+    max-width: 100%;
+    display: inline-block;
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+  .product-card__content.is--faq {
+    border-radius: 0.4375rem;
+    padding: 1.75rem 1.75rem 0;
+  }
+  .product-card__content {
+    z-index: 2;
+    background-color: #141422;
+    border-radius: 1.1875rem;
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .product-card__faq-title {
+    margin-right: 4.7rem;
+    font-size: 1.375rem;
+  }
+  .product-card__faq-c-text1 {
+    z-index: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 46.25rem;
+    padding-bottom: 1.75rem;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+  }
+  .product-card__text.is--faq {
+    margin-top: 1.5rem;
+  }
+
+  .product-card__text {
+    line-height: 1.5;
+    overflow: hidden;
+  }
+  .is--card-blur1:hover > .product-card1::after {
+    opacity: 1;
+  }
+  .product-card1:hover::before {
+    opacity: 1;
+  }
+
+  @media screen and (max-width: 991px) {
+    .c-faq {
+      margin-top: 2.5rem;
+    }
+    .faq-btn {
+      width: 2rem;
+      height: 2rem;
+      top: 1rem;
+    }
+    .product-card__content.is--faq {
+      padding-top: 1.25rem;
+      padding-left: 1.25rem;
+      padding-right: 1.25rem;
+    }
+    .product-card__faq-title {
+      margin-right: 3rem;
+      font-size: 1.125rem;
+    }
+    .product-card__faq-c-text1 {
+      padding-bottom: 1.25rem;
+    }
+    .product-card__text.is--faq {
+      font-size: 0.875rem;
+    }
+  }
