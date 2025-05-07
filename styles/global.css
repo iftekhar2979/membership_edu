@@ -1,4 +1,108 @@
 /* hero section  */
+/* Mobile-specific responsive styles */
+
+@media (max-width: 768px) {
+
+  /* Adjusting the section height for mobile */
+  .section-30 {
+    padding: 2rem 1rem; /* Adding some padding for mobile screens */
+  }
+
+  /* Adjust heading size for mobile */
+  .heading-89 {
+    font-size: 1.8rem; /* Reduce the font size for smaller screens */
+    line-height: 1.4;
+    margin-bottom: 1.2rem;
+  }
+
+  /* Adjust column layout */
+  .w-row {
+    flex-direction: column; /* Stack columns vertically */
+    align-items: center; /* Center the content */
+  }
+
+  /* Adjust column sizes and spacing */
+  .w-col {
+    width: 100%; /* Make each column take the full width */
+    margin-bottom: 1.5rem; /* Add some space between the columns */
+  }
+
+  /* For the logo image */
+  img.image-36 {
+    display: none; /* Further reduce the image size for very small screens */
+  }
+
+  /* Adjust icon sizes and text for better mobile readability */
+  .image-32, .image-33, .image-34, .image-35 {
+    width: 40px; /* Smaller icons for mobile */
+    margin-bottom: 0.5rem; /* Space between icons and text */
+  }
+
+  .heading-90 {
+    font-size: 1.25rem; /* Slightly smaller headings */
+    margin-bottom: 0.5rem;
+  }
+
+  .paragraph-34 {
+    font-size: 0.9rem; /* Smaller text for better mobile readability */
+    line-height: 1.5;
+  }
+
+  /* Adjust bold text size for mobile */
+  .bold-text-13, .bold-text-14, .bold-text-15 {
+    font-size: 1.2rem; /* Adjust font size for bold text */
+  }
+
+  /* Adjust padding for small screens */
+  .columns-36, .columns-37 {
+    flex-direction: column; /* Stack columns vertically */
+    align-items: center; /* Center content */
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Reduce spacing in columns */
+  .column-49, .column-51, .column-54, .column-55 {
+    width: 100%; /* Make each item take up the full width */
+    padding: 0.5rem; /* Reduce padding for mobile */
+    text-align: center;
+  }
+
+  /* Make sure icons and texts are centered */
+  .column-49 img, .column-51 img, .column-54 img, .column-55 img {
+    margin-bottom: 0.5rem; /* Space between the image and text */
+  }
+
+}
+
+/* Very small mobile-specific styles */
+@media (max-width: 480px) {
+
+  .heading-89 {
+    font-size: 1.6rem; /* Smaller heading on very small screens */
+  }
+
+  img.image-36 {
+    display: none; /* Further reduce the image size for very small screens */
+  }
+
+  .image-32, .image-33, .image-34, .image-35 {
+    width: 30px; /* Even smaller icons */
+  }
+
+  .heading-90 {
+    font-size: 1.1rem; /* Smaller headings for mobile */
+  }
+
+  .paragraph-34 {
+    font-size: 0.85rem; /* Reduce paragraph font size */
+  }
+
+  .bold-text-13, .bold-text-14, .bold-text-15 {
+    font-size: 1rem; /* Adjust font size for bold text */
+  }
+
+}
 
 @media only screen and (max-width: 600px) {
     .v-seperator-gradient {
@@ -781,3 +885,75 @@ a.custom-video-btn.custom-button-bg__gradient {
   .section-7 .columns-38.w-row:after {
     display: none;
   }
+
+
+  /* Add to your existing styles.css */
+/* Add this to your existing CSS */
+/* Base Styles for Horizontal Swiper */
+.horizontal-swiper {
+  width: 100%; /* Full width of the parent container */
+  height: auto; /* Adjust the height for better visibility, can be customized */
+  overflow: hidden; /* Hide overflow so that only one image is visible at a time */
+  position: relative;
+}
+
+/* Wrapper to control the slide transition */
+.horizontal-swiper .swiper-wrapper {
+  display: flex;
+  flex-direction: row; /* Horizontal layout */
+  transition: transform 1.5s ease-in-out; /* Smooth scrolling */
+}
+
+/* Each individual slide */
+.horizontal-swiper .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12%; /* Width of each slide for desktop */
+  height:auto;
+  padding: 1em;
+}
+
+/* Image styling */
+.horizontal-swiper img {
+  width: 100%;
+  max-height:auto;
+  object-fit: contain; /* Ensure images fit within their container */
+}
+
+/* Media Queries for Responsiveness */
+
+/* For Tablets and Mobile */
+@media (max-width: 1024px) {
+  .horizontal-swiper {
+    height: auto; /* Adjust the height for tablets */
+  }
+
+  .horizontal-swiper .swiper-slide {
+    width: 33.33%; /* Show 3 slides per screen */
+  }
+}
+
+/* For Mobile Devices */
+@media (max-width: 768px) {
+  .horizontal-swiper {
+    height: auto; /* Adjust height further for mobile */
+  }
+
+  .horizontal-swiper .swiper-slide {
+    width: 100%; /* Show 1 slide per screen */
+    padding: 0.5em; /* Reduced padding for better fit on small screens */
+  }
+}
+
+/* For smaller mobile devices like very small phones */
+@media (max-width: 480px) {
+  .horizontal-swiper {
+    height: auto; /* Even smaller height for very small devices */
+  }
+
+  .horizontal-swiper .swiper-slide {
+    width: 100%; /* Ensure only 1 slide shows on very small screens */
+    padding: 0.25em; /* Further reduce padding */
+  }
+}
