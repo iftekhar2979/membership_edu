@@ -288,3 +288,9 @@ a.nav-link.nav-btn-link.custom-button-bg__gradient:after {
 		padding: 0px;
 	}
 }
+
+@media (max-width: 768px) {
+    .w-col{
+        margin-bottom: 0px;
+    }
+}
