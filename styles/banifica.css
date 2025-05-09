@@ -1201,7 +1201,9 @@ html {
     right: 0;
     overflow: hidden;
   }
-  
+  .w-row{
+    display: flex;
+  }
   .w-slide {
     vertical-align: top;
     white-space: normal;
