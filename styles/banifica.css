@@ -4421,7 +4421,7 @@ html {
   .columns-24 {
     grid-column-gap: 24px;
     grid-row-gap: 24px;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     max-width: 1920px;
     margin-bottom: 20px;
     margin-left: auto;
