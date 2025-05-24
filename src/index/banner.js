@@ -59,4 +59,4 @@ class CloudBootcampSection extends HTMLElement {
     }
   }
 
-  customElements.define("cloud-bootcamp-banner", CloudBootcampSection);
+customElements.define("cloud-bootcamp-banner", CloudBootcampSection);

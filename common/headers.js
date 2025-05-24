@@ -159,10 +159,7 @@ class SiteHeader extends HTMLElement {
                   <div class="nav-dropdown-wrap dropdown-2">
                     <div class="nav-dropdown">
                       <div class="nav-dropdown-column">
-                        <a href="blogs.html" class="nav-link">
-                          <div class="nav-link-text">Blog</div>
-                          <div class="nav-link-description"></div>
-                        </a>
+                      
                         <a
                           href=""
                           class="nav-link"

@@ -970,3 +970,18 @@ a.custom-video-btn.custom-button-bg__gradient {
     padding: 0.25em; /* Further reduce padding */
   }
 }
+
+.play-btn-img {
+  transform: translate(-50%, -50%);
+  transition: transform 0.2s;
+}
+.video-reviews-col {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.video-reviews-col:hover {
+  transform: scale(1.05);
+}
+.video-reviews-col:hover .play-btn-img {
+  transform: translate(-50%, -50%) scale(1.1);
+}
