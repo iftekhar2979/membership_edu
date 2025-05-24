@@ -33,9 +33,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
     />
-    <script src="./src/script.js" type="text/javascript"></script>
+    <script src="./src/script.js"  type="module"></script>
     <script src="./src/swiper-slider.js" type="text/javascript"></script>
     <script src="./src/index/testominial.js"></script>
+    <script src="./src/index/card-sections.js" defer></script>
     <script
       src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"
       type="text/javascript"
@@ -69,6 +70,8 @@
       })(window, document);
     </script>
     <script type="text/javascript" src="./src/index/students.js"> </script>
+    <script type="module" src="data/index.mjs"></script>
+
     <script type="text/javascript" src="./src/index/trustpoilot-careers.js" > </script>
     <script src="./src/index/main-banner.js" defer></script>
     <link
@@ -134,83 +137,7 @@
     <!-- End of Tool Icon  -->
     </section> 
     <section class="section-30">
-      <div class="columns-35 w-row">
-        <div class="w-col w-col-6">
-          <h1 class="heading-89">
-            The #1 Program Helping IT Professionals Transition Into $150K+ Cloud
-            Engineering Roles
-          </h1>
-        </div>
-        <div class="column-86 w-col w-col-6">
-          <img
-            src="./images/logo-1.png"
-            loading="lazy"
-            width="1584"
-            sizes="(max-width: 479px) 61vw, 100px"
-            alt=""
-            class="image-36"
-          />
-          <div class="columns-36 w-row">
-            <div class="column-49 column-50 w-col w-col-6">
-              <img
-                src="https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a1b2dc1020b9476b8ef0d_65a029445bbd0e066dd24a88_ICON%204.svg"
-                loading="lazy"
-                width="50"
-                alt=""
-                class="image-32"
-              />
-              <h2 class="heading-90">78 %</h2>
-              <p class="paragraph-34">of graduates land roles within 90 days</p>
-            </div>
-            <div class="column-51 column-52 column-53 w-col w-col-6">
-              <img
-                src="https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a1b2d855a8a78b24ca83a_65a02944adb229d5e119da3d_ICON%203.svg"
-                loading="lazy"
-                width="50"
-                alt=""
-                class="image-33"
-              />
-              <h2 class="heading-90">
-                <strong class="bold-text-13">$130,000+</strong>
-              </h2>
-              <p class="paragraph-34">
-                average salary after program completion
-              </p>
-            </div>
-          </div>
-          <div class="columns-37 w-row">
-            <div class="column-54 w-col w-col-6">
-              <img
-                src="https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a1b2dab6995033f84b7ce_65a02944a444b4a8692bccba_ICON%201.svg"
-                loading="lazy"
-                width="50"
-                alt=""
-                class="image-34"
-              />
-              <h2 class="heading-90">
-                <strong class="bold-text-14">340+</strong>
-              </h2>
-              <p class="paragraph-34">
-                successful career transitions (and counting)
-              </p>
-            </div>
-            <div class="column-55 w-col w-col-6">
-              <img
-                src="https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a1b2dd4daca73ca323ba0_65a029456eafe508e6994b3c_ICON%202.svg"
-                loading="lazy"
-                width="50"
-                alt=""
-                class="image-35"
-              />
-              <h2 class="heading-90">
-                <strong class="bold-text-15">8 Weeks</strong>
-              </h2>
-              <p class="paragraph-34">to master job-ready AWS Cloud skills</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="w-embed"></div>
+      <program-stats></program-stats>
     </section>
     <!-- students section  -->
     <section class="section-25 ">
@@ -261,20 +188,14 @@
           <div class="members__counter">
             <div class="members__counter__inner">
               <div class="counter-embed w-embed w-script">
-                <div class="tick" data-value="0" data-did-init="setupFlip">
+                <div class="tick" data-value="0" data-did-init="setupFlip" aria-label="0">
                   <div class="tick__dollar">$</div>
-                  <div
-                    class="tick__inner"
-                    data-repeat="true"
-                    aria-hidden="true"
-                  >
+                  <div class="tick__inner" data-repeat="true" aria-hidden="true">
                     <span data-view="flip" class="tick-flip">
                       <span class="tick-flip-card">
-                        <span
-                          class="tick-flip-panel-front tick-flip-front tick-flip-panel"
-                        >
+                        <span class="tick-flip-panel-front tick-flip-front tick-flip-panel">
                           <span class="tick-flip-panel-front-text">
-                            <span class="tick-flip-panel-text-wrapper">7 </span>
+                            <span class="tick-flip-panel-text-wrapper">0</span>
                           </span>
                         </span>
                       </span>
@@ -291,6 +212,7 @@
 
     <!-- About Founder section  -->
     <section class="section-5">
+
       <div class="w-layout-blockcontainer container-5 w-container">
         <div class="columns-20 w-row">
           <div class="column-57 w-col w-col-5">
@@ -326,14 +248,8 @@
       </div>
     </section>
 <!-- End of About Founder section  -->
-
-
     <!-- Before Footer  -->
     <trust-pilot-banner></trust-pilot-banner>
-
-      <!-- <div class="" id="testimonial-container">
-       
-      </div> -->
       <testimonial-grid></testimonial-grid>
     </div>
  <!-- End Before Footer  -->
