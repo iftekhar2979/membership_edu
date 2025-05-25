@@ -1,8 +1,10 @@
 const body_2 = document.body;
 
+console.log('Values')
 body_2.addEventListener("mousemove", handleMouseMove_2);
 
 function handleMouseMove_2(event) {
+  console.log(event)
   const offsetX =
     ((event.clientX - window.innerWidth / 2) / window.innerWidth) *
     20;
@@ -10,6 +12,7 @@ function handleMouseMove_2(event) {
     ((event.clientY - window.innerHeight / 2) /
       window.innerHeight) *
     20;
+
 
   const productIcon = document.querySelector(
     ".product__c-icon-2.is--big.is--linkedin-2"
