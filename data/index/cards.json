@@ -45,7 +45,12 @@
       "sizes": "(max-width: 479px) 61vw, 100px"
     }
   },
+  "adminInfo":{
+    "image":"https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/66479c84ab18c6130a7bd05c_Modern%20Promotion%20Business%20Marketing%20Agency%20Instagram%20Post%20(1)-p-800.png",
+    "designation":"Boniface Ogunti,CEO / INVESTOR / MENTOR",
+    "paragraph":"“Trillions of $ are going to be made in the membership sales in the next 10 to 20 years. We want to educate 100M people about this opportunity so they can gain wealth and not be left behind.”"
 
+  },
   "earnings": {
     "heading": "Our Students Earned Over $7.8 Million+ in Cloud Careers",
     "count": 7800000

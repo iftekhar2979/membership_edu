@@ -1,20 +1,19 @@
 class SiteHeader extends HTMLElement {
-    constructor() {
-      super();
-      this.innerHTML = `
+  constructor() {
+    super();
+    this.innerHTML = `
          <article class="section-header">
       <div class="w-layout-blockcontainer container-22 w-container">
         <div class="columns-19 w-row">
           <div class="column-33 logo-column w-col w-col-3">
-          <a href="index.html">  
-          <img
-              class="image-27 has-link"
-              src="./images/logo.png"
-              alt=""
-              
-              sizes="(max-width: 479px) 36px, (max-width: 767px) 19vw, (max-width: 991px) 20vw, 21vw"
-            />
-            </a>
+        <a href="index.html">
+  <img
+    class="image-27 has-link"
+    src="./images/logo.png"
+    alt="Logo"
+    sizes="(max-width: 479px) 36px, (max-width: 767px) 19vw, (max-width: 991px) 20vw, 21vw"
+  />
+</a>
             <div class="glass-btn d-none w-embed">
               <div class="glass-btn__burger-icon">
                 <svg
@@ -64,7 +63,6 @@ class SiteHeader extends HTMLElement {
                   <li class="submenu-item">
                     <a href="about.html">About Us</a>
                   </li>
-                  <li class="submenu-item"><a href="press.html">Press</a></li>
                   <li class="submenu-item">
                     <a href="contact.html">Contact Us</a>
                   </li>
@@ -72,7 +70,6 @@ class SiteHeader extends HTMLElement {
                     <a href="careers.html">Careers</a>
                   </li>
                   <li class="menu-heading">Learn</li>
-                  <li class="submenu-item"><a href="https://substack.com/home">Blog</a></li>
                   <li class="submenu-item"><a href="">Help Center</a></li>
                   <li class="submenu-item">
                     <a href="membership-calculator.html"> Salary Growth calculator</a>
@@ -119,10 +116,7 @@ class SiteHeader extends HTMLElement {
                           <div class="nav-link-text">About Us</div>
                           <div class="nav-link-description"></div>
                         </a>
-                        <a href="press.html" class="nav-link">
-                          <div class="nav-link-text">Press</div>
-                          <div class="nav-link-description"></div>
-                        </a>
+                       
                       </div>
                       <a href="contact.html" class="nav-link">
                         <div class="nav-link-text">Contact Us</div>
@@ -222,7 +216,6 @@ class SiteHeader extends HTMLElement {
       </div>
     </article>
       `;
-    }
   }
-  customElements.define('site-header', SiteHeader);
-  
+}
+customElements.define("site-header", SiteHeader);

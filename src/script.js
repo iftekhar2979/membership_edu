@@ -49,6 +49,14 @@ class LoadHtml {
     if(!earningHeading) return console.warn("Earning Heading Container Not found")
       earningHeading.innerText = heading
   }
+  admin(adminInfo){
+    const adminSection = document.querySelector(".image-37")
+    const  title = document.querySelector(".heading-6")
+    const  designation = document.querySelector(".paragraph-39")
+    adminSection.src=adminInfo.image
+    title.innerText= adminInfo.paragraph
+    designation.innerText = adminInfo.designation
+  }
 }
 
 const loader = new LoadHtml();
@@ -61,9 +69,14 @@ window.pageData.ready.then(() => {
   loader.featuredLogoRender(window.pageData.data.featured_logo);
   loader.techLogoRender(window.pageData.data.tech_logo);
   loader.earnings(window.pageData.data.earnings.heading)
+  loader.admin(window.pageData.data.adminInfo)
 
   // Initialize flip counter only after DOM and data ready
   initFlipCounter(window.pageData.data.earnings.count);
+  document.querySelector('.image-27').addEventListener('click', function(event) {
+    event.preventDefault(); // Prevent default link behavior
+    window.location.href = 'index.html'; // Redirect to the same page in the same tab
+  });
 });
 
 // Scroll header animation
@@ -164,3 +177,5 @@ function initFlipCounter(targetValue) {
   const observer = new IntersectionObserver(observerCallback, observerOptions);
   observer.observe(targetElement);
 }
+
+

@@ -118,7 +118,14 @@ class SiteFooter extends HTMLElement{
     </div>
     <div class="div-block-3">
       <div class="columns-39 w-row">
-      
+        <div class="column-61 w-col w-col-5">
+          <img
+            src="./images/logo.png"
+            loading="lazy"
+            alt=""
+            class="image-38"
+          />
+        </div>
         <div class="w-col w-col-7">
           <h1 class="heading-56">
             <strong class="bold-text-16"
