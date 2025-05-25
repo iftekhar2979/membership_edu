@@ -1,4 +1,19 @@
 {
+  "main_headers":{
+    "mainHeader": "Break Into Cloud Engineering — Without Another Certification",
+    "week": "8 weeks",
+    "career": "with practical AWS skills and 1:1 mentorship",
+    "subtitle": "Transform your career in",
+    "videoLink": "https://player.vimeo.com/video/938223043?app_id=122963&referrer=https://www.membershipedu.com/",
+    "careerTransitions": "340",
+    "videoLink2": "https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fplayer.vimeo.com%2Fvideo%2F938223043%3Fapp_id%3D122963&amp;dntp=1&amp;display_name=Vimeo&amp;url=https%3A%2F%2Fvimeo.com%2F938223043&amp;image=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1839407357-c9a6d0316ea3fa098a52daad5add78bd091fed55ac98cc1cf7264a9cf6900b4d-d_1280&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=vimeo"
+  },
+  "hero_section":{
+    "title": "Our proven system makes transitioning into a high-paying AWS Cloud Engineer career possible for almost anyone — even without a tech degree or prior cloud experience.",
+    "subtitle": "Our unique method makes CloudBootcamp.AI business accessible to almost anyone, regardless of background, experience!",
+    "imageLink": "https://assets-global.website-files.com/658fd648729a651f8b0574a7/65b183b440ee08c86b29d67a_new-smth2-65b1821aebe1a.webp",
+    "videoLink": "https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FyAoLSRbwxL8%3Ffeature%3Doembed&amp;display_name=YouTube&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DyAoLSRbwxL8&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FyAoLSRbwxL8%2Fhqdefault.jpg&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=youtube"
+  },  
   "cards": {
     "heading": "The #1 Program Helping IT Professionals Transition Into $150K+ Cloud Engineering Roles",
     "stats": [
@@ -31,7 +46,48 @@
     }
   },
 
-  "earnings": {} ,
+  "earnings": {
+    "heading" : "Our Students Earned Over $7.8 Million+ in Cloud Careers",
+    "count":7800000
+  } ,
+  "students":[
+    {
+      "img": "https://assets-global.website-files.com/65fc810e091c7ea4dc2da4c1/662b89c73251e1f5215ca33f_Mtrail.png",
+      "alt": "01",
+      "title": "Speech Therapy for Toddlers",
+      "subtitle": "Generates $2,493 per month",
+      "filter": "blur(6px)",
+      "ariaLabel": "7 / 7",
+      "dataIndex": 6,
+      "zIndex": -2,
+      "transform": "translate3d(0px, 0px, -600.083px) rotateX(0deg) rotateY(0deg) scale(1)",
+      "extraClasses": "swiper-slide-duplicate swiper-slide-visible"
+    },
+    {
+      "img": "https://assets-global.website-files.com/65fc810e091c7ea4dc2da4c1/662b89c75089b294cdca7cde_Tiffany.png",
+      "alt": "07",
+      "title": "Repairing the Heartbreak of Pet Loss Grief",
+      "subtitle": "Generates $3,344 per month",
+      "filter": "blur(4px)",
+      "ariaLabel": "1 / 7",
+      "dataIndex": 0,
+      "zIndex": -1,
+      "transform": "translate3d(0px, 0px, -400px) rotateX(0deg) rotateY(0deg) scale(1)",
+      "extraClasses": "swiper-slide-visible"
+    },
+    {
+      "img": "https://assets-global.website-files.com/65fc810e091c7ea4dc2da4c1/662b89c7fd72e6a6e7d90984_Nancie.png",
+      "alt": "05",
+      "title": "The Credit Game",
+      "subtitle": "Generates $1,769 per month",
+      "filter": "blur(0px)",
+      "ariaLabel": "3 / 7",
+      "dataIndex": 2,
+      "zIndex": 1,
+      "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
+      "extraClasses": "swiper-slide-visible swiper-slide-active"
+    }
+  ],  
   "featured_logo":[
     {
       "src": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/6619089fdcd20828968d3ba7_64c7ced5f2a7d945a128495c_inc-logo%20(1).svg",
@@ -108,7 +164,64 @@
       "src": "https://thecloudbootcamp.com/wp-content/uploads/2024/07/AI.svg",
       "alt": "AI"
     }
-  ]
+  ],
+  "testomanial" :[
+    {
+      "rating": 5,
+      "starsImage": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a054908e7e70cf04624f9_659999f9d0b9bf616d4e9332_stars.svg",
+      "text": "MembershipEDU.com affiliate program is simple: I get to earn by promoting things I truly stand behind. It's a win-win for me.",
+      "avatar": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a062c16690044c10ee093_65a93870ff80265b0a5a6f64_New%20Mavie%206enhanced.webp",
+      "name": "Luis G.",
+      "position": "Green Diamond"
+    },
+    {
+      "rating": 5,
+      "starsImage": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a054908e7e70cf04624f9_659999f9d0b9bf616d4e9332_stars.svg",
+      "text": "Great program and support.",
+      "avatar": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a062c16690044c10ee093_65a93870ff80265b0a5a6f64_New%20Mavie%206enhanced.webp",
+      "name": "Anna K.",
+      "position": "Silver Member"
+    },
+    {
+      "rating": 5,
+      "starsImage": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a054908e7e70cf04624f9_659999f9d0b9bf616d4e9332_stars.svg",
+      "text": "Highly recommend for affiliates.",
+      "avatar": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a062c16690044c10ee093_65a93870ff80265b0a5a6f64_New%20Mavie%206enhanced.webp",
+      "name": "Mark T.",
+      "position": "Gold Member"
+    },
+    {
+      "rating": 5,
+      "starsImage": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a054908e7e70cf04624f9_659999f9d0b9bf616d4e9332_stars.svg",
+      "text": "Love the affiliate program.",
+      "avatar": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a062c16690044c10ee093_65a93870ff80265b0a5a6f64_New%20Mavie%206enhanced.webp",
+      "name": "Sophia L.",
+      "position": "Platinum Member"
+    },
+    {
+      "rating": 5,
+      "starsImage": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a054908e7e70cf04624f9_659999f9d0b9bf616d4e9332_stars.svg",
+      "text": "Easy to promote and earn.",
+      "avatar": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a062c16690044c10ee093_65a93870ff80265b0a5a6f64_New%20Mavie%206enhanced.webp",
+      "name": "David W.",
+      "position": "Bronze Member"
+    },
+    {
+      "rating": 5,
+      "starsImage": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a054908e7e70cf04624f9_659999f9d0b9bf616d4e9332_stars.svg",
+      "text": "Support is excellent!",
+      "avatar": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a062c16690044c10ee093_65a93870ff80265b0a5a6f64_New%20Mavie%206enhanced.webp",
+      "name": "Emma R.",
+      "position": "Gold Member"
+    }
+  ],
+  "join_section":{
+    "pepole": "32,000",
+    "careerCount": "250"
+}
+  
+  
+  
   
   
 }

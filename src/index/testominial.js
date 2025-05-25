@@ -2,69 +2,22 @@ class TestimonialGrid extends HTMLElement {
     constructor() {
       super();
       
-      this.testimonials = [
-        {
-          rating: 5,
-          starsImage:
-            "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a054908e7e70cf04624f9_659999f9d0b9bf616d4e9332_stars.svg",
-          text:
-            "MembershipEDU.com affiliate program is simple: I get to earn by promoting things I truly stand behind. It's a win-win for me.",
-          avatar:
-            "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a062c16690044c10ee093_65a93870ff80265b0a5a6f64_New%20Mavie%206enhanced.webp",
-          name: "Luis G.",
-          position: "Green Diamond",
-        },
-        {
-          rating: 5,
-          starsImage:
-            "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a054908e7e70cf04624f9_659999f9d0b9bf616d4e9332_stars.svg",
-          text: "Great program and support.",
-          avatar:
-            "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a062c16690044c10ee093_65a93870ff80265b0a5a6f64_New%20Mavie%206enhanced.webp",
-          name: "Anna K.",
-          position: "Silver Member",
-        },
-        {
-          rating: 5,
-          starsImage:
-            "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a054908e7e70cf04624f9_659999f9d0b9bf616d4e9332_stars.svg",
-          text: "Highly recommend for affiliates.",
-          avatar:
-            "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a062c16690044c10ee093_65a93870ff80265b0a5a6f64_New%20Mavie%206enhanced.webp",
-          name: "Mark T.",
-          position: "Gold Member",
-        },
-        {
-          rating: 5,
-          starsImage:
-            "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a054908e7e70cf04624f9_659999f9d0b9bf616d4e9332_stars.svg",
-          text: "Love the affiliate program.",
-          avatar:
-            "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a062c16690044c10ee093_65a93870ff80265b0a5a6f64_New%20Mavie%206enhanced.webp",
-          name: "Sophia L.",
-          position: "Platinum Member",
-        },
-        {
-            rating: 5,
-            starsImage: "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a054908e7e70cf04624f9_659999f9d0b9bf616d4e9332_stars.svg",
-            text: "Easy to promote and earn.",
-            avatar: "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a062c16690044c10ee093_65a93870ff80265b0a5a6f64_New%20Mavie%206enhanced.webp",
-            name: "David W.",
-            position: "Bronze Member"
-          },
-          {
-            rating: 5,
-            starsImage: "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a054908e7e70cf04624f9_659999f9d0b9bf616d4e9332_stars.svg",
-            text: "Support is excellent!",
-            avatar: "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a062c16690044c10ee093_65a93870ff80265b0a5a6f64_New%20Mavie%206enhanced.webp",
-            name: "Emma R.",
-            position: "Gold Member"
-          }
-      ];
+      this.testimonials = [];
     }
-
+    async loadData(){
+      try {
+        const response = await fetch('./data/index/cards.json');  // your JSON URL here
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+        const data = await response.json();
+        this.testimonials = data.testomanial
+        console.log(data.testomanial)
+        this.render();
+      } catch (error) {
+        console.error('Failed to load students data:', error);
+      }
+    }
     connectedCallback() {
-      this.render();
+      this.loadData();
     }
 
     chunkArray(arr, size) {
@@ -100,6 +53,7 @@ class TestimonialGrid extends HTMLElement {
     }
 
     render() {
+      console.log(this.testimonials)
       const grouped = this.chunkArray(this.testimonials, 3);
       const rowsHTML = grouped
         .map(

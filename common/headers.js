@@ -6,12 +6,15 @@ class SiteHeader extends HTMLElement {
       <div class="w-layout-blockcontainer container-22 w-container">
         <div class="columns-19 w-row">
           <div class="column-33 logo-column w-col w-col-3">
-            <img
+          <a href="index.html">  
+          <img
               class="image-27 has-link"
               src="./images/logo.png"
               alt=""
+              
               sizes="(max-width: 479px) 36px, (max-width: 767px) 19vw, (max-width: 991px) 20vw, 21vw"
             />
+            </a>
             <div class="glass-btn d-none w-embed">
               <div class="glass-btn__burger-icon">
                 <svg

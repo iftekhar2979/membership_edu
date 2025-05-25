@@ -44,6 +44,11 @@ class LoadHtml {
       });
     }
   }
+  earnings(heading){
+    const earningHeading = document.querySelector(".heading-5")
+    if(!earningHeading) return console.warn("Earning Heading Container Not found")
+      earningHeading.innerText = heading
+  }
 }
 
 const loader = new LoadHtml();
@@ -55,9 +60,10 @@ window.pageData.ready.then(() => {
   }
   loader.featuredLogoRender(window.pageData.data.featured_logo);
   loader.techLogoRender(window.pageData.data.tech_logo);
+  loader.earnings(window.pageData.data.earnings.heading)
 
   // Initialize flip counter only after DOM and data ready
-  initFlipCounter();
+  initFlipCounter(window.pageData.data.earnings.count);
 });
 
 // Scroll header animation
@@ -109,7 +115,7 @@ function setupFlip(tick) {
   console.log("setupFlip initialized with value:", initialValue);
 }
 
-function initFlipCounter() {
+function initFlipCounter(targetValue) {
   const tickElement = document.querySelector(".tick");
   if (!tickElement) {
     console.error("Tick element not found");
@@ -124,7 +130,6 @@ function initFlipCounter() {
     return;
   }
 
-  const targetValue = 7800000;
   const valueInterval = 111111;
   const timeInterval = 88;
 
@@ -147,10 +152,10 @@ function initFlipCounter() {
             $tick.value += valueInterval;
           }
           // Update aria-label for accessibility
-          $tick.root.setAttribute("aria-label", $tick.value);
+          $tick.root.setAttribute("data-value", $tick.value);
 
           // DEBUG: print current value
-          console.log("Tick updated to:", $tick.value);
+          // console.log("Tick updated to:", $tick.value);
         }, timeInterval);
       }
     });

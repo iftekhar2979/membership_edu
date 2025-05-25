@@ -2,50 +2,22 @@ class Students extends HTMLElement {
   constructor() {
     super();
 
-    this.students = [
-      {
-        img: "https://assets-global.website-files.com/65fc810e091c7ea4dc2da4c1/662b89c73251e1f5215ca33f_Mtrail.png",
-        alt: "01",
-        title: "Speech Therapy for Toddlers",
-        subtitle: "Generates $2,493 per month",
-        filter: "blur(6px)",
-        ariaLabel: "7 / 7",
-        dataIndex: 6,
-        zIndex: -2,
-        transform:
-          "translate3d(0px, 0px, -600.083px) rotateX(0deg) rotateY(0deg) scale(1)",
-        extraClasses: "swiper-slide-duplicate swiper-slide-visible",
-      },
-      {
-        img: "https://assets-global.website-files.com/65fc810e091c7ea4dc2da4c1/662b89c75089b294cdca7cde_Tiffany.png",
-        alt: "07",
-        title: "Repairing the Heartbreak of Pet Loss Grief",
-        subtitle: "Generates $3,344 per month",
-        filter: "blur(4px)",
-        ariaLabel: "1 / 7",
-        dataIndex: 0,
-        zIndex: -1,
-        transform:
-          "translate3d(0px, 0px, -400px) rotateX(0deg) rotateY(0deg) scale(1)",
-        extraClasses: "swiper-slide-visible",
-      },
-      {
-        img: "https://assets-global.website-files.com/65fc810e091c7ea4dc2da4c1/662b89c7fd72e6a6e7d90984_Nancie.png",
-        alt: "05",
-        title: "The Credit Game",
-        subtitle: "Generates $1,769 per month",
-        filter: "blur(0px)",
-        ariaLabel: "3 / 7",
-        dataIndex: 2,
-        zIndex: 1,
-        transform:
-          "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
-        extraClasses: "swiper-slide-visible swiper-slide-active",
-      },
-    ];
+    this.students = []
+  }
+  async loadData() {
+    try {
+      const response = await fetch('./data/index/cards.json');  // your JSON URL here
+      if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+      const data = await response.json();
+      // console.log(data)
+      this.students = data.students || [];
+      this.render();
+    } catch (error) {
+      console.error('Failed to load students data:', error);
+    }
   }
   connectedCallback() {
-    this.render();
+    this.loadData();
   }
 
   createStudentCards(slide) {

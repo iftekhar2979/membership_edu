@@ -1,14 +1,23 @@
 class TrustPilotCareer extends HTMLElement {
     constructor() {
         super();
-        this.data = {
-            pepole: `32,000`,
-            careerCount: `250`
-        };
+        this.data = {}
     }
+    async loadData(){
+        try {
+          const response = await fetch('./data/index/cards.json');  // your JSON URL here
+          if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+          const data = await response.json();
+  
+          this.data = data.join_section
+          this.render();
+        } catch (error) {
+          console.error('Failed to load students data:', error);
+        }
+      }
 
     connectedCallback() {
-        this.render();
+        this.loadData();
     }
 
     render() {

@@ -1,19 +1,22 @@
 class MainBanner extends HTMLElement{
     constructor(){
         super()
-        this.main_banner = {
-            mainHeader:`Break Into Cloud Engineering — Without Another Certification`,
-            week:`8 weeks`,
-            career:`with practical AWS
-              skills and 1:1 mentorship`,
-            subtitle:`Transform your career in` ,
-              videoLink:`https://player.vimeo.com/video/938223043?app_id=122963&referrer=https://www.membershipedu.com/`,
-              careerTransitions:`340`,
-              videoLink2:`https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fplayer.vimeo.com%2Fvideo%2F938223043%3Fapp_id%3D122963&amp;dntp=1&amp;display_name=Vimeo&amp;url=https%3A%2F%2Fvimeo.com%2F938223043&amp;image=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1839407357-c9a6d0316ea3fa098a52daad5add78bd091fed55ac98cc1cf7264a9cf6900b4d-d_1280&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=vimeo`
-        }
+        this.main_banner = []
+    }
+   async loadData(){
+      try {
+        const response = await fetch('./data/index/cards.json');  // your JSON URL here
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+        const data = await response.json();
+        console.log(data)
+        this.main_banner = data.main_headers || [];
+        this.render();
+      } catch (error) {
+        console.error('Failed to load students data:', error);
+      }
     }
     connectedCallback(){
-        return this.render()
+        this.loadData()
     }
     render(){
         this.innerHTML=`  <section class="section">
