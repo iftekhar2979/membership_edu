@@ -1,4 +1,5 @@
 {
+
   "main_headers": {
     "mainHeader": "Break Into Cloud Engineering — Without Another Certification",
     "week": "8 weeks",
@@ -224,6 +225,7 @@
     "pepole": "32,000",
     "careerCount": "250"
   },
+
   "about_page": {
     "hero": {
       "main_heading": "ABOUT CloudBootcamp.AI",
@@ -342,5 +344,6 @@
       }
       
     ]
+    
   }
 }

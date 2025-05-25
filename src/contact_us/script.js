@@ -212,7 +212,9 @@ function hoverOnEffect(className){
         });
       };
     }
-}function toggle() {
+}
+
+function toggle() {
    
     // Combine both card groups
     const cards = document.querySelectorAll(".is--card-blur, .is--card-blur1");
