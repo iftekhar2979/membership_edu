@@ -414,7 +414,7 @@ a.custom-video-btn.custom-button-bg__gradient {
         }
         
     }
-    
+/*     
     @media screen and (max-width: 479px) {
         .web-3__stats {
             grid-column-gap: 24px;
@@ -442,7 +442,7 @@ a.custom-video-btn.custom-button-bg__gradient {
             font-size: 18px;
             font-family: Arial, sans-serif;
         }
-    }
+    } */
     @media screen and (max-width: 991px) {
         .v-seperator-gradient {
             width: 60% !important;

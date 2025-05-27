@@ -18,8 +18,8 @@ class SiteFooter extends HTMLElement{
           <p class="paragraph-11">Email: tayolusi@cloudbootcamp.ai</p>
           <p class="paragraph-11">Phone: 240-932-8770</p>
           <p class="paragraph-11">Hours: Monday–Friday, 9 AM–6 PM EST</p>
-          <div class="columns-7 w-row">
-            <div class="column-21 w-col w-col-3">
+          <div class="columns-7 ">
+            <div class="column-18 w-col w-col-3">
               <img
                 src="https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/661fb059a0dc1af5523b8678_647de41a998293759861c2bd_facebook.svg"
                 loading="lazy"
@@ -33,14 +33,14 @@ class SiteFooter extends HTMLElement{
                 alt=""
               />
             </div>
-            <div class="column-19 w-col w-col-3">
+            <div class="column-18 w-col w-col-3">
               <img
                 src="https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/661fb0e2554d869870cb8f3c_647de41aacd0b7398277e0a6_linkedin.svg"
                 loading="lazy"
                 alt=""
               />
             </div>
-            <div class="column-20 w-col w-col-3">
+            <div class="column-18 w-col w-col-3">
               <img
                 src="https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/661fb0c1eee43906d0721dfa_647de41acf62f74d087ac1a9_instagram.svg"
                 loading="lazy"
@@ -117,17 +117,15 @@ class SiteFooter extends HTMLElement{
       </div>
     </div>
     <div class="div-block-3">
-      <div class="columns-39 w-row">
-        <div class="column-61 w-col w-col-5">
+      <div class="w-row">
+        <div class=" w-col center border">
           <img
             src="./images/logo.png"
             loading="lazy"
             alt=""
             class="image-38"
           />
-        </div>
-        <div class="w-col w-col-7">
-          <h1 class="heading-56">
+          <h1 class="heading-56 center">
             <strong class="bold-text-16"
               ><em class="italic-text-2"
                 >#1 CloudBootcamp.AI Community In The World</em
@@ -135,6 +133,7 @@ class SiteFooter extends HTMLElement{
             >
           </h1>
         </div>
+       
       </div>
     </div>
   </section>`

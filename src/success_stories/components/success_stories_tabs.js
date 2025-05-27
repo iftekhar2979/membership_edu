@@ -5,8 +5,6 @@
         { id: "tab-students-interview-btn", text: "Students Interview",  },
         { id: "tab-video-reviews-btn", text: "Offer Letters",  },
         { id: "tab-success-posts-btn", text: "Success Posts",  },
-        // { id: "tab-award-winners-btn", text: "Award winners",  },
-        // { id: "tab-7dpc-success-btn", text: "MC Success",  },
         { id: "tab-submit-your-success-btn", text: "Submit your success",  },
       ];
     }
@@ -19,7 +17,7 @@
       this.innerHTML = `
         <div class="columns-13 w-row">
           ${this.tabs.map((tab, i) => `
-            <div class="column-${this.getColumnNumber(i)} w-col w-col-2">
+            <div class="column-${this.getColumnNumber(i)} w-col ">
               <a
                 id="${tab.id}"
                 class="butt${i === 0 ? ' btn' : ''} w-button"

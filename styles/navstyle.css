@@ -285,14 +285,17 @@ a.nav-link.nav-btn-link.custom-button-bg__gradient:after {
 		width: 100%!important;
 	}
 }
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
 	.section-header {
 		padding: 0px;
 	}
-}
+} */
 
 @media (max-width: 768px) {
     .w-col{
         margin-bottom: 0px;
+    }
+    .column-59{
+      padding: 0%;  
     }
 }

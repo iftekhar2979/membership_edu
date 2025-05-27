@@ -925,7 +925,7 @@ textarea.w-input, textarea.w-select {
   }
 }
 
-@media screen and (max-width: 479px) {
+/* @media screen and (max-width: 479px) {
   .w-container {
     max-width: none;
   }
@@ -989,7 +989,7 @@ textarea.w-input, textarea.w-select {
   .w-col-tiny-12 {
     width: 100%;
   }
-}
+} */
 
 .w-widget {
   position: relative;
@@ -1950,7 +1950,7 @@ textarea.w-input, textarea.w-select {
   }
 }
 
-@media screen and (max-width: 479px) {
+/* @media screen and (max-width: 479px) {
   .w-nav[data-collapse="tiny"] .w-nav-menu {
     display: none;
   }
@@ -1958,7 +1958,7 @@ textarea.w-input, textarea.w-select {
   .w-nav[data-collapse="tiny"] .w-nav-button {
     display: block;
   }
-}
+} */
 
 .w-tabs {
   position: relative;
@@ -2013,11 +2013,11 @@ textarea.w-input, textarea.w-select {
   display: block;
 }
 
-@media screen and (max-width: 479px) {
+/* @media screen and (max-width: 479px) {
   .w-tab-link {
     display: block;
   }
-}
+} */
 
 .w-ix-emptyfix:after {
   content: "";
@@ -6818,7 +6818,7 @@ textarea.w-input, textarea.w-select {
   }
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: px) {
   .container {
     max-width: none;
   }
@@ -7960,7 +7960,7 @@ textarea.w-input, textarea.w-select {
   display: grid;
 }
 
-@media screen and (max-width: 479px) {
+/* @media screen and (max-width: 479px) {
   #w-node-_432cb75f-6683-fabd-f7a0-87cde3290be4-d0fd52f4 {
     grid-template-rows: auto auto auto auto;
     grid-template-columns: 1fr 1fr;
@@ -7971,7 +7971,7 @@ textarea.w-input, textarea.w-select {
     grid-template-rows: auto;
     grid-template-columns: 1fr;
   }
-}
+} */
 
 @font-face {
   font-family: 'Moret Trial';

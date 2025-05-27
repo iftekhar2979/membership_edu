@@ -63,9 +63,7 @@ class Timeline {
       console.warn("Tags container not found");
       return;
     }
-
     container.innerHTML = ""; // Clear existing
-
     tags.forEach((tagText, index) => {
       // Create tag wrapper div
       const tagDiv = document.createElement("div");
@@ -87,6 +85,86 @@ class Timeline {
       container.appendChild(tagDiv);
     });
   }
+  teamMembers(teamMembers){
+    
+    const teamGrid = document.getElementById("w-node-_432cb75f-6683-fabd-f7a0-87cde3290be4-d0fd52f4");
+    
+    teamMembers.forEach(member => {
+        const card = document.createElement("div");
+        card.className = "w-layout-cell cell";
+        card.innerHTML = `
+            <img src="${member.image}" alt="${member.name}">
+            <h1 class="heading-104">${member.name}</h1>
+            <p class="paragraph-43">${member.designation}</p>
+        `;
+        teamGrid.appendChild(card);
+    });
+  }
+  hero(hero){
+    const heroElement = document.getElementById("hero");
+    if (!heroElement) {
+      console.warn("Hero Element Not found");
+      return;
+    }
+    let info = `
+      <h1 class="heading-106">
+      <em class="italic-text-3" style="color:white">${hero.main_heading}</em>
+      </h1>
+      <p class="paragraph-14">
+      <strong>${hero.sub_heading_bold}</strong>
+      ${hero.sub_heading}
+      </p>
+      <p class="paragraph-13">
+      ${hero.sub_title}
+      </p>
+      <div class="html-embed w-embed">
+            <style>
+              .heading-106,
+              .heading-62,
+              .heading-69,
+              .paragraph-43,
+              #bullet-title.w-row h3 {
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+                background-clip: text;
+              }
+              .heading-106 {
+                background-image: linear-gradient(133deg, #fff, #83848e);
+              }
+              .heading-62 {
+                background-image: linear-gradient(137deg, #fff 34%, #83848e);
+              }
+              .heading-69 {
+                background-image: linear-gradient(170deg, #fc5bff, #bc2dff 37%);
+              }
+              .paragraph-43 {
+                background-image: linear-gradient(#fc5bff, #bc2dff);
+              }
+              #bullet-title.w-row h3 {
+                background-image: linear-gradient(to bottom, #fc5bff, #bc2dff);
+              }
+            </style>
+          </div>
+      <div id="bullet-title" class="maincol w-row">
+            <div class="column-93 w-col w-col-3">
+              <h3 class="heading-57"><em>${hero.cards[0].count}</em></h3>
+              <div class="text-block-5">${hero.cards[0].title}</div>
+            </div>
+            <div class="column-24 w-col w-col-3">
+              <h3 class="heading-58"><em>${hero.cards[1].count}</em></h3>
+              <div class="text-block-4">${hero.cards[1].title}</div>
+            </div>
+
+            <div class="column-26 w-col w-col-3">
+              <h3 class="heading-59"><em>${hero.cards[2].count}</em></h3>
+              <div class="text-block-7">${hero.cards[2].title}</div>
+            </div>
+          </div>
+      
+      `;
+    heroElement.innerHTML = info;
+  }
+
   async render() {
     await this.loadData();
 
@@ -97,7 +175,9 @@ class Timeline {
       return;
     }
     this.renderTags(this.timelineData.second_hero.tags)
+    this.teamMembers(this.timelineData.team_members)
     this.journey()
+    this.hero(this.timelineData.hero)
     // Map through the timeline data and generate HTML for each item
     const timelineHTML = this.timelineData.journey
       .map((item) => this.createTimelineItem(item))

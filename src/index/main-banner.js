@@ -103,10 +103,6 @@ class MainBanner extends HTMLElement{
         </div>
         <h1 class="heading-7">Featured in</h1>
       </div>
-      <div class="pyramid left-top"></div>
-      <div class="pyramid left"></div>
-      <div class="pyramid right-top"></div>
-      <div class="pyramid right"></div>
 
       <div class="cursel-contaner">
         <div class="logo-contaner" id="logoContainer">

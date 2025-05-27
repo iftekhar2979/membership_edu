@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./styles/navstyle.css" />
     <link rel="stylesheet" href="./src/about/style.css" />
     <link href="./src/about/webflow.css" rel="stylesheet" type="text/css" />
+    <link href="./styles/global.css" rel="stylesheet" type="text/css" />
     
     <link rel="stylesheet" href="./styles/banifica.css">
     <script type="text/javascript" src="./common/headers.js" defer></script>
@@ -30,6 +31,7 @@
       type="text/javascript"
     ></script>
     <script src="./src/about/script.js" type="text/javascript"></script>
+    <script src="./src/script.js"></script>
     <script type="text/javascript">
       WebFont.load({
         google: {
@@ -92,63 +94,12 @@
       fbq("track", "PageView");
     </script>
     <style>
-      .new-lp__c-trustpilot.is--free-training {
-        cursor: pointer;
-      }
-
-      :root {
-        --blur-lg: 8px;
-      }
-
-      .body {
-        margin: 0;
-        padding: 0;
-        min-height: 100vh;
-        background: linear-gradient(
-          135deg,
-          rgba(34, 0, 51, 1) 0%,
-          rgba(60, 0, 90, 1) 30%,
-          rgba(0, 0, 0, 1) 100%
-        ) !important;
-        position: relative;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        /* overflow: hidden; */
-      }
-
-      .pyramid {
-        position: fixed;
-        width: 0;
-        height: 0;
-        border-left: 100px solid transparent;
-        border-right: 100px solid transparent;
-        border-bottom: 200px solid #ffcc00;
-        filter: blur(var(--blur-lg));
-        opacity: 0.2;
-        z-index: -1;
-      }
-
-      .pyramid.left {
-        top: 40%;
-        left: 10%;
-      }
-
-      .pyramid.left-top {
-        top: 20%;
-        left: 15%;
-        border-bottom: 200px solid #1836bb;
-      }
-
-      .pyramid.right {
-        top: 40%;
-        right: 10%;
-      }
-
-      .pyramid.right-top {
-        top: 20%;
-        right: 15%;
-        border-bottom: 200px solid #1836bb;
-      }
+        body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden; /* prevent horizontal scroll */
+}
     </style>
   </head>
   <body class="body">
@@ -156,7 +107,7 @@
     <section class="section-9">
       <div class="div-block-4"></div>
       <div class="abcol-1 w-row">
-        <div class="abhed-1 w-col w-col-7">
+        <div class="abhed-1 w-col w-col-7" id="hero">
           <h1 class="heading-106">
             <em class="italic-text-3">ABOUT CloudBootcamp.AI</em>
           </h1>
@@ -304,23 +255,11 @@
     <section class="section-10">
       <div class="w-layout-blockcontainer container-8 w-container">
         <h2 class="heading-61">
-          <!-- <span
-            data-w-id="017ed73b-3e6b-03a4-95c5-ea83eb7e31df"
-            class="text-span-10"
-            >Since we started in 2017,</span
-          >
-          <span
-            data-w-id="db48f245-d2e6-67a5-ebfe-6551670021ec"
-            class="text-span-11"
-            >our biggest goal was to impact people&#x27;s lives.</span
-          > -->
-          <span class="text-span-12"
+          <span class="text-span-12" id="first-heading"
             >Our vision is to build a world where anyone can break into tech,
             build generational wealth, and live life on their terms, without
             needing a degree or certifications.</span
           >
-          <!-- <span class="text-span-13"
-            >sustainable income through memberships.</span -->
         </h2>
         <div class="html-embed-28 w-embed w-script">
           <style>
@@ -464,12 +403,12 @@
               </div>
             </div>
           </section>
-        <h2 class="heading-62">
+        <h2 class="heading-62" id="second-heading">
           Our vision is To build a world where anyone can break into tech, build
           generational wealth, and live life on their terms — without needing a
           degree or years of experience.
         </h2>
-        <h4 class="heading-63">
+        <h4 class="heading-63" id="third-heading">
           Everything you need to break into tech under one roof.
         </h4>
       </div>
@@ -558,35 +497,7 @@
       
       </div>
     </section>
-    <section class="section-12">
-      <div class="w-layout-blockcontainer container-12 w-container">
-        <h2 class="heading-67">Today</h2>
-        <h1 class="heading-68">Now it's your turn.</h1>
-        <div class="story__paragraph">
-          Join the 8-week system designed to help you go from overlooked to overpaid — no degree, no cert-chasing, no wasted time.
-        </div>
-        <div id="buillogo" class="html-embed-29 w-embed w-script">  
-        </div>
-        <img
-          src="https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/663df0b2bd98b8a3cbdc5fb2_Mobile.png"
-          loading="lazy"
-          sizes="100vw"
-          srcset="
-            https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/663df0b2bd98b8a3cbdc5fb2_Mobile-p-500.png 500w,
-            https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/663df0b2bd98b8a3cbdc5fb2_Mobile.png       800w
-          "
-          alt=""
-          id="logosecond"
-          class="image-56"
-        />
-      </div>
-      <a
-        href="https://go.membershipedu.com/"
-        target="_blank"
-        class="button-5-btc w-button"
-        >Join free training</a
-      >
-    </section>
+  
     <section class="section-13">
       <div class="w-layout-blockcontainer container-13 w-container">
         <h3 class="heading-69">Working from around the globe</h3>
@@ -776,7 +687,7 @@
       src="https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/js/webflow.ddff741d040c3bb7723b24e715085ea5.js"
       type="text/javascript"
     ></script>
-    <!-- <script>
+    <script>
       const trustPilotLink =
         "https://www.trustpilot.com/review/membershipedu.com";
       document.addEventListener("DOMContentLoaded", () => {
@@ -802,6 +713,6 @@
           menuContainer.classList.add("open");
         });
       });
-    </script> -->
+    </script>
   </body>
 </html>

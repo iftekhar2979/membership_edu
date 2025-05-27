@@ -33,6 +33,7 @@ class Students extends HTMLElement {
       aria-label="${slide.ariaLabel}"
       data-swiper-slide-index="${slide.dataIndex}"
     >
+    
       <div class="swiper-slide__card" style="filter: ${slide.filter}">
         <img
           src="${slide.img}"
