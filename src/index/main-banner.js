@@ -101,7 +101,7 @@ class MainBanner extends HTMLElement{
             </div>
           </div>
         </div>
-        <h1 class="heading-7">Featured in</h1>
+        <h1 class="heading-7">Technology You’ll Learn</h1>
       </div>
 
       <div class="cursel-contaner">

@@ -58,7 +58,7 @@ class SiteHeader extends HTMLElement {
                   <li class="menu-item">
                     <a href="students-success-hub.html">Success</a>
                   </li>
-                  <li class="menu-item"><a href="">Program</a></li>
+                   <!-- <li class="menu-item"><a href="">Program</a></li> -->
                   <li class="menu-heading">Company</li>
                   <li class="submenu-item">
                     <a href="about.html">About Us</a>
@@ -67,12 +67,12 @@ class SiteHeader extends HTMLElement {
                     <a href="contact.html">Contact Us</a>
                   </li>
                  
-                  <li class="menu-heading">Learn</li>
-                  <li class="submenu-item"><a href="">Help Center</a></li>
-                  <li class="submenu-item">
-                    <a href="membership-calculator.html"> Salary Growth calculator</a>
+                  <li class="menu-heading" style="display:none;">Learn</li>
+                  <li class="submenu-item" style="display:none;"><a href="">Help Center</a></li>
+                  <li class="submenu-item" style="display:none;">
+                    <a href="membership-calculator.html" style="display:none;"> Salary Growth calculator</a>
                   </li>
-                  <li class="menu-btn-item">
+                  <li class="menu-btn-item" style="display:none;">
                     <a href="" target="_blank" class="nav-link nav-btn-link">
                       <span>Watch Free Training</span>
                       
@@ -86,10 +86,10 @@ class SiteHeader extends HTMLElement {
             <div class="html-embed-3 w-embed">
               <div class="nav-menu">
                 <a href="index.html" class="nav-link link-active">Home</a>
-                <div class="nav-link has-dropdown">
+                <div class="nav-link has-dropdown" style="display:none" >
                   <div class="nav-link-inner-text">
                     <span>Company</span>
-                    <span class="has-arrow">
+                    <span class="has-arrow" style="display:none;">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="1.125rem"
@@ -107,7 +107,9 @@ class SiteHeader extends HTMLElement {
                       </svg>
                     </span>
                   </div>
-                  <div class="nav-dropdown-wrap dropdown-1">
+                    
+
+                  <div class="nav-dropdown-wrap dropdown-1" style="display:none;"  >
                     <div class="nav-dropdown">
                       <div class="nav-dropdown-column">
                         <a href="about.html" class="nav-link">
@@ -128,9 +130,13 @@ class SiteHeader extends HTMLElement {
                 
                     </div>
                   </div>
+               
                 </div>
+                
                 <a href="students-success-hub.html" class="nav-link">Success</a>
-                <div class="nav-link has-dropdown">
+                   <a href="about.html" class="nav-link link-active">About Us</a>
+                    <a href="contact.html"class="nav-link link-active">Contact Us</a>
+                <div class="nav-link has-dropdown"  style="display:none;" >
                   <div class="nav-link-inner-text">
                     <span>Learn</span>
                     <span class="has-arrow">
@@ -190,13 +196,13 @@ class SiteHeader extends HTMLElement {
                     </div>
                   </div>
                 </div>
-                <a href="" class="nav-link">Program</a>
+              <!--   <a href="" class="nav-link">Program</a> -->
               </div>
             </div>
           </div>
           <div class="column-1 d-none-mob w-col w-col-3">
             <div class="w-embed">
-              <div class="nav-menu">
+              <div class="nav-menu" style="display:none;">
                
                 <a
                   href=""

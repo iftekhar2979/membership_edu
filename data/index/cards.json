@@ -1,13 +1,12 @@
 {
-
   "main_headers": {
-    "mainHeader": "Break Into Cloud Engineering — Without Another Certification",
-    "week": "8 weeks",
-    "career": "with practical AWS skills and 1:1 mentorship",
-    "subtitle": "Transform your career in",
-    "videoLink": "https://player.vimeo.com/video/938223043?app_id=122963&referrer=https://www.membershipedu.com/",
+    "mainHeader": "Start Your Cloud Engineering Career Journey Today",
+    "week": "",
+    "career": "Transform Your Future with Our Industry-Proven Cloud Training Program",
+    "subtitle": "",
+    "videoLink": "https://www.youtube.com/embed/W4m4sI9bGOw",
     "careerTransitions": "340",
-    "videoLink2": "https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fplayer.vimeo.com%2Fvideo%2F938223043%3Fapp_id%3D122963&amp;dntp=1&amp;display_name=Vimeo&amp;url=https%3A%2F%2Fvimeo.com%2F938223043&amp;image=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1839407357-c9a6d0316ea3fa098a52daad5add78bd091fed55ac98cc1cf7264a9cf6900b4d-d_1280&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=vimeo"
+    "videoLink2": "https://www.youtube.com/embed/W4m4sI9bGOw"
   },
   "hero_section": {
     "title": "Our proven system makes transitioning into a high-paying AWS Cloud Engineer career possible for almost anyone — even without a tech degree or prior cloud experience.",
@@ -46,11 +45,10 @@
       "sizes": "(max-width: 479px) 61vw, 100px"
     }
   },
-  "adminInfo":{
-    "image":"./images/owner.png",
-    "designation":"Boniface Ogunti,CEO / INVESTOR / MENTOR",
-    "paragraph":"“Trillions of $ are going to be made in the membership sales in the next 10 to 20 years. We want to educate 100M people about this opportunity so they can gain wealth and not be left behind.”"
-
+  "adminInfo": {
+    "image": "./images/owner.png",
+    "designation": "Adetayo Ibijemilusi | CEO | Senior AWS Cloud Engineer",
+    "paragraph": "“Over the next decade, the biggest financial leap won’t come from college degrees, it’ll come from skills. We’re on a mission to help 100,000 people transition into cloud careers, so they’re not left behind in the new economy.”"
   },
   "earnings": {
     "heading": "Our Students Earned Over $7.8 Million+ in Cloud Careers",
@@ -58,37 +56,133 @@
   },
   "students": [
     {
-      "img": "https://assets-global.website-files.com/65fc810e091c7ea4dc2da4c1/662b89c73251e1f5215ca33f_Mtrail.png",
+      "img": "./images/students/Charles.jpeg",
       "alt": "01",
-      "title": "Speech Therapy for Toddlers",
-      "subtitle": "Generates $2,493 per month",
+      "title": "Charles Cunningham Jr",
+      "subtitle": "",
       "filter": "blur(6px)",
+      "linkedIn": "https://www.linkedin.com/in/charles-cunningham-jr-a4187988/",
       "ariaLabel": "7 / 7",
-      "dataIndex": 6,
+      "dataIndex": 0,
       "zIndex": -2,
       "transform": "translate3d(0px, 0px, -600.083px) rotateX(0deg) rotateY(0deg) scale(1)",
       "extraClasses": "swiper-slide-duplicate swiper-slide-visible"
     },
+
     {
-      "img": "https://assets-global.website-files.com/65fc810e091c7ea4dc2da4c1/662b89c75089b294cdca7cde_Tiffany.png",
+      "img": "./images/students/Darnell.jpeg",
       "alt": "07",
-      "title": "Repairing the Heartbreak of Pet Loss Grief",
-      "subtitle": "Generates $3,344 per month",
+      "title": "Darnell Hungerford",
+      "subtitle": "AWS Cloud Engineer",
       "filter": "blur(4px)",
       "ariaLabel": "1 / 7",
-      "dataIndex": 0,
+      "dataIndex": 1,
+      "linkedIn": "https://www.linkedin.com/in/darnell-hungerford-0a1226188/",
       "zIndex": -1,
       "transform": "translate3d(0px, 0px, -400px) rotateX(0deg) rotateY(0deg) scale(1)",
       "extraClasses": "swiper-slide-visible"
     },
+
     {
-      "img": "https://assets-global.website-files.com/65fc810e091c7ea4dc2da4c1/662b89c7fd72e6a6e7d90984_Nancie.png",
+      "img": "./images/students/Dela.jpeg",
       "alt": "05",
-      "title": "The Credit Game",
-      "subtitle": "Generates $1,769 per month",
+      "title": "Dela A.",
+      "subtitle": "Software Engineer",
       "filter": "blur(0px)",
       "ariaLabel": "3 / 7",
+      "linkedIn": "https://www.linkedin.com/in/delaanthonio/",
       "dataIndex": 2,
+      "zIndex": 1,
+      "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
+      "extraClasses": "swiper-slide-visible swiper-slide-active"
+    },
+    {
+      "img": "./images/students/Davis.jpeg",
+      "alt": "05",
+      "title": "Davis I.",
+      "subtitle": "Cloud Engineer",
+      "linkedIn": "https://www.linkedin.com/in/davisi/",
+      "filter": "blur(0px)",
+      "ariaLabel": "3 / 7",
+      "dataIndex": 3,
+      "zIndex": 1,
+      "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
+      "extraClasses": "swiper-slide-visible swiper-slide-active"
+    },
+    {
+      "img": "./images/students/Greg.jpeg",
+      "alt": "05",
+      "title": "Gregory East",
+      "subtitle": "Senior Cloud Security Engineer",
+      "filter": "blur(0px)",
+      "linkedIn": "https://www.linkedin.com/in/gregoryaeast/",
+      "ariaLabel": "3 / 7",
+      "dataIndex": 4,
+      "zIndex": 1,
+      "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
+      "extraClasses": "swiper-slide-visible swiper-slide-active"
+    },
+    {
+      "img": "./images/students/Isaac.jpeg",
+      "alt": "05",
+      "title": "Isaac Rowaiye",
+      "subtitle": "Infrastructure Engineer ",
+      "filter": "blur(0px)",
+      "ariaLabel": "3 / 7",
+      "linkedIn": "https://www.linkedin.com/in/isaac-rowaiye-4b785b1a2/",
+      "dataIndex": 5,
+      "zIndex": 1,
+      "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
+      "extraClasses": "swiper-slide-visible swiper-slide-active"
+    },
+    {
+      "img": "./images/students/Jalen.jpeg",
+      "alt": "05",
+      "title": "Jalen Verrett",
+      "subtitle": "DevSecOps Engineer",
+      "filter": "blur(0px)",
+      "linkedIn": "https://www.linkedin.com/in/jalen-verrett-0a069b190/",
+      "ariaLabel": "3 / 7",
+      "dataIndex": 6,
+      "zIndex": 1,
+      "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
+      "extraClasses": "swiper-slide-visible swiper-slide-active"
+    },
+    {
+      "img": "./images/students/Meko.jpeg",
+      "alt": "05",
+      "title": "Meko Graves ",
+      "subtitle": "AWS Solutions Architect",
+      "filter": "blur(0px)",
+      "linkedIn": "https://www.linkedin.com/in/meko-graves-2017b7357/ ",
+      "ariaLabel": "3 / 7",
+      "dataIndex": 7,
+      "zIndex": 1,
+      "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
+      "extraClasses": "swiper-slide-visible swiper-slide-active"
+    },
+    {
+      "img": "./images/students/Pelumi.jpeg",
+      "alt": "05",
+      "title": "Pelumi Adenikinju",
+      "subtitle": "AWS Cloud Engineer",
+      "linkedIn": "https://www.linkedin.com/in/pelumiade/",
+      "filter": "blur(0px)",
+      "ariaLabel": "3 / 7",
+      "dataIndex": 8,
+      "zIndex": 1,
+      "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
+      "extraClasses": "swiper-slide-visible swiper-slide-active"
+    },
+    {
+      "img": "./images/students/Stormi.jpeg",
+      "alt": "05",
+      "title": "Stormi H.",
+      "subtitle": "DevOps Engineer",
+      "filter": "blur(0px)",
+      "linkedIn": "https://www.linkedin.com/in/stormi-h-653b09254/",
+      "ariaLabel": "3 / 7",
+      "dataIndex": 9,
       "zIndex": 1,
       "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
       "extraClasses": "swiper-slide-visible swiper-slide-active"
@@ -127,17 +221,10 @@
   ],
   "tech_logo": [
     {
-      "src": "https://thecloudbootcamp.com/wp-content/uploads/2024/07/google_cloud.svg",
-      "alt": "google_cloud"
-    },
-    {
       "src": "https://thecloudbootcamp.com/wp-content/uploads/2024/07/kubernetes.svg",
       "alt": "kubernetes"
     },
-    {
-      "src": "https://thecloudbootcamp.com/wp-content/uploads/2024/07/oracle.svg",
-      "alt": "oracle"
-    },
+
     {
       "src": "https://thecloudbootcamp.com/wp-content/uploads/2024/07/python.svg",
       "alt": "python"
@@ -154,10 +241,7 @@
       "src": "https://thecloudbootcamp.com/wp-content/uploads/2024/07/aws.svg",
       "alt": "aws"
     },
-    {
-      "src": "https://thecloudbootcamp.com/wp-content/uploads/2024/07/azure.svg",
-      "alt": "azure"
-    },
+
     {
       "src": "https://thecloudbootcamp.com/wp-content/uploads/2024/07/docker.svg",
       "alt": "docker"
@@ -175,54 +259,30 @@
     {
       "rating": 5,
       "starsImage": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a054908e7e70cf04624f9_659999f9d0b9bf616d4e9332_stars.svg",
-      "text": "MembershipEDU.com affiliate program is simple: I get to earn by promoting things I truly stand behind. It's a win-win for me.",
-      "avatar": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a062c16690044c10ee093_65a93870ff80265b0a5a6f64_New%20Mavie%206enhanced.webp",
-      "name": "Luis G.",
-      "position": "Green Diamond"
+      "text": "I was stuck at $90K, now I make $145K fully remote as a DevOps Engineer",
+      "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQGuj2vHxEekaQ/profile-displayphoto-shrink_200_200/B4EZbHlSk0HkAY-/0/1747105164719?e=1753920000&v=beta&t=1yzWusrTzEisZ8dR3OvGUx-7XC1zXl77IjRQ1QtdtrU",
+      "name": "Stormi H",
+      "position": "DevOps Engineer,  Palm Beach Florida"
     },
     {
       "rating": 5,
       "starsImage": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a054908e7e70cf04624f9_659999f9d0b9bf616d4e9332_stars.svg",
-      "text": "Great program and support.",
-      "avatar": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a062c16690044c10ee093_65a93870ff80265b0a5a6f64_New%20Mavie%206enhanced.webp",
-      "name": "Anna K.",
-      "position": "Silver Member"
+      "text": "This flipped my entire career trajectory. I landed not one, but two jobs in just 9 weeks after starting the program.",
+      "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQFgfV55_7E6Pw/profile-displayphoto-shrink_200_200/B4EZPhBrL0GwAg-/0/1734647133273?e=1753920000&v=beta&t=qnkWNVLrpE-foSvDwlzhMdsgHaqHn380e-f2pMlr6Y0",
+      "name": "Gregory East",
+      "position": "Senior Cloud Security Engineer, New York"
     },
     {
       "rating": 5,
       "starsImage": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a054908e7e70cf04624f9_659999f9d0b9bf616d4e9332_stars.svg",
-      "text": "Highly recommend for affiliates.",
-      "avatar": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a062c16690044c10ee093_65a93870ff80265b0a5a6f64_New%20Mavie%206enhanced.webp",
-      "name": "Mark T.",
-      "position": "Gold Member"
-    },
-    {
-      "rating": 5,
-      "starsImage": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a054908e7e70cf04624f9_659999f9d0b9bf616d4e9332_stars.svg",
-      "text": "Love the affiliate program.",
-      "avatar": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a062c16690044c10ee093_65a93870ff80265b0a5a6f64_New%20Mavie%206enhanced.webp",
-      "name": "Sophia L.",
-      "position": "Platinum Member"
-    },
-    {
-      "rating": 5,
-      "starsImage": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a054908e7e70cf04624f9_659999f9d0b9bf616d4e9332_stars.svg",
-      "text": "Easy to promote and earn.",
-      "avatar": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a062c16690044c10ee093_65a93870ff80265b0a5a6f64_New%20Mavie%206enhanced.webp",
-      "name": "David W.",
-      "position": "Bronze Member"
-    },
-    {
-      "rating": 5,
-      "starsImage": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a054908e7e70cf04624f9_659999f9d0b9bf616d4e9332_stars.svg",
-      "text": "Support is excellent!",
-      "avatar": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a062c16690044c10ee093_65a93870ff80265b0a5a6f64_New%20Mavie%206enhanced.webp",
-      "name": "Emma R.",
-      "position": "Gold Member"
+      "text": "The practical projects and guidance gave me everything I needed to move into cloud engineering.",
+      "avatar": "https://media.licdn.com/dms/image/v2/C4E03AQEyfqwNQ7U_9Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1593385925793?e=1753920000&v=beta&t=xkiR7Vo096uSVIKMeU3YiRWwJXotcHYtyI8RQbL76cI",
+      "name": "Isaac Rowaiye",
+      "position": "Infrastructure Engineer, Dallas Texas"
     }
   ],
   "join_section": {
-    "pepole": "32,000",
+    "pepole": "3000",
     "careerCount": "250"
   },
 
@@ -230,7 +290,7 @@
     "hero": {
       "main_heading": "ABOUT CloudBootcamp.AI",
       "sub_heading_bold": "CloudBootCamp.AI was born from a simple truth : ",
-      "sub_heading": "certifications alone don’t get you hired. Our founder lived it, starting in a $35K IT Technician role and rising to earn $489K as a Cloud Engineer Consultant",
+      "sub_heading": "certifications alone don’t get you hired. Our founder lived it, starting in a $35K IT Technician role and rising to earn $489K as a Senior AWS Cloud Engineer Consultant",
       "sub_title": "Founded in 2022, we built what we wished existed: a practical, mentorship-driven program focused on real skills and real results. No theory-only learning. No endless certification chase. Just the hands-on experience, career support, and industry guidance you need to break into cloud engineering.",
       "cards": [
         {
@@ -272,7 +332,7 @@
     },
     "second_hero": {
       "heading": "Our vision is to build a world where anyone can break into tech, build generational wealth, and live life on their terms, without needing a degree or certifications.",
-      "heading_2": "Our vision is To build a world where anyone can break into tech, build generational wealth, and live life on their terms — without needing a degree or years of experience.",
+      "heading_2": "Our vision is To build a world where anyone can break into tech, build generational wealth, and live life on their terms, without needing a degree or years of experience.",
       "sub_heading": "Everything you need to break into tech under one roof.",
       "tags": [
         "Hands-On Cloud Education",
@@ -285,66 +345,61 @@
       ]
     },
     "start_of_journey": {
-      "year":"2017",
+      "year": "2017",
       "img": "./images/struggles/struggle-tayo.png",
       "title": "How it all started"
     },
     "journey": [
       {
         "img": "./images/struggles/IMG_0692.png",
-        "year": "1. 2017",
-        "title": "– The Frustration Begins",
+        "year": "2017",
+        "title": "The Frustration Begins",
         "subtitle": "I was stuck in a low-paying $35K IT tech job. Overworked. Underpaid. No clear path forward."
       },
       {
-        "img":"./images/struggles/IMG_0693.png",
-        "year":"2. 2018",
-        "title":"– Trying to Find a Way Out",
-        "subtitle":"I bounced between certifications and online courses, but none of them got me interviews. I started questioning if tech was even worth it."
+        "img": "./images/struggles/IMG_0693.png",
+        "year": "2018",
+        "title": "Trying to Find a Way Out",
+        "subtitle": "I bounced between certifications and online courses, but none of them got me interviews. I started questioning if tech was even worth it."
       },
       {
-        "img":"./images/struggles/IMG_0694.png",
-        "year":"3. 2019",
-        "title":"- The Turning Point",
-        "subtitle":"I stopped chasing certs and started building hands-on cloud projects real experience companies actually wanted."
+        "img": "./images/struggles/IMG_0694.png",
+        "year": "2019",
+        "title": "The Turning Point",
+        "subtitle": "I stopped chasing certs and started building hands-on cloud projects real experience companies actually wanted."
       },
       {
-        "img":"./images/struggles/IMG_0695.png",
-        "year":"4. 2020",
-        "title":"– The Breakthrough",
-        "subtitle":"I finally cracked the code and landed my first real cloud engineering role. My income jumped from 35K to $135K overnight."
-      }
-      ,
+        "img": "./images/struggles/IMG_0695.png",
+        "year": "2020",
+        "title": "The Breakthrough",
+        "subtitle": "I finally cracked the code and landed my first real cloud engineering role. My income jumped from 35K to $135K overnight."
+      },
       {
-        "img":"./images/struggles/IMG_0696.png",
-        "year":"5. 2021",
-        "title":"– Job Stacking Begins",
-        "subtitle":"With the right system, I added contract after contract under my cloud engineer consulting company hitting $489K/year across multiple remote opportunities."
-      }
-      ,
+        "img": "./images/struggles/IMG_0696.png",
+        "year": "2021",
+        "title": "Job Stacking Begins",
+        "subtitle": "With the right system, I added contract after contract under my cloud engineer consulting company hitting $489K/year across multiple remote opportunities."
+      },
       {
-        "img":"./images/struggles/IMG_0697.png",
-        "year":"6. 2022",
-        "title":"Building the Program",
-        "subtitle":"Friends kept asking how I did it. I started mentoring others and they started winning too."
-      }
-      ,
+        "img": "./images/struggles/IMG_0697.png",
+        "year": "2022",
+        "title": "Building the Program",
+        "subtitle": "Friends kept asking how I did it. I started mentoring others and they started winning too."
+      },
       {
-        "img":"./images/struggles/IMG_0698.png",
-        "year":"7. 2023",
-        "title":"– Launching CloudBootcamp.AI",
-        "subtitle":"I launched a mentorship-based 8-week program designed to help others skip the guesswork and break into cloud"
-      }
-      ,
+        "img": "./images/struggles/IMG_0698.png",
+        "year": "2023",
+        "title": "Launching CloudBootcamp.AI",
+        "subtitle": "I launched a mentorship-based 8-week program designed to help others skip the guesswork and break into cloud"
+      },
       {
-        "img":"./images/struggles/IMG_0699.png",
-        "year":"8. 2024",
-        "title":"– 340+ Students Transformed",
-        "subtitle":"Our students have gone from stuck in Help Desk or non-tech jobs to making $130K–$200K+ remotely as Cloud Engineers."
+        "img": "./images/struggles/IMG_0699.png",
+        "year": "2024",
+        "title": "340+ Students Transformed",
+        "subtitle": "Our students have gone from stuck in Help Desk or non-tech jobs to making $130K–$200K+ remotely as Cloud Engineers."
       }
-      
     ],
-    "team_members":[
+    "team_members": [
       {
         "name": "Boniface ",
         "image": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/6639089de997cbb894204129_Boniface%20Ogunti%202.jpg",
@@ -416,6 +471,226 @@
         "designation": "Designation"
       }
     ]
-    
+  },
+  "success_page": {
+    "students-interview": {
+      "heading": "Student Interviews",
+      "paragraph": "Step into the world of career transformation with inspiring interviews from students who went from zero cloud experience to landing high-paying roles in tech. From help desk jobs and non-tech backgrounds to remote Cloud Engineer positions earning $130K or more, their stories are proof of what’s possible with the right mentorship, hands-on training, and a proven system like CloudBootcamp.AI.",
+      "items": [
+        {
+          "img": "./images/thumbnails/issac.png",
+          "videoLink":
+           "https://player.vimeo.com/video/1088479224?h=4279423f42&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+          "title":
+            " Isaac Rowaiye — $500k/Year | 3 Offers | The 1% Percent University",
+          "name": "",
+          "description":
+            "Today we have Isaac Rowaiye, who received 3 job offers and secured a $500,000/year income after completing his training with The 1% Percent University. Isaac is proof that when you level up your skills and position yourself the right way, you don’t chase opportunities, they chase you."
+        },
+        {
+          "img": "./images/thumbnails/greg.png",
+          "videoLink":
+            "https://player.vimeo.com/video/1088413792?h=d708484680&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+          "title":
+            "Greg East — $500k/Year | 5 Offers | The 1% Percent University",
+          "name": "",
+          "description":
+            "Today we have Greg East, who secured 5 different job offers and is now earning $500,000 a year. After completing his training with The 1% Percent University, Greg turned his skills into leverage, proving that when you commit and take action, life can change fast."
+        },
+        {
+          "img": "./images/thumbnails/ninjoh.png",
+          "videoLink":
+            "https://player.vimeo.com/video/1088453277?h=37add0c1a4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+          "title":
+            "Brandon Njinjoh — $166k/Year | Cybersecurity to Cloud Engineer | The 1% Percent University",
+          "name": "",
+          "description":
+            "Today we have Brandon Njinjoh, who successfully transitioned from cybersecurity to a $166,000/year role as a Cloud Engineer. After putting in the work and completing his training with The 1% Percent University, Brandon turned job uncertainty into career elevation."
+        },
+        {
+          "img": "./images/thumbnails/darnell.png",
+          "videoLink":
+           "https://player.vimeo.com/video/1088453576?h=970ddea665&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+          "title":
+            "Darnell Hungerford — $150k/Year | Broke Into Cloud | The 1% Percent University",
+          "name": "",
+          "description":
+            "Today we have Darnell Hungerford, who broke into cloud engineering and landed a $150,000/year role after completing The 1% Percent University. Darnell's journey shows that with the right training and mindset, even a fresh start can lead to a six-figure career."
+        },
+        {
+          "img": "./images/thumbnails/davis.png",
+          "videoLink":
+            "https://player.vimeo.com/video/1088453576?h=970ddea665&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+          "title":
+            "Davis I. — $100k/Year | Broke Into Tech | The 1% Percent University",
+          "name": "",
+          "description":
+            "Today we have Davis I., who broke into tech and secured his first $100,000/year role after going through The 1% Percent University. Davis didn’t come from a tech background, but with the right mentorship and focus, he turned ambition into a six-figure opportunity."
+        },
+        {
+          "img": "./images/thumbnails/dela.png",
+          "videoLink":
+            "https://player.vimeo.com/video/1088413792?h=d708484680&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+          "title":
+            "Dela Anthonio — $300k/Year | Multiple Contracts | The 1% Percent University",
+          "name": "",
+          "description":
+            "Today we have Dela Anthonio, who’s earning $300,000/year through multiple contracts after completing his training with The 1% Percent University. Dela built a career on his own terms, stacking opportunities and proving that one high-income skill can open many doors."
+        },
+        {
+          "img": "./images/thumbnails/meko.png",
+          "videoLink":
+            "https://player.vimeo.com/video/1088453029?h=28b1da7edf&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+          "title":
+            "Meko Graves — $130k/Year | Registered Nurse to Cloud Engineer | The 1% Percent University",
+          "name": "",
+          "description":
+            "Today we have Meko Graves, who made the incredible leap from being a Registered Nurse to earning $130,000/year as a Cloud Engineer. After going through The 1% Percent University, Meko proved that it's never too late to pivot careers and step into tech, no matter your background."
+        },
+        {
+          "img": "./images/thumbnails/stormi.png",
+          "videoLink":
+            "https://player.vimeo.com/video/1088453469?h=fb5239cc29&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+          "title":
+            "Stormi Hein — $110k/Year | DevOps Engineer | The 1% Percent University",
+          "name": "",
+          "description":
+            "Today we have Stormi Hein, who landed a $110,000/year DevOps Engineer role after completing his training with The 1% Percent University. His journey is a powerful reminder that when you commit to learning the right skills, life-changing opportunities follow."
+        },
+        {
+          "img": "./images/thumbnails/jalen.png",
+          "videoLink":
+            "https://player.vimeo.com/video/1088453469?h=fb5239cc29&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+          "title":
+            "Jalen Verrett — $115k/Year | Personal Trainer to Cloud Engineer | The 1% Percent University",
+          "name": "",
+          "description":
+            "Today we have Jalen Verrett, who transitioned from being a personal trainer to earning $115,000/year as a Cloud Engineer. Through The 1% Percent University, Jalen took control of his future, showing that discipline in the gym can translate into high-paying results in tech."
+        },
+        {
+          "img": "./images/thumbnails/pelumi.png",
+          "videoLink":
+            "https://player.vimeo.com/video/1088453371?h=3da70f4d4f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+          "title":
+            "Pelumi Adenikinju — $130k/Year | Software Engineer to Cloud Engineer | The 1% Percent University",
+          "name": "",
+          "description":
+            "Today we have Pelumi Adenikinju, who transitioned from a Software Engineer to a $130,000/year Cloud Engineer after completing his training with The 1% Percent University. His transformation shows that when you sharpen your skills and shift direction with purpose, you can unlock an entirely new level of income and freedom."
+        }
+      ]
+    },
+    "video-reviews": {
+      "heading": "Offer Letters",
+      "paragraph": "No hype, just receipts. These offer letters show the real-life transformations of students who broke into tech and secured high-paying roles.",
+      "items": [
+        {
+          "img": "./images/offer_letters/Charles OL.png",
+          "offer": "./images/students/Charles.jpeg",
+          "name":"Charles",
+          "salary":"77,500.00 / Year"
+        },
+        {
+          "img": "./images/offer_letters/Darnell Offer Letter.png",
+          "offer": "./images/students/Darnell.jpeg",
+          "name":"Darnell",
+          "salary":"15,000.00 / Year"
+        },
+        {
+          "img": "./images/offer_letters/Davis Offer Letter.png",
+          "offer": "./images/students/Davis.jpeg",
+          "name":"Davis",
+          "salary":"99,200.00 / Year"
+        },
+        {
+          "img": "./images/offer_letters/Dela_s Offer Letter.png",
+          "offer": "./images/students/Dela.jpeg",
+          "name":"Dela",
+          "salary":"70.00 / Hour"
+        },
+        {
+          "img": "./images/offer_letters/Greg $176,800 Offer Letter.png",
+          "offer": "./images/students/Greg.jpeg",
+          "name":"Greg",
+          "salary":"85.00 / Year"
+        },
+        {
+          "img": "./images/offer_letters/Jalen_s Offer Letter ($115,000Yr).png",
+          "offer": "./images/students/Jalen.jpeg",
+          "name":"Jalen",
+          "salary":"115,000.00 / Year"
+        }
+        ,
+        {
+          "img": "./images/offer_letters/Lu $152K offer letter.PNG",
+          "offer": "./images/students/",
+          "name":"",
+          "salary":"152,000.00 / Year"
+        }
+        ,
+        {
+          "img": "./images/offer_letters/Meko offer letter $130,000.png",
+          "offer": "./images/students/Meko.jpeg",
+          "name":"Meko",  
+          "salary":"62.00 / Hour"
+        }
+        ,
+        {
+          "img": "./images/offer_letters/Njinjoh_s Offer Letter.png",
+          "offer": "./images/students/Pelumi.jpeg",
+          "name":"Pelumi",
+            "salary":"80.00 / Hour"
+        }
+        ,
+        {
+          "img": "./images/offer_letters/Stormi offer letter.png",
+          "offer": "./images/students/Stormi.jpeg",
+          "name":"Stormi H.",
+            "salary":"110,000.00 / Year"
+        }
+      ]
+    },
+    "success-posts": {
+      "heading": "Success Posts",
+      "paragraph": "Take a look inside our Slack community where 340 students are sharing life changing wins, from $130K+ salaries and $8K/month contracts to landing remote roles every single day.",
+      "images": [
+        "./images/success_post/nell win1.png",
+        "./images/success_post/nell win (1).png",
+        "./images/success_post/david win1 (1).png",
+        "./images/success_post/david win2 (1).png",
+        "./images/success_post/dela win1.png",
+        "./images/success_post/dela win3.png",
+        "./images/success_post/Dela win2.png",
+        "./images/success_post/greg win1.png",
+        "./images/success_post/greg win2.png",
+        "./images/success_post/greg win3.png",
+        "./images/success_post/Greg win4.png",
+        "./images/success_post/greg win1 (1).png",
+        "./images/success_post/isaac win1.png",
+        "./images/success_post/isaac win4.png",
+        "./images/success_post/isaac win2.png",
+        "./images/success_post/isaac win5.png",
+        "./images/success_post/isaac win3.png",
+        "./images/success_post/isaac win6.png",
+        "./images/success_post/jalen win2.png",
+        "./images/success_post/jalen win1.png",
+        "./images/success_post/Meko win1.png",
+        "./images/success_post/Meko win2.png",
+        "./images/success_post/Njinjoh win1.png",
+        "./images/success_post/Njinjoh win2.png",
+        "./images/success_post/Lu win1.png",
+        "./images/success_post/Lu win2.png",
+        "./images/success_post/stormi win1.png",
+        "./images/success_post/stormi win2.png" 
+      ]
+    },
+    "submit-your-success": {
+      "heading": "Submit Your Success",
+      "paragraphs": [
+        "Did you have an incredible experience with MembershipEDU.com? We'd love to know all about it.",
+        "Your feedback matters! By sharing your thoughts, you can help inspire other students."
+      ],
+      "buttonText": "Submit",
+      "buttonUrl": "#"
+    }
   }
 }

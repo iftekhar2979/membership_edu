@@ -15,7 +15,7 @@ class SiteFooter extends HTMLElement{
             transition into $150K+ cloud engineering careers, even without
             prior cloud experience.
           </p>
-          <p class="paragraph-11">Email: tayolusi@cloudbootcamp.ai</p>
+          <p class="paragraph-11">Email: tayolusi@theonepercentuniversity.io</p>
           <p class="paragraph-11">Phone: 240-932-8770</p>
           <p class="paragraph-11">Hours: Monday–Friday, 9 AM–6 PM EST</p>
           <div class="columns-7 ">
@@ -60,24 +60,30 @@ class SiteFooter extends HTMLElement{
                 <a href="about.html">Our Story</a>
               </div>
               <div class="text-block-2">
-                <a href="contact.html">Contact</a>
+                <a href="contact.html">FAQ</a>
               </div>
-              <div class="text-block-2">
+              <div class="text-block-2 none" >
                 <a href="press.html">Press</a>
               </div>
-              <div class="text-block-2">
+              <div class="text-block-2 none">
                 <a href="careers.html">Careers</a>
               </div>
             </div>
             <div class="column-88 w-col w-col-4">
               <h5 class="heading-55">Resources</h5>
-              <div class="text-block-2">
+              <div class="text-block-2 none">
                 <a href="">Attend Free Training</a>
               </div>
               <div class="text-block-2">
                 <a href="students-success-hub.html">Student Testimonials</a>
               </div>
               <div class="text-block-2">
+                <a href="students-success-hub.html">Offer Letter</a>
+              </div>
+              <div class="text-block-2">
+                <a href="students-success-hub.html">Success Posts</a>
+              </div>
+              <div class="text-block-2 none">
                 <a href="membership-calculator.html"> Salary Growth calculator</a>
               </div>
             </div>

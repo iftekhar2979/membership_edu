@@ -146,9 +146,9 @@ class Timeline {
             </style>
           </div>
       <div id="bullet-title" class="maincol w-row">
-            <div class="column-93 w-col w-col-3">
-              <h3 class="heading-57"><em>${hero.cards[0].count}</em></h3>
-              <div class="text-block-5">${hero.cards[0].title}</div>
+            <div class="column-24 w-col w-col-3">
+              <h3 class="heading-58"><em>${hero.cards[0].count}</em></h3>
+              <div class="text-block-4">${hero.cards[0].title}</div>
             </div>
             <div class="column-24 w-col w-col-3">
               <h3 class="heading-58"><em>${hero.cards[1].count}</em></h3>
@@ -160,6 +160,7 @@ class Timeline {
               <div class="text-block-7">${hero.cards[2].title}</div>
             </div>
           </div>
+          
       
       `;
     heroElement.innerHTML = info;
@@ -186,7 +187,12 @@ class Timeline {
   }
 }
 
-
+function openModal(imgSrc) {
+  const modal = document.getElementById("imageModal${item.img}");
+  const modalImage = document.getElementById("modalImage${item.img}");
+  modal.style.display = "flex";
+  modalImage.src = imgSrc;
+}
 document.addEventListener("DOMContentLoaded", () => {
   const body_2 = document.body;
   body_2.addEventListener("mousemove", handleMouseMove_2);

@@ -96,10 +96,12 @@ window.onload = () => {
             window.requestAnimationFrame(function () {
               // Execute the blur effect logic when the browser is ready for a new animation frame
               for (var i = 0; i < swiper.slides.length; i++) {
+                console.log(swiper.slides[i])
                 var slideProgress = swiper.slides[i].progress;
                 var cardElement = swiper.slides[i].querySelector(
                   ".swiper-slide__card"
                 );
+                console.log("Card",cardElement)
                 if (
                   swiper.slides[i].classList.contains(
                     "swiper-slide-visible"
@@ -121,6 +123,7 @@ window.onload = () => {
               var cardElement = swiper.slides[i].querySelector(
                 ".swiper-slide__card"
               );
+              console.log("card element",cardElement)
               cardElement.style.filter = "none";
             }
           }

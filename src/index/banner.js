@@ -3,6 +3,15 @@ class CloudBootcampSection extends HTMLElement {
       super();
       this.banner = {}
     }
+    getYouTubeEmbedUrl(url) {
+      const regExp = /(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&]+)/;
+      const match = url.match(regExp);
+      if (match && match[1]) {
+        return `https://www.youtube.com/embed/${match[1]}`;
+      }
+      return url; // fallback if no match
+    }
+    
     async loadData(){
       try {
         const response = await fetch('./data/index/cards.json');  // your JSON URL here
@@ -34,7 +43,7 @@ class CloudBootcampSection extends HTMLElement {
             >
               <iframe
                 class="embedly-embed"
-                src="${this.banner.videoLink}"
+                src="${getYouTubeEmbedUrl(this.banner.videoLink)}"
                 width="940"
                 height="528"
                 scrolling="no"

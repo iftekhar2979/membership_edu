@@ -5,7 +5,7 @@
         { id: "tab-students-interview-btn", text: "Students Interview",  },
         { id: "tab-video-reviews-btn", text: "Offer Letters",  },
         { id: "tab-success-posts-btn", text: "Success Posts",  },
-        { id: "tab-submit-your-success-btn", text: "Submit your success",  },
+      
       ];
     }
 

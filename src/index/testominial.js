@@ -40,7 +40,7 @@ class TestimonialGrid extends HTMLElement {
           <p class="paragraph-32">${t.text}</p>
           <div class="w-row">
             <div class="w-col w-col-3">
-              <img src="${t.avatar}" loading="lazy" width="55" alt="avatar" />
+              <img src="${t.avatar}" loading="lazy" width="55" style="border-radius: 50%;" alt="avatar" />
             </div>
             <div class="w-col w-col-9">
               <p class="paragraph-33">
