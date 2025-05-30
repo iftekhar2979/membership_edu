@@ -414,7 +414,7 @@ a.custom-video-btn.custom-button-bg__gradient {
         }
         
     }
-/*     
+    
     @media screen and (max-width: 479px) {
         .web-3__stats {
             grid-column-gap: 24px;
@@ -442,7 +442,7 @@ a.custom-video-btn.custom-button-bg__gradient {
             font-size: 18px;
             font-family: Arial, sans-serif;
         }
-    } */
+    }
     @media screen and (max-width: 991px) {
         .v-seperator-gradient {
             width: 60% !important;
@@ -515,12 +515,12 @@ a.custom-video-btn.custom-button-bg__gradient {
         display: flex;
       }
       .swiper-slide__card {
-        flex-direction: column;
-        align-items: center;
-        height: 100%;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-        display: flex;
+        /* flex-direction: column; */
+        /* align-items: center; */
+        /* height: 100%; */
+        /* padding-left: 1.5rem;
+        padding-right: 1.5rem; */
+        /* display: flex; */
       }
       .c-swiper {
         justify-content: center;
@@ -899,14 +899,17 @@ a.custom-video-btn.custom-button-bg__gradient {
     display: none;
   }
 
-
+  .product-card__faq-c-text2 {
+    overflow: hidden;
+    height: 0;
+    transition: height 0.3s ease;
+  }
   /* Add to your existing styles.css */
 /* Add this to your existing CSS */
 /* Base Styles for Horizontal Swiper */
 .horizontal-swiper {
   width: 100%; /* Full width of the parent container */
   height: auto; /* Adjust the height for better visibility, can be customized */
-  overflow: hidden; /* Hide overflow so that only one image is visible at a time */
   position: relative;
 }
 

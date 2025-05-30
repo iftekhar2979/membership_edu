@@ -692,5 +692,70 @@
       "buttonText": "Submit",
       "buttonUrl": "#"
     }
+  },
+  "contact_page":{
+ 
+      "opportunity": [
+        {
+          "question": "What do you mean by a “$130K+ remote tech career without a degree?”",
+          "answer": "We help everyday people land cloud engineering roles by focusing on real-world skills, not paper certs or degrees. No fluff, just what actually gets you hired."
+        },
+        {
+          "question": "Is this program only for people with tech experience?",
+          "answer": "Not at all. Many of our students started in retail, help desk, or other non-technical roles. If you’re willing to learn and take action, we’ll guide you through everything."
+        },
+        {
+          "question": "Why Cloud Engineering?",
+          "answer": "It’s one of the most in-demand, high-paying, and remote-friendly paths in tech. The barrier to entry is lower than you think when you have the right roadmap."
+        },
+        {
+          "question": "Why hands-on projects instead of certifications?",
+          "answer": "Certs are great, but recruiters care more about what you can do. Our projects prove your skills, build confidence, and make your resume stand out immediately."
+        },
+        {
+          "question": "Isn’t tech super competitive?",
+          "answer": "Yes, if you do what everyone else is doing. Our program gives you an unfair advantage through personalized mentorship, recruiter-attraction systems, and a proven game plan."
+        }
+      ],
+      "about": [
+        {
+          "question": "What exactly is CloudBootcamp.AI?",
+          "answer": "We’re a mentorship-driven platform helping people land cloud engineer roles in 8 weeks. No degree, no fluff, just a step-by-step path with coaching and support."
+        },
+        {
+          "question": "What makes your program different?",
+          "answer": "We don’t just teach, we get you ready to work. You’ll graduate with a portfolio of real-world projects, job-ready experience, and a clear system to attract recruiters."
+        },
+        {
+          "question": "Do I get 1-on-1 support?",
+          "answer": "Yes. You’ll be guided by expert mentors, attend weekly coaching calls, and get personalized help through our client success system and private community."
+        },
+        {
+          "question": "What do students do after the 8 weeks?",
+          "answer": "They launch their careers. Most start interviewing in Week 6 to 8 and land their first $100K+ roles shortly after. Some even have multiple roles."
+        }
+      ],
+      "faqArray": [
+        {
+          "question": "How can a tech career give me more freedom in life?",
+          "answer": "A high-paying cloud engineering role puts you in control, working remotely, earning what you're truly worth, more time freedom, and designing a life on your terms. No degree needed. No years of climbing the corporate ladder."
+        },
+        {
+          "question": "Is this really something anyone can do?",
+          "answer": "Yes, if you’re willing to put in the work. Many of our students started with zero tech background. Our mentorship and step-by-step roadmap bridge the gap between where you are and where you want to be."
+        },
+        {
+          "question": "Why Cloud Engineering specifically?",
+          "answer": "It’s one of the fastest growing, highest paying paths in tech. Demand is high, remote work is standard, and the skillset is transferable across industries."
+        },
+        {
+          "question": "Why focus on hands-on learning?",
+          "answer": "Because it works. Real projects prove to employers you can do the job. That’s what leads to interviews and offers, not just certifications or theory."
+        },
+        {
+          "question": "Isn’t the tech industry too crowded?",
+          "answer": "Only if you follow the crowd. Most people are stuck chasing certs with no direction. We give you a proven system, personal mentorship, and the tools to stand out fast."
+        }
+      ]
   }
 }

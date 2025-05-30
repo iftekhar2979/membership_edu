@@ -96,12 +96,12 @@ window.onload = () => {
             window.requestAnimationFrame(function () {
               // Execute the blur effect logic when the browser is ready for a new animation frame
               for (var i = 0; i < swiper.slides.length; i++) {
-                console.log(swiper.slides[i])
+                // console.log(swiper.slides[i])
                 var slideProgress = swiper.slides[i].progress;
                 var cardElement = swiper.slides[i].querySelector(
                   ".swiper-slide__card"
                 );
-                console.log("Card",cardElement)
+                // console.log("Card",cardElement)
                 if (
                   swiper.slides[i].classList.contains(
                     "swiper-slide-visible"
@@ -109,6 +109,7 @@ window.onload = () => {
                 ) {
                   var blur =
                     Math.round(Math.abs(slideProgress * 5) * 4) / 10;
+                    // console.log("eken",cardElement)
                   // Round to the nearest tenth
                   cardElement.style.filter = "blur(" + blur + "px)";
                 } else {
@@ -117,9 +118,12 @@ window.onload = () => {
                 }
               }
             });
-          } else {
+          } 
+          else {
+           
             // Reset the blur effect for all elements on other screen sizes
             for (var i = 0; i < swiper.slides.length; i++) {
+              console.log(swiper.slides[i])
               var cardElement = swiper.slides[i].querySelector(
                 ".swiper-slide__card"
               );

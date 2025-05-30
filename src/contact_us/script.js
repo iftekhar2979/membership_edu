@@ -1,22 +1,19 @@
-
 function buttonToggle(){
-    const cards2 = document.querySelectorAll(".is--card-blur2");
-    for (const card of cards2) {
-      card.onmousemove = (e) => {
-        for (const productCard of card.getElementsByClassName("product-card2")) {
-          const rect = productCard.getBoundingClientRect(),
-            x = e.clientX - rect.left,
-            y = e.clientY - rect.top;
-    
-          productCard.style.setProperty("--mouse-x", `${x}px`);
-          productCard.style.setProperty("--mouse-y", `${y}px`);
-        }
-      };
-    }
-    
-    
+  const cards2 = document.querySelectorAll(".is--card-blur2");
+  for (const card of cards2) {
+    card.onmousemove = (e) => {
+      for (const productCard of card.getElementsByClassName("product-card2")) {
+        const rect = productCard.getBoundingClientRect(),
+          x = e.clientX - rect.left,
+          y = e.clientY - rect.top;
+
+        productCard.style.setProperty("--mouse-x", `${x}px`);
+        productCard.style.setProperty("--mouse-y", `${y}px`);
+      }
+    };
+  }
 }
-buttonToggle()
+buttonToggle();
 
 const cloudBootcampInfo = {
   opportunity: [
@@ -68,221 +65,176 @@ const cloudBootcampInfo = {
       answer:
         "They launch their careers. Most start interviewing in Week 6 to 8 and land their first $100K+ roles shortly after. Some even have multiple roles.",
     }],
-    faqArray : [
-        {
-          question: "How can a tech career give me more freedom in life?",
-          answer: "A high-paying cloud engineering role puts you in control, working remotely, earning what you're truly worth, more time freedom, and designing a life on your terms. No degree needed. No years of climbing the corporate ladder."
-        },
-        {
-          question: "Is this really something anyone can do?",
-          answer: "Yes, if you’re willing to put in the work. Many of our students started with zero tech background. Our mentorship and step-by-step roadmap bridge the gap between where you are and where you want to be."
-        },
-        {
-          question: "Why Cloud Engineering specifically?",
-          answer: "It’s one of the fastest growing, highest paying paths in tech. Demand is high, remote work is standard, and the skillset is transferable across industries."
-        },
-        {
-          question: "Why focus on hands-on learning?",
-          answer: "Because it works. Real projects prove to employers you can do the job. That’s what leads to interviews and offers, not just certifications or theory."
-        },
-        {
-          question: "Isn’t the tech industry too crowded?",
-          answer: "Only if you follow the crowd. Most people are stuck chasing certs with no direction. We give you a proven system, personal mentorship, and the tools to stand out fast."
-        }
+  faqArray : [
+    {
+      question: "How can a tech career give me more freedom in life?",
+      answer: "A high-paying cloud engineering role puts you in control, working remotely, earning what you're truly worth, more time freedom, and designing a life on your terms. No degree needed. No years of climbing the corporate ladder."
+    },
+    {
+      question: "Is this really something anyone can do?",
+      answer: "Yes, if you’re willing to put in the work. Many of our students started with zero tech background. Our mentorship and step-by-step roadmap bridge the gap between where you are and where you want to be."
+    },
+    {
+      question: "Why Cloud Engineering specifically?",
+      answer: "It’s one of the fastest growing, highest paying paths in tech. Demand is high, remote work is standard, and the skillset is transferable across industries."
+    },
+    {
+      question: "Why focus on hands-on learning?",
+      answer: "Because it works. Real projects prove to employers you can do the job. That’s what leads to interviews and offers, not just certifications or theory."
+    },
+    {
+      question: "Isn’t the tech industry too crowded?",
+      answer: "Only if you follow the crowd. Most people are stuck chasing certs with no direction. We give you a proven system, personal mentorship, and the tools to stand out fast."
+    }
   ],
 };
 
-function addingFaQ(option,id,className){
-    let faqSection = document.getElementById(id);
-    let opertunaityContent = "";
-    cloudBootcampInfo[option].forEach((item) => {
-       
-      opertunaityContent += `
-       <div
-                class="product-card2 is--faq"
-                style="
-                  --mouse-x: 230.39999389648438px;
-                  --mouse-y: 43.400001525878906px;
-                "
-              >
-                <div class="faq-btn">
-                  <div class="faq-btn__inner">
-                    <img
-                      src="https://assets-global.website-files.com/6478a8ada70541eef2afb81f/647de41aa75a08c0bcc333f5_plus-icon.svg"
-                      loading="lazy"
-                      alt="Plus icon"
-                      class="product-slider__nav-icon2 is--faq"
-                      style="
-                        transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
-                          rotateX(0deg) rotateY(0deg) rotateZ(0deg)
-                          skew(0deg, 0deg);
-                        transform-style: preserve-3d;
-                      "
-                    />
-                  </div>
-                </div>
-                <div class="product-card__content is--faq">
-                  <div class="product-card__faq-title">
-                   ${item.question}
-                  </div>
-                  <div
-                    class="product-card__faq-c-text2"
-                    style="width: 740px; height: 0px"
-                  >
-                    <div class="product-card__text is--faq">
-                      ${item.answer}
-                    </div>
-                  </div>
-                </div>
-              </div>
-       
-       `;
+// The addingFaQ function injects content and calls the appropriate toggle setup
+function addingFaQ(option, id, className){
+  let faqSection = document.getElementById(id);
+  let opertunaityContent = "";
+  cloudBootcampInfo[option].forEach((item) => {
+    opertunaityContent += `
+      <div class="product-card2 is--faq" style="--mouse-x: 230.4px; --mouse-y: 43.4px;">
+        <div class="faq-btn">
+          <div class="faq-btn__inner">
+            <img
+              src="https://assets-global.website-files.com/6478a8ada70541eef2afb81f/647de41aa75a08c0bcc333f5_plus-icon.svg"
+              loading="lazy"
+              alt="Plus icon"
+              class="product-slider__nav-icon2 is--faq"
+              style="transform: translate3d(0,0,0) scale3d(1,1,1) rotateZ(0deg); transform-style: preserve-3d;"
+            />
+          </div>
+        </div>
+        <div class="product-card__content is--faq">
+          <div class="product-card__faq-title">${item.question}</div>
+          <div class="product-card__faq-c-text2" style="width: 740px; height: 0px;">
+            <div class="product-card__text is--faq">${item.answer}</div>
+          </div>
+        </div>
+      </div>
+    `;
+  });
+  faqSection.innerHTML = opertunaityContent;
+
+  // Call the toggle function specific to this FAQ section
+  if (id === 'faq-1') attachToggleFaq1();
+  else if (id === 'faq-2') attachToggleFaq2();
+  else if (id === 'faq-3') attachToggleFaq3();
+}
+
+// Toggle logic specifically for FAQ-1
+function attachToggleFaq1() {
+  const container = document.getElementById('faq-1');
+  if (!container) return;
+  const cards = container.querySelectorAll('.product-card2');
+  cards.forEach(card => {
+    card.addEventListener('click', function () {
+      const faqText = card.querySelector('.product-card__faq-c-text2');
+      const chkimg = card.querySelector('.product-slider__nav-icon2');
+      if (faqText.style.height === 'auto' || faqText.style.height === '') {
+        faqText.style.height = '0px';
+        chkimg.style.transform = 'translate3d(0,0,0) scale3d(1,1,1) rotateZ(0deg)';
+      } else {
+        faqText.style.height = 'auto';
+        chkimg.style.transform = 'translate3d(0,0,0) scale3d(1,1,1) rotateZ(90deg)';
+      }
     });
-    
-    faqSection.innerHTML = opertunaityContent;
-    var productCards2 = document.querySelectorAll(".product-card2");
-    productCards2.forEach((card) => {
+  });
+}
+
+// Toggle logic specifically for FAQ-2
+function attachToggleFaq2() {
+  const container = document.getElementById('faq-2');
+  if (!container) return;
+  const cards = container.querySelectorAll('.product-card2');
+  cards.forEach(card => {
+    card.addEventListener('click', function () {
+      const faqText = card.querySelector('.product-card__faq-c-text2');
+      const chkimg = card.querySelector('.product-slider__nav-icon2');
+      if (faqText.style.height === 'auto' || faqText.style.height === '') {
+        faqText.style.height = '0px';
+        chkimg.style.transform = 'translate3d(0,0,0) scale3d(1,1,1) rotateZ(0deg)';
+      } else {
+        faqText.style.height = 'auto';
+        chkimg.style.transform = 'translate3d(0,0,0) scale3d(1,1,1) rotateZ(90deg)';
+      }
+    });
+  });
+}
+
+// Toggle logic specifically for FAQ-3
+function attachToggleFaq3() {
+  const container = document.getElementById('faq-3');
+  if (!container) return;
+  const cards = container.querySelectorAll('.product-card2');
+  cards.forEach(card => {
+    card.addEventListener('click', function () {
+      const faqText = card.querySelector('.product-card__faq-c-text2');
+      const chkimg = card.querySelector('.product-slider__nav-icon2');
+      if (faqText.style.height === 'auto' || faqText.style.height === '') {
+        faqText.style.height = '0px';
+        chkimg.style.transform = 'translate3d(0,0,0) scale3d(1,1,1) rotateZ(0deg)';
+      } else {
+        faqText.style.height = 'auto';
+        chkimg.style.transform = 'translate3d(0,0,0) scale3d(1,1,1) rotateZ(90deg)';
+      }
+    });
+  });
+}
+
+// Hover effect remains unchanged, working on all specified classes
+function hoverOnEffect(className){
+  const cards2 = document.querySelectorAll(className);
+  for (const card of cards2) {
+    card.onmousemove = (e) => {
+      for (const productCard of card.getElementsByClassName("product-card2")) {
+        const rect = productCard.getBoundingClientRect(),
+          x = e.clientX - rect.left,
+          y = e.clientY - rect.top;
+
+        productCard.style.setProperty("--mouse-x", `${x}px`);
+        productCard.style.setProperty("--mouse-y", `${y}px`);
+      }
+
+      // Product-card1 click handler remains (if needed)
+      var productCards1 = document.querySelectorAll(".product-card1");
+      productCards1.forEach((card) => {
         card.addEventListener("click", function () {
-          var faqText = this.querySelector(".product-card__faq-c-text2");
-          var chkimg = this.querySelector(".product-slider__nav-icon2");
+          var faqText = this.querySelector(".product-card__faq-c-text1");
+          var chkimg = this.querySelector(".product-slider__nav-icon1");
           if (faqText.style.height === "auto" || faqText.style.height === "") {
             faqText.style.height = "0px";
-    
-            chkimg.style.transform =
-              "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)";
+            chkimg.style.transform = "translate3d(0, 0, 0) scale3d(1,1,1) rotateZ(0deg)";
           } else {
             faqText.style.height = "auto";
-            chkimg.style.transform =
-              "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(90deg) skew(0deg, 0deg)";
+            chkimg.style.transform = "translate3d(0, 0, 0) scale3d(1,1,1) rotateZ(90deg)";
           }
         });
       });
-
-    
-
+    };
+  }
 }
-window.addEventListener("DOMContentLoaded", function(){
-    addingFaQ('opportunity','faq-1',".is--card-blur")
-    addingFaQ('about','faq-2',".is--card-blur1")
-    addingFaQ('faqArray','faq-3',".is--card-blur1")
+async function fetchCloudBootcampData() {
+  try {
+    const response = await fetch('/data/index/cards.json'); // change path here
+    if (!response.ok) throw new Error('Network response was not ok');
+    const data = await response.json();
+
+    addingFaQ('opportunity','faq-1',".is--card-blur");
+    addingFaQ('about','faq-2',".is--card-blur1");
+    addingFaQ('faqArray','faq-3',".is--card-blur1");
     hoverOnEffect(".is--card-blur, .is--card-blur1");
-});
-function hoverOnEffect(className){
-    const cards2 = document.querySelectorAll(className);
-    // console.log(cards2)
-    for (const card of cards2) {
-       
-      card.onmousemove = (e) => {
-        for (const productCard of card.getElementsByClassName("product-card2")) {
-            
-          const rect = productCard.getBoundingClientRect(),
-            x = e.clientX - rect.left,
-            y = e.clientY - rect.top;
-    
-          productCard.style.setProperty("--mouse-x", `${x}px`);
-          productCard.style.setProperty("--mouse-y", `${y}px`);
-    
-        }
-        var productCards1 = document.querySelectorAll(".product-card1");
-        productCards1.forEach((card) => {
-           console.log("card",card)
-          card.addEventListener("click", function () {
-            console.log(this)
-            var faqText = this.querySelector(
-              ".product-card__faq-c-text1"
-            );
-            var chkimg = this.querySelector(
-              ".product-slider__nav-icon1"
-            );
-          
-            if (
-              faqText.style.height === "auto" ||
-              faqText.style.height === ""
-            ) {
-              faqText.style.height = "0px";
 
-              chkimg.style.transform =
-                "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)";
-            } else {
-              faqText.style.height = "auto";
-              chkimg.style.transform =
-                "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(90deg) skew(0deg, 0deg)";
-            }
-          });
-        });
-      };
-    }
+    hoverOnEffect(".is--card-blur, .is--card-blur1");
+  } catch (error) {
+    console.error('Failed to load CloudBootcamp data:', error);
+  }
 }
 
-function toggle() {
-   
-    // Combine both card groups
-    const cards = document.querySelectorAll(".is--card-blur, .is--card-blur1");
+window.addEventListener("DOMContentLoaded", fetchCloudBootcampData);
 
-    for (const card of cards) {
-        card.onmousemove = (e) => {
-            // Handle product-card1 inside
-            for (const productCard of card.getElementsByClassName("product-card1")) {
-                const rect = productCard.getBoundingClientRect();
-                const x = e.clientX - rect.left;
-                const y = e.clientY - rect.top;
+// Remove the global toggle() function or remove the .product-card2 click listeners from it
+// to avoid duplicated toggling handlers.
 
-                productCard.style.setProperty("--mouse-x", `${x}px`);
-                productCard.style.setProperty("--mouse-y", `${y}px`);
-            }
-
-            // Handle product-card2 inside
-            for (const productCard of card.getElementsByClassName("product-card2")) {
-                const rect = productCard.getBoundingClientRect();
-                const x = e.clientX - rect.left;
-                const y = e.clientY - rect.top;
-
-                productCard.style.setProperty("--mouse-x", `${x}px`);
-                productCard.style.setProperty("--mouse-y", `${y}px`);
-            }
-        };
-    }
-
-    // Run after DOM is loaded
-    document.addEventListener("DOMContentLoaded", function () {
-        // CLICK HANDLER FOR product-card1
-        const productCards1 = document.querySelectorAll(".product-card1");
-        productCards1.forEach((card) => {
-            card.addEventListener("click", function () {
-                const faqText = this.querySelector(".product-card__faq-c-text1");
-                const chkimg = this.querySelector(".product-slider__nav-icon1");
-
-                if (faqText.style.height === "auto" || faqText.style.height === "") {
-                    faqText.style.height = "0px";
-                    chkimg.style.transform =
-                        "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateZ(0deg)";
-                } else {
-                    faqText.style.height = "auto";
-                    chkimg.style.transform =
-                        "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateZ(90deg)";
-                }
-            });
-        });
-
-        // CLICK HANDLER FOR product-card2
-        const productCards2 = document.querySelectorAll(".product-card2");
-        productCards2.forEach((card) => {
-            card.addEventListener("click", function () {
-                const faqText = this.querySelector(".product-card__faq-c-text2");
-                const chkimg = this.querySelector(".product-slider__nav-icon2");
-
-                if (faqText.style.height === "auto" || faqText.style.height === "") {
-                    faqText.style.height = "0px";
-                    chkimg.style.transform =
-                        "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateZ(0deg)";
-                } else {
-                    faqText.style.height = "auto";
-                    chkimg.style.transform =
-                        "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateZ(90deg)";
-                }
-            });
-        });
-    });
-}
-
-window.addEventListener("DOMContentLoaded", toggle);

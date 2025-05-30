@@ -45,7 +45,9 @@ class Students extends HTMLElement {
   box-sizing: border-box;
   border-radius: 3%;
   overflow: hidden;
-">
+"
+class="swiper-slide__card"
+>
 
   <!-- Large purple circles as background rounded borders -->
   <div style="

@@ -3321,6 +3321,11 @@ html {
     border: 5px solid #004aad;
     border-radius: 30px;
   }
+  .product-card__faq-c-text2 {
+    overflow: hidden;
+    height: 0;
+    transition: height 0.3s ease;
+  }
   
   .text-block-8 {
     color: #fc5bff;

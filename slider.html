@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Perfect Pyramid Looping Slider</title>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+  />
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background: linear-gradient(180deg, #1b0047 0%, #0b002a 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 30px 0;
+      user-select: none;
+      overflow-x: hidden;
+    }
+
+    .swiper {
+      width: 95vw;
+      max-width: 1000px;
+      overflow: visible !important;
+      padding-bottom: 60px;
+    }
+
+    .swiper-wrapper {
+      overflow: visible !important;
+      padding-left: 50px;
+      perspective: 1200px;
+      align-items: flex-end;
+    }
+
+    .swiper-slide {
+      width: 240px !important;
+      height: 370px;
+      cursor: grab;
+      position: relative;
+      overflow: visible !important;
+      transition: transform 0.5s ease, filter 0.5s ease,
+        box-shadow 0.5s ease, opacity 0.5s ease;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      user-select: none;
+    }
+
+    .swiper-slide:active {
+      cursor: grabbing;
+    }
+
+    .card {
+      background: #1c0051;
+      border-radius: 20px;
+      box-shadow: 0 0 25px rgba(255, 50, 150, 0.6);
+      color: #e6e6e6;
+      height: 340px;
+      padding: 25px 25px 40px 25px;
+      text-align: left;
+      position: relative;
+      overflow: visible;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      width: 100%;
+    }
+
+    .status-indicator {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      width: 50px;
+      height: 24px;
+      border-radius: 12px;
+      background: linear-gradient(90deg, #f03ec3, #8331cc);
+      box-shadow: 0 0 10px #f03ec3;
+      pointer-events: none;
+    }
+
+    .card::before,
+    .card::after {
+      content: '';
+      position: absolute;
+      border: 2px solid rgba(194, 141, 255, 0.25);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+
+    .card::before {
+      width: 180px;
+      height: 180px;
+      top: 50px;
+      right: -90px;
+      border-color: rgba(194, 141, 255, 0.25);
+    }
+
+    .card::after {
+      width: 140px;
+      height: 140px;
+      top: 120px;
+      right: -70px;
+      border-color: rgba(255, 94, 155, 0.25);
+    }
+
+    .card h3 {
+      margin-top: 50px;
+      margin-bottom: 10px;
+      font-weight: 700;
+      font-size: 1.2rem;
+      color: #c4a3ff;
+    }
+
+    .card p {
+      margin: 0 0 18px 0;
+      font-weight: 600;
+      font-size: 0.95rem;
+      color: #d1cdfd;
+      line-height: 1.3;
+    }
+
+    .card img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      border: 4px solid #ff33a6;
+      object-fit: cover;
+      margin-bottom: 10px;
+      position: relative;
+      z-index: 5;
+      user-select: none;
+      pointer-events: none;
+      align-self: center;
+    }
+
+    .linkedin-icon {
+      width: 38px;
+      height: 38px;
+      background: #0077b5;
+      border-radius: 8px;
+      color: white;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 38px;
+      display: inline-block;
+      text-align: center;
+      user-select: none;
+      margin-top: auto;
+      padding-left: 5px;
+      box-shadow: 0 0 8px #0077b5;
+    }
+
+    /* Pyramid layering styles */
+    .swiper-slide {
+      transform: translateY(10px) scale(0.7);
+      opacity: 0.35;
+      filter: brightness(0.4);
+      box-shadow: none;
+      z-index: 5;
+      transition: transform 0.5s ease, filter 0.5s ease,
+        box-shadow 0.5s ease, opacity 0.5s ease;
+    }
+    .swiper-slide.pyramid-active {
+      transform: translateY(-25px) scale(1);
+      opacity: 1;
+      filter: brightness(1);
+      box-shadow: 0 0 50px rgba(255, 0, 150, 1);
+      z-index: 30;
+    }
+    .swiper-slide.pyramid-prev,
+    .swiper-slide.pyramid-next {
+      transform: translateY(-10px) scale(0.85);
+      opacity: 0.85;
+      filter: brightness(0.75);
+      box-shadow: 0 0 25px rgba(255, 0, 150, 0.5);
+      z-index: 20;
+    }
+    .swiper-slide.pyramid-prev-prev,
+    .swiper-slide.pyramid-next-next {
+      transform: translateY(0) scale(0.8);
+      opacity: 0.6;
+      filter: brightness(0.55);
+      box-shadow: none;
+      z-index: 10;
+    }
+
+    /* Ensure duplicated slides are styled correctly */
+    .swiper-slide-duplicate {
+      transition: transform 0.5s ease, filter 0.5s ease,
+        box-shadow 0.5s ease, opacity 0.5s ease;
+    }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+      .swiper-slide {
+        width: 200px !important;
+        height: 310px;
+      }
+      .card img {
+        width: 110px;
+        height: 110px;
+      }
+    }
+    @media (max-width: 640px) {
+      .swiper-slide {
+        width: 160px !important;
+        height: 260px;
+      }
+      .card img {
+        width: 90px;
+        height: 90px;
+      }
+      .card h3 {
+        font-size: 1rem;
+      }
+      .card p {
+        font-size: 0.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="swiper mySwiper" aria-label="Infinite pyramid slider">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="card">
+          <div class="status-indicator"></div>
+          <h3>Davis I.</h3>
+          <p>Cloud Engineer</p>
+          <img
+            src="https://randomuser.me/api/portraits/men/32.jpg"
+            alt="Davis I."
+          />
+          <div class="linkedin-icon">in</div>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="card">
+          <div class="status-indicator"></div>
+          <h3>Gregory East</h3>
+          <p>Senior Cloud Security Engineer</p>
+          <img
+            src="https://randomuser.me/api/portraits/men/75.jpg"
+            alt="Gregory East"
+          />
+          <div class="linkedin-icon">in</div>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="card">
+          <div class="status-indicator"></div>
+          <h3>Isaac Rowaiye</h3>
+          <p>Infrastructure Engineer</p>
+          <img
+            src="https://randomuser.me/api/portraits/men/51.jpg"
+            alt="Isaac Rowaiye"
+          />
+          <div class="linkedin-icon">in</div>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="card">
+          <div class="status-indicator"></div>
+          <h3>Darnell Hungerford</h3>
+          <p>AWS Cloud Engineer</p>
+          <img
+            src="https://randomuser.me/api/portraits/men/12.jpg"
+            alt="Darnell Hungerford"
+          />
+          <div class="linkedin-icon">in</div>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="card">
+          <div class="status-indicator"></div>
+          <h3>Dela A.</h3>
+          <p>Software Engineer</p>
+          <img
+            src="https://randomuser.me/api/portraits/men/22.jpg"
+            alt="Dela A."
+          />
+          <div class="linkedin-icon">in</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      centeredSlides: true,
+      loop: true,
+      speed: 600,
+      slidesPerGroup: 1,
+      autoplay: {
+        delay: 1500,
+        disableOnInteraction: false,
+      },
+      grabCursor: true,
+      slideToClickedSlide: true,
+      loopAdditionalSlides: 2, // Add extra slides for smoother looping
+      breakpoints: {
+        0: {
+          slidesPerView: 1,
+          spaceBetween: 15,
+        },
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 25,
+        },
+        900: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
+      },
+    });
+
+    function updatePyramidClasses() {
+      const slides = swiper.slides;
+      const realSlidesCount = swiper.slides.length - swiper.loopedSlides * 2; // Account for duplicated slides
+      const activeIndex = swiper.realIndex; // Use realIndex for loop mode
+
+      // Remove pyramid classes from all slides
+      slides.forEach(slide => {
+        slide.classList.remove(
+          "pyramid-active",
+          "pyramid-prev",
+          "pyramid-next",
+          "pyramid-prev-prev",
+          "pyramid-next-next"
+        );
+      });
+
+      // Find the active slide and its neighbors using realIndex
+      const activeSlideIndex = Array.from(slides).findIndex(
+        slide => slide.getAttribute("data-swiper-slide-index") == activeIndex
+      );
+      const total = realSlidesCount;
+      const prevIndex = (activeIndex - 1 + total) % total;
+      const nextIndex = (activeIndex + 1) % total;
+      const prevPrevIndex = (activeIndex - 2 + total) % total;
+      const nextNextIndex = (activeIndex + 2) % total;
+
+      // Map real indices to slide indices (including duplicates)
+      slides.forEach((slide, i) => {
+        const slideIndex = parseInt(slide.getAttribute("data-swiper-slide-index") || i);
+        if (slideIndex === activeIndex) {
+          slide.classList.add("pyramid-active");
+        } else if (slideIndex === prevIndex) {
+          slide.classList.add("pyramid-prev");
+        } else if (slideIndex === nextIndex) {
+          slide.classList.add("pyramid-next");
+        } else if (slideIndex === prevPrevIndex) {
+          slide.classList.add("pyramid-prev-prev");
+        } else if (slideIndex === nextNextIndex) {
+          slide.classList.add("pyramid-next-next");
+        }
+      });
+    }
+
+    // Initial call to update classes on load
+    updatePyramidClasses();
+
+    // Update classes on slide change and after loop fix
+    swiper.on("slideChange", () => {
+      updatePyramidClasses();
+    });
+
+    // Ensure classes are updated after Swiper's loop fix
+    swiper.on("loopFix", () => {
+      updatePyramidClasses();
+    });
+  </script>
+</body>
+</html>

@@ -3,7 +3,7 @@
 
 document.addEventListener('DOMContentLoaded', function () {
     let currentSlide = 0; // Keep track of the current slide
-    const slides = document.querySelectorAll('.horizontal-swiper .swiper-slide');
+    const slides = document.querySelectorAll('.swiper-slide');
     
     const swiperWrapper = document.querySelector('.horizontal-swiper .swiper-wrapper');
     const totalSlides = slides.length;
@@ -25,8 +25,10 @@ document.addEventListener('DOMContentLoaded', function () {
   
     // Update the swiper-wrapper position to show the correct slide
     function updateSlidePosition() {
-      console.log(slides)
+      console.log("slide",slides[0].offsetWidth)
       const slideWidth = slides[0].offsetWidth; // Get the width of one slide
+      console.log("SlideWi",slideWidth)
+      console.log("wrapper",swiperWrapper)
       swiperWrapper.style.transform = `translateX(-${currentSlide * slideWidth}px)`;
     }
   
