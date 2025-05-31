@@ -64,7 +64,7 @@ class SiteHeader extends HTMLElement {
                     <a href="about.html">About Us</a>
                   </li>
                   <li class="submenu-item">
-                    <a href="contact.html">Contact Us</a>
+                    <a href="contact.html">Help Center</a>
                   </li>
                  
                   <li class="menu-heading" style="display:none;">Learn</li>
@@ -119,7 +119,7 @@ class SiteHeader extends HTMLElement {
                        
                       </div>
                       <a href="contact.html" class="nav-link">
-                        <div class="nav-link-text">Contact Us</div>
+                        <div class="nav-link-text">Help Center</div>
                         <div class="nav-link-description">
                           You have questions?
                           <br />
@@ -135,7 +135,7 @@ class SiteHeader extends HTMLElement {
                 
                 <a href="students-success-hub.html" class="nav-link">Success</a>
                    <a href="about.html" class="nav-link link-active">About Us</a>
-                    <a href="contact.html"class="nav-link link-active">Contact Us</a>
+                    <a href="contact.html"class="nav-link link-active">Help Center</a>
                 <div class="nav-link has-dropdown"  style="display:none;" >
                   <div class="nav-link-inner-text">
                     <span>Learn</span>
