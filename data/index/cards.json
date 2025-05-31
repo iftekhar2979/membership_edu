@@ -47,6 +47,7 @@
       }
     },
     "adminInfo": {
+      
       "image": "./images/owner.png",
       "designation": "Adetayo Ibijemilusi | CEO | Senior AWS Cloud Engineer",
       "paragraph": "“Over the next decade, the biggest financial leap won’t come from college degrees, it’ll come from skills. We’re on a mission to help 100,000 people transition into cloud careers, so they’re not left behind in the new economy.”"
@@ -186,7 +187,7 @@
       },
       {
         "img": "./images/students/Davis.jpeg",
-        "alt": "05",
+        "alt": "Devis",
         "title": "Davis I.",
         "subtitle": "Cloud Engineer",
         "linkedIn": "https://www.linkedin.com/in/davisi/",
@@ -198,6 +199,7 @@
         "extraClasses": "swiper-slide-visible swiper-slide-active",
         "salary": "$ 99,200/Year"
       },
+      
       {
         "img": "./images/students/Charles.jpeg",
         "alt": "01",
@@ -600,68 +602,68 @@
       "items": [
         {
           "img": "./images/offer_letters/Njinjoh_s Offer Letter.png",
-          "offer": "./images/students/Njinjoh.jpeg",
+          "student_profile": "./images/students/Njinjoh.jpeg",
           "name": "Njinjoh",
           "salary": "166,000 /Year"
         },
         {
           "img": "./images/offer_letters/Isaac Offer Letter $240,000 (Visa).png",
-          "offer": "./images/students/Isaac.jpeg",
+          "student_profile": "./images/students/Isaac.jpeg",
           "name": "Isaac Rowaiye",
           "salary": " 416,064 /Year"
         },
         {
           "img": "./images/offer_letters/Greg $176,800 Offer Letter.png",
-          "offer": "./images/students/Greg.jpeg",
+          "student_profile": "./images/students/Greg.jpeg",
           "name": "Greg",
           "salary": "176,800 /Year"
         },
 
         {
           "img": "./images/offer_letters/pelomi_offer_letter.png",
-          "offer": "./images/students/Pelumi.jpeg",
+          "student_profile": "./images/students/Pelumi.jpeg",
           "name": "Pelumi",
           "salary": "152,000 /Year"
         },
         {
           "img": "./images/offer_letters/Darnell Offer Letter.png",
-          "offer": "./images/students/Darnell.jpeg",
+          "student_profile": "./images/students/Darnell.jpeg",
           "name": "Darnell",
           "salary": "150,000 /Year"
         },
         {
           "img": "./images/offer_letters/Dela_s Offer Letter.png",
-          "offer": "./images/students/Dela.jpeg",
+          "student_profile": "./images/students/Dela.jpeg",
           "name": "Dela",
           "salary": "145,000 /Year"
         },
         {
           "img": "./images/offer_letters/Meko offer letter $130,000.png",
-          "offer": "./images/students/Meko.jpeg",
+          "student_profile": "./images/students/Meko.jpeg",
           "name": "Meko",
           "salary": "130,000 /Year"
         },
         {
           "img": "./images/offer_letters/Jalen_s Offer Letter ($115,000Yr).png",
-          "offer": "./images/students/Jalen.jpeg",
+          "student_profile": "./images/students/Jalen.jpeg",
           "name": "Jalen",
           "salary": "115,000 /Year"
         },
         {
           "img": "./images/offer_letters/Stormi offer letter.png",
-          "offer": "./images/students/Stormi.jpeg",
+          "student_profile": "./images/students/Stormi.jpeg",
           "name": "Stormi H.",
           "salary": "110,000 /Year"
         },
         {
           "img": "./images/offer_letters/Davis Offer Letter.png",
-          "offer": "./images/students/Davis.jpeg",
+          "student_profile": "./images/students/Davis.jpeg",
           "name": "Davis",
           "salary": "99,200 /Year"
         },
         {
           "img": "./images/offer_letters/Charles OL.png",
-          "offer": "./images/students/Charles.jpeg",
+          "student_profile": "./images/students/Charles.jpeg",
           "name": "Charles",
           "salary": "77,500 /Year"
         }
