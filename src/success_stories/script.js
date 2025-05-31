@@ -192,7 +192,7 @@ class SuccessContent {
   </div>
   <div class="offer-student-card__student-info">
     <img
-      src="${item.offer}"
+      src="${item.student_profile}"
       alt="Student Photo"
       class="offer-student-card__student-photo"
       loading="lazy"
