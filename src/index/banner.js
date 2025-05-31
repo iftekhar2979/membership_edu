@@ -18,7 +18,7 @@ class CloudBootcampSection extends HTMLElement {
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         const data = await response.json();
 
-        this.banner = data.hero_section;
+        this.banner = data.index.hero_section;
         this.render();
       } catch (error) {
         console.error('Failed to load students data:', error);

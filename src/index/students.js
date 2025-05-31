@@ -10,7 +10,7 @@ class Students extends HTMLElement {
       if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
       const data = await response.json();
       // console.log(data)
-      this.students = data.students || [];
+      this.students = data.index.students || [];
       this.render();
     } catch (error) {
       console.error('Failed to load students data:', error);

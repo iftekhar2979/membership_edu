@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Infinite Logo Slider</title>
+  <style>
+    body {
+      margin: 0;
+      background: #000;
+      font-family: Arial, sans-serif;
+    }
+    .cursel-contaner {
+      width: 100%;
+      overflow: hidden;
+      padding: 20px 0;
+      box-sizing: border-box;
+    }
+    .logo-contaner {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .slider {
+      overflow: hidden;
+      width: 100%;
+    }
+    .slide-track {
+      display: flex;
+      width: calc(250px * 26); /* total logos * single logo width */
+      animation: scroll 40s linear infinite;
+    }
+    .slide-track img {
+      width: 250px;
+      height: auto;
+      margin-right: 20px;
+      object-fit: contain;
+      filter: brightness(1);
+      user-select: none;
+      pointer-events: none;
+      background: #111;
+      padding: 10px;
+      border-radius: 8px;
+    }
+    @keyframes scroll {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(calc(-250px * 13));
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="cursel-contaner">
+    <div class="logo-contaner" id="techLogoContainer">
+      <div class="slider">
+        <div class="slide-track">
+          <img src="https://thecloudbootcamp.com/wp-content/uploads/2024/07/kubernetes.svg" alt="kubernetes" />
+          <img src="https://thecloudbootcamp.com/wp-content/uploads/2024/07/python.svg" alt="python" />
+          <img src="https://thecloudbootcamp.com/wp-content/uploads/2024/07/terraform.svg" alt="terraform" />
+          <img src="https://thecloudbootcamp.com/wp-content/uploads/2024/07/ansible.svg" alt="ansible" />
+          <img src="https://thecloudbootcamp.com/wp-content/uploads/2024/07/aws.svg" alt="aws" />
+          <img src="https://thecloudbootcamp.com/wp-content/uploads/2024/07/docker.svg" alt="docker" />
+          <img src="https://thecloudbootcamp.com/wp-content/uploads/2024/07/git.svg" alt="git" />
+          <img src="https://thecloudbootcamp.com/wp-content/uploads/2024/07/AI.svg" alt="AI" />
+          <img src="/images/icons/github.svg" alt="Github" />
+          <img src="/images/icons/jenkins.svg" alt="Jenkins" />
+          <img src="/images/icons/linux.svg" alt="Linux" />
+          <img src="/images/icons/networking.svg" alt="Networking" />
+          <img src="/images/icons/sql.svg" alt="Sql" />
+
+          <!-- Repeat logos for seamless scroll -->
+          <img src="https://thecloudbootcamp.com/wp-content/uploads/2024/07/kubernetes.svg" alt="kubernetes" />
+          <img src="https://thecloudbootcamp.com/wp-content/uploads/2024/07/python.svg" alt="python" />
+          <img src="https://thecloudbootcamp.com/wp-content/uploads/2024/07/terraform.svg" alt="terraform" />
+          <img src="https://thecloudbootcamp.com/wp-content/uploads/2024/07/ansible.svg" alt="ansible" />
+          <img src="https://thecloudbootcamp.com/wp-content/uploads/2024/07/aws.svg" alt="aws" />
+          <img src="https://thecloudbootcamp.com/wp-content/uploads/2024/07/docker.svg" alt="docker" />
+          <img src="https://thecloudbootcamp.com/wp-content/uploads/2024/07/git.svg" alt="git" />
+          <img src="https://thecloudbootcamp.com/wp-content/uploads/2024/07/AI.svg" alt="AI" />
+          <img src="/images/icons/github.svg" alt="Github" />
+          <img src="/images/icons/jenkins.svg" alt="Jenkins" />
+          <img src="/images/icons/linux.svg" alt="Linux" />
+          <img src="/images/icons/networking.svg" alt="Networking" />
+          <img src="/images/icons/sql.svg" alt="Sql" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

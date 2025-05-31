@@ -8,8 +8,7 @@ class MainBanner extends HTMLElement{
         const response = await fetch('./data/index/cards.json');  // your JSON URL here
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         const data = await response.json();
-        console.log(data)
-        this.main_banner = data.main_headers || [];
+        this.main_banner = data.index.main_headers || [];
         this.render();
       } catch (error) {
         console.error('Failed to load students data:', error);

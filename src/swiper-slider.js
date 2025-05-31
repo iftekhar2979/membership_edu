@@ -123,11 +123,11 @@ window.onload = () => {
            
             // Reset the blur effect for all elements on other screen sizes
             for (var i = 0; i < swiper.slides.length; i++) {
-              console.log(swiper.slides[i])
+              // console.log(swiper.slides[i])
               var cardElement = swiper.slides[i].querySelector(
                 ".swiper-slide__card"
               );
-              console.log("card element",cardElement)
+              // console.log("card element",cardElement)
               cardElement.style.filter = "none";
             }
           }

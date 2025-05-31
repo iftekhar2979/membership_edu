@@ -20,7 +20,8 @@ class LoadHtml {
   techLogoRender(techLogos) {
     const container = document.getElementById("techLogoContainer");
     if (!container) return console.warn("Tech logo container not found");
-    techLogos.forEach((logo) => {
+    let double =techLogos.concat(techLogos)
+    double.forEach((logo) => {
       const img = document.createElement("img");
       img.src = logo.src;
       img.alt = logo.alt || "";
@@ -66,16 +67,15 @@ window.pageData.ready.then(() => {
     console.error("No data loaded");
     return;
   }
-  loader.featuredLogoRender(window.pageData.data.featured_logo);
-  loader.techLogoRender(window.pageData.data.tech_logo);
-  loader.earnings(window.pageData.data.earnings.heading)
-  loader.admin(window.pageData.data.adminInfo)
-
-  // Initialize flip counter only after DOM and data ready
-  initFlipCounter(window.pageData.data.earnings.count);
+  console.log(window.pageData.index)
+  loader.featuredLogoRender(window.pageData.data.index.featured_logo);
+  loader.techLogoRender(window.pageData.data.index.tech_logo);
+  loader.earnings(window.pageData.data.index.earnings.heading)
+  loader.admin(window.pageData.data.index.adminInfo)
+  initFlipCounter(window.pageData.data.index.earnings.count);
   document.querySelector('.image-27').addEventListener('click', function(event) {
-    event.preventDefault(); // Prevent default link behavior
-    window.location.href = 'index.html'; // Redirect to the same page in the same tab
+    event.preventDefault();
+    window.location.href = 'index.html';
   });
 });
 

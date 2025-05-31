@@ -4,7 +4,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     let currentSlide = 0; // Keep track of the current slide
     const slides = document.querySelectorAll('.swiper-slide');
-    
     const swiperWrapper = document.querySelector('.horizontal-swiper .swiper-wrapper');
     const totalSlides = slides.length;
     let startTouchX = 0;
@@ -27,17 +26,13 @@ document.addEventListener('DOMContentLoaded', function () {
     function updateSlidePosition() {
       console.log("slide",slides[0].offsetWidth)
       const slideWidth = slides[0].offsetWidth; // Get the width of one slide
-      console.log("SlideWi",slideWidth)
-      console.log("wrapper",swiperWrapper)
+    
       swiperWrapper.style.transform = `translateX(-${currentSlide * slideWidth}px)`;
     }
-  
     // Automatically move to the next slide every 5 seconds (adjustable)
     setInterval(nextSlide, 5000); // Slow transition: every 5 seconds
-  
     // Initialize the swiper position
     updateSlidePosition();
-  
     // Mouse drag functionality
     swiperWrapper.addEventListener('mousedown', (e) => {
       isDragging = true;

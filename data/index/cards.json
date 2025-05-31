@@ -1,315 +1,336 @@
 {
-  "main_headers": {
-    "mainHeader": "Start Your Cloud Engineering Career Journey Today",
-    "week": "",
-    "career": "Transform Your Future with Our Industry-Proven Cloud Training Program",
-    "subtitle": "",
-    "videoLink": "https://www.youtube.com/embed/W4m4sI9bGOw",
-    "careerTransitions": "340",
-    "videoLink2": "https://www.youtube.com/embed/W4m4sI9bGOw"
-  },
-  "hero_section": {
-    "title": "Our proven system makes transitioning into a high-paying AWS Cloud Engineer career possible for almost anyone — even without a tech degree or prior cloud experience.",
-    "subtitle": "Our unique method makes CloudBootcamp.AI business accessible to almost anyone, regardless of background, experience!",
-    "imageLink": "https://assets-global.website-files.com/658fd648729a651f8b0574a7/65b183b440ee08c86b29d67a_new-smth2-65b1821aebe1a.webp",
-    "videoLink": "https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FyAoLSRbwxL8%3Ffeature%3Doembed&amp;display_name=YouTube&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DyAoLSRbwxL8&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FyAoLSRbwxL8%2Fhqdefault.jpg&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=youtube"
-  },
-  "cards": {
-    "heading": "The #1 Program Helping IT Professionals Transition Into $150K+ Cloud Engineering Roles",
-    "stats": [
+  "index": {
+    "main_headers": {
+      "mainHeader": "Start Your Cloud Engineering Career Journey Today",
+      "week": "",
+      "career": "Transform Your Future with Our Industry-Proven Cloud Training Program",
+      "subtitle": "",
+      "videoLink": "https://www.youtube.com/embed/W4m4sI9bGOw",
+      "careerTransitions": "340",
+      "videoLink2": "https://www.youtube.com/embed/W4m4sI9bGOw"
+    },
+    "hero_section": {
+      "title": "Our proven system makes transitioning into a high-paying AWS Cloud Engineer career possible for almost anyone — even without a tech degree or prior cloud experience.",
+      "subtitle": "Our unique method makes CloudBootcamp.AI business accessible to almost anyone, regardless of background, experience!",
+      "imageLink": "https://assets-global.website-files.com/658fd648729a651f8b0574a7/65b183b440ee08c86b29d67a_new-smth2-65b1821aebe1a.webp",
+      "videoLink": "https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FyAoLSRbwxL8%3Ffeature%3Doembed&amp;display_name=YouTube&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DyAoLSRbwxL8&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FyAoLSRbwxL8%2Fhqdefault.jpg&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=youtube"
+    },
+    "cards": {
+      "heading": "The #1 Program Helping IT Professionals Transition Into $150K+ Cloud Engineering Roles",
+      "stats": [
+        {
+          "icon": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a1b2dc1020b9476b8ef0d_65a029445bbd0e066dd24a88_ICON%204.svg",
+          "number": "78 %",
+          "description": "of graduates land roles within 90 days"
+        },
+        {
+          "icon": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a1b2d855a8a78b24ca83a_65a02944adb229d5e119da3d_ICON%203.svg",
+          "number": "$130,000+",
+          "description": "average salary after program completion"
+        },
+        {
+          "icon": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a1b2dab6995033f84b7ce_65a02944a444b4a8692bccba_ICON%201.svg",
+          "number": "340+",
+          "description": "successful career transitions (and counting)"
+        },
+        {
+          "icon": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a1b2dd4daca73ca323ba0_65a029456eafe508e6994b3c_ICON%202.svg",
+          "number": "8 Weeks",
+          "description": "to master job-ready AWS Cloud skills"
+        }
+      ],
+      "image": {
+        "src": "./images/logo-1.png",
+        "alt": "Logo",
+        "width": "1584",
+        "sizes": "(max-width: 479px) 61vw, 100px"
+      }
+    },
+    "adminInfo": {
+      "image": "./images/owner.png",
+      "designation": "Adetayo Ibijemilusi | CEO | Senior AWS Cloud Engineer",
+      "paragraph": "“Over the next decade, the biggest financial leap won’t come from college degrees, it’ll come from skills. We’re on a mission to help 100,000 people transition into cloud careers, so they’re not left behind in the new economy.”"
+    },
+    "earnings": {
+      "heading": "Our Students Earned Over $7.8 Million+ in Cloud Careers",
+      "count": 7800000
+    },
+    "students": [
       {
-        "icon": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a1b2dc1020b9476b8ef0d_65a029445bbd0e066dd24a88_ICON%204.svg",
-        "number": "78 %",
-        "description": "of graduates land roles within 90 days"
+        "img": "./images/students/Isaac.jpeg",
+        "alt": "05",
+        "title": "Isaac Rowaiye",
+        "subtitle": "Infrastructure Engineer ",
+        "filter": "blur(0px)",
+        "ariaLabel": "3 / 7",
+        "linkedIn": "https://www.linkedin.com/in/isaac-rowaiye-4b785b1a2/",
+        "dataIndex": 5,
+        "zIndex": 1,
+        "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
+        "extraClasses": "swiper-slide-visible swiper-slide-active",
+        "salary": "$ 416,064/Year"
       },
       {
-        "icon": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a1b2d855a8a78b24ca83a_65a02944adb229d5e119da3d_ICON%203.svg",
-        "number": "$130,000+",
-        "description": "average salary after program completion"
+        "img": "./images/students/Greg.jpeg",
+        "alt": "05",
+        "title": "Gregory East",
+        "subtitle": "Senior Cloud Security Engineer",
+        "filter": "blur(0px)",
+        "linkedIn": "https://www.linkedin.com/in/gregoryaeast/",
+        "ariaLabel": "3 / 7",
+        "dataIndex": 4,
+        "zIndex": 1,
+        "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
+        "extraClasses": "swiper-slide-visible swiper-slide-active",
+        "salary": "$ 176,800/Year"
       },
       {
-        "icon": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a1b2dab6995033f84b7ce_65a02944a444b4a8692bccba_ICON%201.svg",
-        "number": "340+",
-        "description": "successful career transitions (and counting)"
+        "img": "./images/students/Njinjoh.jpeg",
+        "alt": "05",
+        "title": "Brandon Njinjoh",
+        "subtitle": "DevOps/AWS Cloud Engineer",
+        "filter": "blur(0px)",
+        "linkedIn": "https://www.linkedin.com/in/brandon-njinjoh/",
+        "ariaLabel": "3 / 7",
+        "dataIndex": 4,
+        "zIndex": 1,
+        "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
+        "extraClasses": "swiper-slide-visible swiper-slide-active",
+        "salary": "$ 166,000/Year"
       },
       {
-        "icon": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a1b2dd4daca73ca323ba0_65a029456eafe508e6994b3c_ICON%202.svg",
-        "number": "8 Weeks",
-        "description": "to master job-ready AWS Cloud skills"
+        "img": "./images/students/Pelumi.jpeg",
+        "alt": "05",
+        "title": "Pelumi Adenikinju",
+        "subtitle": "AWS Cloud Engineer",
+        "linkedIn": "https://www.linkedin.com/in/pelumiade/",
+        "filter": "blur(0px)",
+        "ariaLabel": "3 / 7",
+        "dataIndex": 8,
+        "zIndex": 1,
+        "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
+        "extraClasses": "swiper-slide-visible swiper-slide-active",
+        "salary": "$ 152,000/Year"
+      },
+
+      {
+        "img": "./images/students/Darnell.jpeg",
+        "alt": "07",
+        "title": "Darnell Hungerford",
+        "subtitle": "AWS Cloud Engineer",
+        "filter": "blur(4px)",
+        "ariaLabel": "1 / 7",
+        "dataIndex": 1,
+        "linkedIn": "https://www.linkedin.com/in/darnell-hungerford-0a1226188/",
+        "zIndex": -1,
+        "transform": "translate3d(0px, 0px, -400px) rotateX(0deg) rotateY(0deg) scale(1)",
+        "extraClasses": "swiper-slide-visible",
+        "salary": "$ 150,000/Year"
+      },
+
+      {
+        "img": "./images/students/Dela.jpeg",
+        "alt": "05",
+        "title": "Dela A.",
+        "subtitle": "Software Engineer",
+        "filter": "blur(0px)",
+        "ariaLabel": "3 / 7",
+        "linkedIn": "https://www.linkedin.com/in/delaanthonio/",
+        "dataIndex": 2,
+        "zIndex": 1,
+        "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
+        "extraClasses": "swiper-slide-visible swiper-slide-active",
+        "salary": "$ 145,000/Year"
+      },
+      {
+        "img": "./images/students/Meko.jpeg",
+        "alt": "05",
+        "title": "Meko Graves ",
+        "subtitle": "AWS Solutions Architect",
+        "filter": "blur(0px)",
+        "linkedIn": "https://www.linkedin.com/in/meko-graves-2017b7357/ ",
+        "ariaLabel": "3 / 7",
+        "dataIndex": 7,
+        "zIndex": 1,
+        "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
+        "extraClasses": "swiper-slide-visible swiper-slide-active",
+        "salary": "$ 150,000/Year"
+      },
+      {
+        "img": "./images/students/Jalen.jpeg",
+        "alt": "05",
+        "title": "Jalen Verrett",
+        "subtitle": "DevSecOps Engineer",
+        "filter": "blur(0px)",
+        "linkedIn": "https://www.linkedin.com/in/jalen-verrett-0a069b190/",
+        "ariaLabel": "3 / 7",
+        "dataIndex": 6,
+        "zIndex": 1,
+        "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
+        "extraClasses": "swiper-slide-visible swiper-slide-active",
+        "salary": "$ 115,000 /Year"
+      },
+      {
+        "img": "./images/students/Stormi.jpeg",
+        "alt": "05",
+        "title": "Stormi H.",
+        "subtitle": "DevOps Engineer",
+        "filter": "blur(0px)",
+        "linkedIn": "https://www.linkedin.com/in/stormi-h-653b09254/",
+        "ariaLabel": "3 / 7",
+        "dataIndex": 9,
+        "zIndex": 1,
+        "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
+        "extraClasses": "swiper-slide-visible swiper-slide-active",
+        "salary": "$ 110,000 /Year"
+      },
+      {
+        "img": "./images/students/Davis.jpeg",
+        "alt": "05",
+        "title": "Davis I.",
+        "subtitle": "Cloud Engineer",
+        "linkedIn": "https://www.linkedin.com/in/davisi/",
+        "filter": "blur(0px)",
+        "ariaLabel": "3 / 7",
+        "dataIndex": 3,
+        "zIndex": 1,
+        "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
+        "extraClasses": "swiper-slide-visible swiper-slide-active",
+        "salary": "$ 99,200/Year"
+      },
+      {
+        "img": "./images/students/Charles.jpeg",
+        "alt": "01",
+        "title": "Charles Cunningham Jr",
+        "subtitle": "",
+        "filter": "blur(6px)",
+        "linkedIn": "https://www.linkedin.com/in/charles-cunningham-jr-a4187988/",
+        "ariaLabel": "7 / 7",
+        "dataIndex": 0,
+        "zIndex": -2,
+        "transform": "translate3d(0px, 0px, -600.083px) rotateX(0deg) rotateY(0deg) scale(1)",
+        "extraClasses": "swiper-slide-duplicate swiper-slide-visible",
+        "salary": ""
       }
     ],
-    "image": {
-      "src": "./images/logo-1.png",
-      "alt": "Logo",
-      "width": "1584",
-      "sizes": "(max-width: 479px) 61vw, 100px"
+    "featured_logo": [
+      {
+        "src": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/6619089fdcd20828968d3ba7_64c7ced5f2a7d945a128495c_inc-logo%20(1).svg",
+        "alt": "Inc Logo"
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/6619089f857fc389e7699928_64882f635095aa042674ff3a_entrepreneur-logo%20(1).svg",
+        "alt": "Entrepreneur Logo"
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/661908a064faf2b29da8c121_64eb9385c49943384198b50a_markets-insider-logo%20(1).svg",
+        "alt": "Markets Insider Logo"
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/661908a0ab984ca2d0dc4080_64eb93854443d947594d3d66_marketwatch-logo%20(1).svg",
+        "alt": "MarketWatch Logo"
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/661908a0e0f28c718fdf8299_64eb938557140c36d5bc5572_business-insider-logo%20(1).svg",
+        "alt": "Business Insider Logo",
+        "className": "image-7"
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/661908a08580ebcd89f61671_64882f6386e34d3ea727d9e9_forbes-logo%20(1).svg",
+        "alt": "Forbes Logo"
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/661908a06c1b7764f0372573_64c7ced5897054d95beacd78_disrupt-logo%20(1).svg",
+        "alt": "Disrupt Logo"
+      }
+    ],
+    "tech_logo": [
+      {
+        "src": "https://thecloudbootcamp.com/wp-content/uploads/2024/07/kubernetes.svg",
+        "alt": "kubernetes"
+      },
+
+      {
+        "src": "https://thecloudbootcamp.com/wp-content/uploads/2024/07/python.svg",
+        "alt": "python"
+      },
+      {
+        "src": "https://thecloudbootcamp.com/wp-content/uploads/2024/07/terraform.svg",
+        "alt": "terraform"
+      },
+      {
+        "src": "https://thecloudbootcamp.com/wp-content/uploads/2024/07/ansible.svg",
+        "alt": "ansible"
+      },
+      {
+        "src": "https://thecloudbootcamp.com/wp-content/uploads/2024/07/aws.svg",
+        "alt": "aws"
+      },
+
+      {
+        "src": "https://thecloudbootcamp.com/wp-content/uploads/2024/07/docker.svg",
+        "alt": "docker"
+      },
+      {
+        "src": "https://thecloudbootcamp.com/wp-content/uploads/2024/07/git.svg",
+        "alt": "git"
+      },
+      {
+        "src": "https://thecloudbootcamp.com/wp-content/uploads/2024/07/AI.svg",
+        "alt": "AI"
+      },
+      {
+        "src": "/images/icons/github.svg",
+        "alt": "Github"
+      },
+      {
+        "src": "/images/icons/jenkins.svg",
+        "alt": "Jenkins"
+      },
+      {
+        "src": "/images/icons/linux.svg",
+        "alt": "Linux"
+      },
+      {
+        "src": "/images/icons/networking.svg",
+        "alt": "Networking"
+      },
+      {
+        "src": "/images/icons/sql.svg",
+        "alt": "Sql"
+      }
+    ],
+    "testomanial": [
+      {
+        "rating": 5,
+        "starsImage": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a054908e7e70cf04624f9_659999f9d0b9bf616d4e9332_stars.svg",
+        "text": "I was stuck at $90K, now I make $145K fully remote as a DevOps Engineer",
+        "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQGuj2vHxEekaQ/profile-displayphoto-shrink_200_200/B4EZbHlSk0HkAY-/0/1747105164719?e=1753920000&v=beta&t=1yzWusrTzEisZ8dR3OvGUx-7XC1zXl77IjRQ1QtdtrU",
+        "name": "Stormi H",
+        "position": "DevOps Engineer,  Palm Beach Florida"
+      },
+      {
+        "rating": 5,
+        "starsImage": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a054908e7e70cf04624f9_659999f9d0b9bf616d4e9332_stars.svg",
+        "text": "This flipped my entire career trajectory. I landed not one, but two jobs in just 9 weeks after starting the program.",
+        "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQFgfV55_7E6Pw/profile-displayphoto-shrink_200_200/B4EZPhBrL0GwAg-/0/1734647133273?e=1753920000&v=beta&t=qnkWNVLrpE-foSvDwlzhMdsgHaqHn380e-f2pMlr6Y0",
+        "name": "Gregory East",
+        "position": "Senior Cloud Security Engineer, New York"
+      },
+      {
+        "rating": 5,
+        "starsImage": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a054908e7e70cf04624f9_659999f9d0b9bf616d4e9332_stars.svg",
+        "text": "The practical projects and guidance gave me everything I needed to move into cloud engineering.",
+        "avatar": "https://media.licdn.com/dms/image/v2/C4E03AQEyfqwNQ7U_9Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1593385925793?e=1753920000&v=beta&t=xkiR7Vo096uSVIKMeU3YiRWwJXotcHYtyI8RQbL76cI",
+        "name": "Isaac Rowaiye",
+        "position": "Infrastructure Engineer, Dallas Texas"
+      }
+    ],
+    "join_section": {
+      "pepole": "3000",
+      "careerCount": "250"
     }
   },
-  "adminInfo": {
-    "image": "./images/owner.png",
-    "designation": "Adetayo Ibijemilusi | CEO | Senior AWS Cloud Engineer",
-    "paragraph": "“Over the next decade, the biggest financial leap won’t come from college degrees, it’ll come from skills. We’re on a mission to help 100,000 people transition into cloud careers, so they’re not left behind in the new economy.”"
-  },
-  "earnings": {
-    "heading": "Our Students Earned Over $7.8 Million+ in Cloud Careers",
-    "count": 7800000
-  },
-  "students": [
-    {
-      "img": "./images/students/Isaac.jpeg",
-      "alt": "05",
-      "title": "Isaac Rowaiye",
-      "subtitle": "Infrastructure Engineer ",
-      "filter": "blur(0px)",
-      "ariaLabel": "3 / 7",
-      "linkedIn": "https://www.linkedin.com/in/isaac-rowaiye-4b785b1a2/",
-      "dataIndex": 5,
-      "zIndex": 1,
-      "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
-      "extraClasses": "swiper-slide-visible swiper-slide-active",
-      "salary":"$ 416,064/Year"
-    },
-    {
-      "img": "./images/students/Greg.jpeg",
-      "alt": "05",
-      "title": "Gregory East",
-      "subtitle": "Senior Cloud Security Engineer",
-      "filter": "blur(0px)",
-      "linkedIn": "https://www.linkedin.com/in/gregoryaeast/",
-      "ariaLabel": "3 / 7",
-      "dataIndex": 4,
-      "zIndex": 1,
-      "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
-      "extraClasses": "swiper-slide-visible swiper-slide-active",
-      "salary":"$ 176,800/Year"
-    },
-    {
-      "img": "./images/students/Njinjoh.jpeg",
-      "alt": "05",
-      "title": "Brandon Njinjoh",
-      "subtitle": "DevOps/AWS Cloud Engineer",
-      "filter": "blur(0px)",
-      "linkedIn": "https://www.linkedin.com/in/brandon-njinjoh/",
-      "ariaLabel": "3 / 7",
-      "dataIndex": 4,
-      "zIndex": 1,
-      "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
-      "extraClasses": "swiper-slide-visible swiper-slide-active",
-      "salary":"$ 166,000/Year"
-    },
-    {
-      "img": "./images/students/Pelumi.jpeg",
-      "alt": "05",
-      "title": "Pelumi Adenikinju",
-      "subtitle": "AWS Cloud Engineer",
-      "linkedIn": "https://www.linkedin.com/in/pelumiade/",
-      "filter": "blur(0px)",
-      "ariaLabel": "3 / 7",
-      "dataIndex": 8,
-      "zIndex": 1,
-      "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
-      "extraClasses": "swiper-slide-visible swiper-slide-active",
-       "salary":"$ 152,000/Year"
-    },
-
-    {
-      "img": "./images/students/Darnell.jpeg",
-      "alt": "07",
-      "title": "Darnell Hungerford",
-      "subtitle": "AWS Cloud Engineer",
-      "filter": "blur(4px)",
-      "ariaLabel": "1 / 7",
-      "dataIndex": 1,
-      "linkedIn": "https://www.linkedin.com/in/darnell-hungerford-0a1226188/",
-      "zIndex": -1,
-      "transform": "translate3d(0px, 0px, -400px) rotateX(0deg) rotateY(0deg) scale(1)",
-      "extraClasses": "swiper-slide-visible",
-       "salary":"$ 150,000/Year"
-    },
-
-    {
-      "img": "./images/students/Dela.jpeg",
-      "alt": "05",
-      "title": "Dela A.",
-      "subtitle": "Software Engineer",
-      "filter": "blur(0px)",
-      "ariaLabel": "3 / 7",
-      "linkedIn": "https://www.linkedin.com/in/delaanthonio/",
-      "dataIndex": 2,
-      "zIndex": 1,
-      "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
-      "extraClasses": "swiper-slide-visible swiper-slide-active" ,
-        "salary":"$ 145,000/Year"
-    },
-    {
-      "img": "./images/students/Meko.jpeg",
-      "alt": "05",
-      "title": "Meko Graves ",
-      "subtitle": "AWS Solutions Architect",
-      "filter": "blur(0px)",
-      "linkedIn": "https://www.linkedin.com/in/meko-graves-2017b7357/ ",
-      "ariaLabel": "3 / 7",
-      "dataIndex": 7,
-      "zIndex": 1,
-      "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
-      "extraClasses": "swiper-slide-visible swiper-slide-active",
-         "salary":"$ 150,000/Year"
-    },
-    {
-      "img": "./images/students/Jalen.jpeg",
-      "alt": "05",
-      "title": "Jalen Verrett",
-      "subtitle": "DevSecOps Engineer",
-      "filter": "blur(0px)",
-      "linkedIn": "https://www.linkedin.com/in/jalen-verrett-0a069b190/",
-      "ariaLabel": "3 / 7",
-      "dataIndex": 6,
-      "zIndex": 1,
-      "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
-      "extraClasses": "swiper-slide-visible swiper-slide-active",
-      "salary":"$ 115,000 /Year"
-    },
-    {
-      "img": "./images/students/Stormi.jpeg",
-      "alt": "05",
-      "title": "Stormi H.",
-      "subtitle": "DevOps Engineer",
-      "filter": "blur(0px)",
-      "linkedIn": "https://www.linkedin.com/in/stormi-h-653b09254/",
-      "ariaLabel": "3 / 7",
-      "dataIndex": 9,
-      "zIndex": 1,
-      "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
-      "extraClasses": "swiper-slide-visible swiper-slide-active",
-      "salary":"$ 110,000 /Year"
-    },
-    {
-      "img": "./images/students/Davis.jpeg",
-      "alt": "05",
-      "title": "Davis I.",
-      "subtitle": "Cloud Engineer",
-      "linkedIn": "https://www.linkedin.com/in/davisi/",
-      "filter": "blur(0px)",
-      "ariaLabel": "3 / 7",
-      "dataIndex": 3,
-      "zIndex": 1,
-      "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
-      "extraClasses": "swiper-slide-visible swiper-slide-active",
-        "salary":"$ 99,200/Year"
-    },
-    {
-      "img": "./images/students/Charles.jpeg",
-      "alt": "01",
-      "title": "Charles Cunningham Jr",
-      "subtitle": "",
-      "filter": "blur(6px)",
-      "linkedIn": "https://www.linkedin.com/in/charles-cunningham-jr-a4187988/",
-      "ariaLabel": "7 / 7",
-      "dataIndex": 0,
-      "zIndex": -2,
-      "transform": "translate3d(0px, 0px, -600.083px) rotateX(0deg) rotateY(0deg) scale(1)",
-      "extraClasses": "swiper-slide-duplicate swiper-slide-visible",
-      "salary":""
-    }
-  ],
-  "featured_logo": [
-    {
-      "src": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/6619089fdcd20828968d3ba7_64c7ced5f2a7d945a128495c_inc-logo%20(1).svg",
-      "alt": "Inc Logo"
-    },
-    {
-      "src": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/6619089f857fc389e7699928_64882f635095aa042674ff3a_entrepreneur-logo%20(1).svg",
-      "alt": "Entrepreneur Logo"
-    },
-    {
-      "src": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/661908a064faf2b29da8c121_64eb9385c49943384198b50a_markets-insider-logo%20(1).svg",
-      "alt": "Markets Insider Logo"
-    },
-    {
-      "src": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/661908a0ab984ca2d0dc4080_64eb93854443d947594d3d66_marketwatch-logo%20(1).svg",
-      "alt": "MarketWatch Logo"
-    },
-    {
-      "src": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/661908a0e0f28c718fdf8299_64eb938557140c36d5bc5572_business-insider-logo%20(1).svg",
-      "alt": "Business Insider Logo",
-      "className": "image-7"
-    },
-    {
-      "src": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/661908a08580ebcd89f61671_64882f6386e34d3ea727d9e9_forbes-logo%20(1).svg",
-      "alt": "Forbes Logo"
-    },
-    {
-      "src": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/661908a06c1b7764f0372573_64c7ced5897054d95beacd78_disrupt-logo%20(1).svg",
-      "alt": "Disrupt Logo"
-    }
-  ],
-  "tech_logo": [
-    {
-      "src": "https://thecloudbootcamp.com/wp-content/uploads/2024/07/kubernetes.svg",
-      "alt": "kubernetes"
-    },
-
-    {
-      "src": "https://thecloudbootcamp.com/wp-content/uploads/2024/07/python.svg",
-      "alt": "python"
-    },
-    {
-      "src": "https://thecloudbootcamp.com/wp-content/uploads/2024/07/terraform.svg",
-      "alt": "terraform"
-    },
-    {
-      "src": "https://thecloudbootcamp.com/wp-content/uploads/2024/07/ansible.svg",
-      "alt": "ansible"
-    },
-    {
-      "src": "https://thecloudbootcamp.com/wp-content/uploads/2024/07/aws.svg",
-      "alt": "aws"
-    },
-
-    {
-      "src": "https://thecloudbootcamp.com/wp-content/uploads/2024/07/docker.svg",
-      "alt": "docker"
-    },
-    {
-      "src": "https://thecloudbootcamp.com/wp-content/uploads/2024/07/git.svg",
-      "alt": "git"
-    },
-    {
-      "src": "https://thecloudbootcamp.com/wp-content/uploads/2024/07/AI.svg",
-      "alt": "AI"
-    }
-  ],
-  "testomanial": [
-    {
-      "rating": 5,
-      "starsImage": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a054908e7e70cf04624f9_659999f9d0b9bf616d4e9332_stars.svg",
-      "text": "I was stuck at $90K, now I make $145K fully remote as a DevOps Engineer",
-      "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQGuj2vHxEekaQ/profile-displayphoto-shrink_200_200/B4EZbHlSk0HkAY-/0/1747105164719?e=1753920000&v=beta&t=1yzWusrTzEisZ8dR3OvGUx-7XC1zXl77IjRQ1QtdtrU",
-      "name": "Stormi H",
-      "position": "DevOps Engineer,  Palm Beach Florida"
-    },
-    {
-      "rating": 5,
-      "starsImage": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a054908e7e70cf04624f9_659999f9d0b9bf616d4e9332_stars.svg",
-      "text": "This flipped my entire career trajectory. I landed not one, but two jobs in just 9 weeks after starting the program.",
-      "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQFgfV55_7E6Pw/profile-displayphoto-shrink_200_200/B4EZPhBrL0GwAg-/0/1734647133273?e=1753920000&v=beta&t=qnkWNVLrpE-foSvDwlzhMdsgHaqHn380e-f2pMlr6Y0",
-      "name": "Gregory East",
-      "position": "Senior Cloud Security Engineer, New York"
-    },
-    {
-      "rating": 5,
-      "starsImage": "https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/662a054908e7e70cf04624f9_659999f9d0b9bf616d4e9332_stars.svg",
-      "text": "The practical projects and guidance gave me everything I needed to move into cloud engineering.",
-      "avatar": "https://media.licdn.com/dms/image/v2/C4E03AQEyfqwNQ7U_9Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1593385925793?e=1753920000&v=beta&t=xkiR7Vo096uSVIKMeU3YiRWwJXotcHYtyI8RQbL76cI",
-      "name": "Isaac Rowaiye",
-      "position": "Infrastructure Engineer, Dallas Texas"
-    }
-  ],
-  "join_section": {
-    "pepole": "3000",
-    "careerCount": "250"
-  },
-
   "about_page": {
     "hero": {
       "main_heading": "ABOUT CloudBootcamp.AI",
@@ -503,103 +524,73 @@
       "items": [
         {
           "img": "./images/thumbnails/issac.png",
-          "videoLink":
-           "https://player.vimeo.com/video/1088479224?h=4279423f42&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-          "title":
-            " Isaac Rowaiye — $500k/Year | 3 Offers | The 1% Percent University",
+          "videoLink": "https://player.vimeo.com/video/1088479224?h=4279423f42&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+          "title": " Isaac Rowaiye — $500k/Year | 3 Offers | The 1% Percent University",
           "name": "",
-          "description":
-            "Today we have Isaac Rowaiye, who received 3 job offers and secured a $500,000/year income after completing his training with The 1% Percent University. Isaac is proof that when you level up your skills and position yourself the right way, you don’t chase opportunities, they chase you."
+          "description": "Today we have Isaac Rowaiye, who received 3 job offers and secured a $500,000/year income after completing his training with The 1% Percent University. Isaac is proof that when you level up your skills and position yourself the right way, you don’t chase opportunities, they chase you."
         },
         {
           "img": "./images/thumbnails/greg.png",
-          "videoLink":
-            "https://player.vimeo.com/video/1088413792?h=d708484680&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-          "title":
-            "Greg East — $500k/Year | 5 Offers | The 1% Percent University",
+          "videoLink": "https://player.vimeo.com/video/1088413792?h=d708484680&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+          "title": "Greg East — $500k/Year | 5 Offers | The 1% Percent University",
           "name": "",
-          "description":
-            "Today we have Greg East, who secured 5 different job offers and is now earning $500,000 a year. After completing his training with The 1% Percent University, Greg turned his skills into leverage, proving that when you commit and take action, life can change fast."
+          "description": "Today we have Greg East, who secured 5 different job offers and is now earning $500,000 a year. After completing his training with The 1% Percent University, Greg turned his skills into leverage, proving that when you commit and take action, life can change fast."
         },
         {
           "img": "./images/thumbnails/ninjoh.png",
-          "videoLink":
-            "https://player.vimeo.com/video/1088453277?h=37add0c1a4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-          "title":
-            "Brandon Njinjoh — $166k/Year | Cybersecurity to Cloud Engineer | The 1% Percent University",
+          "videoLink": "https://player.vimeo.com/video/1088453277?h=37add0c1a4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+          "title": "Brandon Njinjoh — $166k/Year | Cybersecurity to Cloud Engineer | The 1% Percent University",
           "name": "",
-          "description":
-            "Today we have Brandon Njinjoh, who successfully transitioned from cybersecurity to a $166,000/year role as a Cloud Engineer. After putting in the work and completing his training with The 1% Percent University, Brandon turned job uncertainty into career elevation."
+          "description": "Today we have Brandon Njinjoh, who successfully transitioned from cybersecurity to a $166,000/year role as a Cloud Engineer. After putting in the work and completing his training with The 1% Percent University, Brandon turned job uncertainty into career elevation."
         },
         {
           "img": "./images/thumbnails/darnell.png",
-          "videoLink":
-           "https://player.vimeo.com/video/1088453576?h=970ddea665&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-          "title":
-            "Darnell Hungerford — $150k/Year | Broke Into Cloud | The 1% Percent University",
+          "videoLink": "https://player.vimeo.com/video/1088453576?h=970ddea665&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+          "title": "Darnell Hungerford — $150k/Year | Broke Into Cloud | The 1% Percent University",
           "name": "",
-          "description":
-            "Today we have Darnell Hungerford, who broke into cloud engineering and landed a $150,000/year role after completing The 1% Percent University. Darnell's journey shows that with the right training and mindset, even a fresh start can lead to a six-figure career."
+          "description": "Today we have Darnell Hungerford, who broke into cloud engineering and landed a $150,000/year role after completing The 1% Percent University. Darnell's journey shows that with the right training and mindset, even a fresh start can lead to a six-figure career."
         },
         {
           "img": "./images/thumbnails/davis.png",
-          "videoLink":
-            "https://player.vimeo.com/video/1088453576?h=970ddea665&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-          "title":
-            "Davis I. — $100k/Year | Broke Into Tech | The 1% Percent University",
+          "videoLink": "https://player.vimeo.com/video/1088453576?h=970ddea665&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+          "title": "Davis I. — $100k/Year | Broke Into Tech | The 1% Percent University",
           "name": "",
-          "description":
-            "Today we have Davis I., who broke into tech and secured his first $100,000/year role after going through The 1% Percent University. Davis didn’t come from a tech background, but with the right mentorship and focus, he turned ambition into a six-figure opportunity."
+          "description": "Today we have Davis I., who broke into tech and secured his first $100,000/year role after going through The 1% Percent University. Davis didn’t come from a tech background, but with the right mentorship and focus, he turned ambition into a six-figure opportunity."
         },
         {
           "img": "./images/thumbnails/dela.png",
-          "videoLink":
-            "https://player.vimeo.com/video/1088413792?h=d708484680&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-          "title":
-            "Dela Anthonio — $300k/Year | Multiple Contracts | The 1% Percent University",
+          "videoLink": "https://player.vimeo.com/video/1088413792?h=d708484680&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+          "title": "Dela Anthonio — $300k/Year | Multiple Contracts | The 1% Percent University",
           "name": "",
-          "description":
-            "Today we have Dela Anthonio, who’s earning $300,000/year through multiple contracts after completing his training with The 1% Percent University. Dela built a career on his own terms, stacking opportunities and proving that one high-income skill can open many doors."
+          "description": "Today we have Dela Anthonio, who’s earning $300,000/year through multiple contracts after completing his training with The 1% Percent University. Dela built a career on his own terms, stacking opportunities and proving that one high-income skill can open many doors."
         },
         {
           "img": "./images/thumbnails/meko.png",
-          "videoLink":
-            "https://player.vimeo.com/video/1088453029?h=28b1da7edf&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-          "title":
-            "Meko Graves — $130k/Year | Registered Nurse to Cloud Engineer | The 1% Percent University",
+          "videoLink": "https://player.vimeo.com/video/1088453029?h=28b1da7edf&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+          "title": "Meko Graves — $130k/Year | Registered Nurse to Cloud Engineer | The 1% Percent University",
           "name": "",
-          "description":
-            "Today we have Meko Graves, who made the incredible leap from being a Registered Nurse to earning $130,000/year as a Cloud Engineer. After going through The 1% Percent University, Meko proved that it's never too late to pivot careers and step into tech, no matter your background."
+          "description": "Today we have Meko Graves, who made the incredible leap from being a Registered Nurse to earning $130,000/year as a Cloud Engineer. After going through The 1% Percent University, Meko proved that it's never too late to pivot careers and step into tech, no matter your background."
         },
         {
           "img": "./images/thumbnails/stormi.png",
-          "videoLink":
-            "https://player.vimeo.com/video/1088453469?h=fb5239cc29&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-          "title":
-            "Stormi Hein — $110k/Year | DevOps Engineer | The 1% Percent University",
+          "videoLink": "https://player.vimeo.com/video/1088453469?h=fb5239cc29&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+          "title": "Stormi Hein — $110k/Year | DevOps Engineer | The 1% Percent University",
           "name": "",
-          "description":
-            "Today we have Stormi Hein, who landed a $110,000/year DevOps Engineer role after completing his training with The 1% Percent University. His journey is a powerful reminder that when you commit to learning the right skills, life-changing opportunities follow."
+          "description": "Today we have Stormi Hein, who landed a $110,000/year DevOps Engineer role after completing his training with The 1% Percent University. His journey is a powerful reminder that when you commit to learning the right skills, life-changing opportunities follow."
         },
         {
           "img": "./images/thumbnails/jalen.png",
-          "videoLink":
-            "https://player.vimeo.com/video/1088453469?h=fb5239cc29&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-          "title":
-            "Jalen Verrett — $115k/Year | Personal Trainer to Cloud Engineer | The 1% Percent University",
+          "videoLink": "https://player.vimeo.com/video/1088453469?h=fb5239cc29&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+          "title": "Jalen Verrett — $115k/Year | Personal Trainer to Cloud Engineer | The 1% Percent University",
           "name": "",
-          "description":
-            "Today we have Jalen Verrett, who transitioned from being a personal trainer to earning $115,000/year as a Cloud Engineer. Through The 1% Percent University, Jalen took control of his future, showing that discipline in the gym can translate into high-paying results in tech."
+          "description": "Today we have Jalen Verrett, who transitioned from being a personal trainer to earning $115,000/year as a Cloud Engineer. Through The 1% Percent University, Jalen took control of his future, showing that discipline in the gym can translate into high-paying results in tech."
         },
         {
           "img": "./images/thumbnails/pelumi.png",
-          "videoLink":
-            "https://player.vimeo.com/video/1088453371?h=3da70f4d4f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-          "title":
-            "Pelumi Adenikinju — $130k/Year | Software Engineer to Cloud Engineer | The 1% Percent University",
+          "videoLink": "https://player.vimeo.com/video/1088453371?h=3da70f4d4f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+          "title": "Pelumi Adenikinju — $130k/Year | Software Engineer to Cloud Engineer | The 1% Percent University",
           "name": "",
-          "description":
-            "Today we have Pelumi Adenikinju, who transitioned from a Software Engineer to a $130,000/year Cloud Engineer after completing his training with The 1% Percent University. His transformation shows that when you sharpen your skills and shift direction with purpose, you can unlock an entirely new level of income and freedom."
+          "description": "Today we have Pelumi Adenikinju, who transitioned from a Software Engineer to a $130,000/year Cloud Engineer after completing his training with The 1% Percent University. His transformation shows that when you sharpen your skills and shift direction with purpose, you can unlock an entirely new level of income and freedom."
         }
       ]
     },
@@ -610,76 +601,69 @@
         {
           "img": "./images/offer_letters/Njinjoh_s Offer Letter.png",
           "offer": "./images/students/Njinjoh.jpeg",
-          "name":"Njinjoh",
-            "salary":"166,000 /Year"
+          "name": "Njinjoh",
+          "salary": "166,000 /Year"
         },
         {
           "img": "./images/offer_letters/Isaac Offer Letter $240,000 (Visa).png",
           "offer": "./images/students/Isaac.jpeg",
-          "name":"Isaac Rowaiye",
-          "salary":" 416,064 /Year"
+          "name": "Isaac Rowaiye",
+          "salary": " 416,064 /Year"
         },
         {
           "img": "./images/offer_letters/Greg $176,800 Offer Letter.png",
           "offer": "./images/students/Greg.jpeg",
-          "name":"Greg",
-          "salary":"176,800 /Year"
+          "name": "Greg",
+          "salary": "176,800 /Year"
         },
-        
-   
+
         {
           "img": "./images/offer_letters/pelomi_offer_letter.png",
           "offer": "./images/students/Pelumi.jpeg",
-          "name":"Pelumi",
-          "salary":"152,000 /Year"
-        }
-        ,
+          "name": "Pelumi",
+          "salary": "152,000 /Year"
+        },
         {
           "img": "./images/offer_letters/Darnell Offer Letter.png",
           "offer": "./images/students/Darnell.jpeg",
-          "name":"Darnell",
-          "salary":"150,000 /Year"
+          "name": "Darnell",
+          "salary": "150,000 /Year"
         },
         {
           "img": "./images/offer_letters/Dela_s Offer Letter.png",
           "offer": "./images/students/Dela.jpeg",
-          "name":"Dela",
-          "salary":"145,000 /Year"
+          "name": "Dela",
+          "salary": "145,000 /Year"
         },
         {
           "img": "./images/offer_letters/Meko offer letter $130,000.png",
           "offer": "./images/students/Meko.jpeg",
-          "name":"Meko",  
-          "salary":"130,000 /Year"
-        }  
-        ,
+          "name": "Meko",
+          "salary": "130,000 /Year"
+        },
         {
           "img": "./images/offer_letters/Jalen_s Offer Letter ($115,000Yr).png",
           "offer": "./images/students/Jalen.jpeg",
-          "name":"Jalen",
-          "salary":"115,000 /Year"
-        }
-        ,
-        
+          "name": "Jalen",
+          "salary": "115,000 /Year"
+        },
         {
           "img": "./images/offer_letters/Stormi offer letter.png",
           "offer": "./images/students/Stormi.jpeg",
-          "name":"Stormi H.",
-            "salary":"110,000 /Year"
+          "name": "Stormi H.",
+          "salary": "110,000 /Year"
         },
-        
-       
         {
           "img": "./images/offer_letters/Davis Offer Letter.png",
           "offer": "./images/students/Davis.jpeg",
-          "name":"Davis",
-          "salary":"99,200 /Year"
+          "name": "Davis",
+          "salary": "99,200 /Year"
         },
         {
           "img": "./images/offer_letters/Charles OL.png",
           "offer": "./images/students/Charles.jpeg",
-          "name":"Charles",
-          "salary":"77,500 /Year"
+          "name": "Charles",
+          "salary": "77,500 /Year"
         }
       ]
     },
@@ -714,7 +698,7 @@
         "./images/success_post/Lu win1.png",
         "./images/success_post/Lu win2.png",
         "./images/success_post/stormi win1.png",
-        "./images/success_post/stormi win2.png" 
+        "./images/success_post/stormi win2.png"
       ]
     },
     "submit-your-success": {
@@ -727,69 +711,68 @@
       "buttonUrl": "#"
     }
   },
-  "contact_page":{
- 
-      "opportunity": [
-        {
-          "question": "What do you mean by a “$130K+ remote tech career without a degree?”",
-          "answer": "We help everyday people land cloud engineering roles by focusing on real-world skills, not paper certs or degrees. No fluff, just what actually gets you hired."
-        },
-        {
-          "question": "Is this program only for people with tech experience?",
-          "answer": "Not at all. Many of our students started in retail, help desk, or other non-technical roles. If you’re willing to learn and take action, we’ll guide you through everything."
-        },
-        {
-          "question": "Why Cloud Engineering?",
-          "answer": "It’s one of the most in-demand, high-paying, and remote-friendly paths in tech. The barrier to entry is lower than you think when you have the right roadmap."
-        },
-        {
-          "question": "Why hands-on projects instead of certifications?",
-          "answer": "Certs are great, but recruiters care more about what you can do. Our projects prove your skills, build confidence, and make your resume stand out immediately."
-        },
-        {
-          "question": "Isn’t tech super competitive?",
-          "answer": "Yes, if you do what everyone else is doing. Our program gives you an unfair advantage through personalized mentorship, recruiter-attraction systems, and a proven game plan."
-        }
-      ],
-      "about": [
-        {
-          "question": "What exactly is CloudBootcamp.AI?",
-          "answer": "We’re a mentorship-driven platform helping people land cloud engineer roles in 8 weeks. No degree, no fluff, just a step-by-step path with coaching and support."
-        },
-        {
-          "question": "What makes your program different?",
-          "answer": "We don’t just teach, we get you ready to work. You’ll graduate with a portfolio of real-world projects, job-ready experience, and a clear system to attract recruiters."
-        },
-        {
-          "question": "Do I get 1-on-1 support?",
-          "answer": "Yes. You’ll be guided by expert mentors, attend weekly coaching calls, and get personalized help through our client success system and private community."
-        },
-        {
-          "question": "What do students do after the 8 weeks?",
-          "answer": "They launch their careers. Most start interviewing in Week 6 to 8 and land their first $100K+ roles shortly after. Some even have multiple roles."
-        }
-      ],
-      "faqArray": [
-        {
-          "question": "How can a tech career give me more freedom in life?",
-          "answer": "A high-paying cloud engineering role puts you in control, working remotely, earning what you're truly worth, more time freedom, and designing a life on your terms. No degree needed. No years of climbing the corporate ladder."
-        },
-        {
-          "question": "Is this really something anyone can do?",
-          "answer": "Yes, if you’re willing to put in the work. Many of our students started with zero tech background. Our mentorship and step-by-step roadmap bridge the gap between where you are and where you want to be."
-        },
-        {
-          "question": "Why Cloud Engineering specifically?",
-          "answer": "It’s one of the fastest growing, highest paying paths in tech. Demand is high, remote work is standard, and the skillset is transferable across industries."
-        },
-        {
-          "question": "Why focus on hands-on learning?",
-          "answer": "Because it works. Real projects prove to employers you can do the job. That’s what leads to interviews and offers, not just certifications or theory."
-        },
-        {
-          "question": "Isn’t the tech industry too crowded?",
-          "answer": "Only if you follow the crowd. Most people are stuck chasing certs with no direction. We give you a proven system, personal mentorship, and the tools to stand out fast."
-        }
-      ]
+  "contact_page": {
+    "opportunity": [
+      {
+        "question": "What do you mean by a “$130K+ remote tech career without a degree?”",
+        "answer": "We help everyday people land cloud engineering roles by focusing on real-world skills, not paper certs or degrees. No fluff, just what actually gets you hired."
+      },
+      {
+        "question": "Is this program only for people with tech experience?",
+        "answer": "Not at all. Many of our students started in retail, help desk, or other non-technical roles. If you’re willing to learn and take action, we’ll guide you through everything."
+      },
+      {
+        "question": "Why Cloud Engineering?",
+        "answer": "It’s one of the most in-demand, high-paying, and remote-friendly paths in tech. The barrier to entry is lower than you think when you have the right roadmap."
+      },
+      {
+        "question": "Why hands-on projects instead of certifications?",
+        "answer": "Certs are great, but recruiters care more about what you can do. Our projects prove your skills, build confidence, and make your resume stand out immediately."
+      },
+      {
+        "question": "Isn’t tech super competitive?",
+        "answer": "Yes, if you do what everyone else is doing. Our program gives you an unfair advantage through personalized mentorship, recruiter-attraction systems, and a proven game plan."
+      }
+    ],
+    "about": [
+      {
+        "question": "What exactly is CloudBootcamp.AI?",
+        "answer": "We’re a mentorship-driven platform helping people land cloud engineer roles in 8 weeks. No degree, no fluff, just a step-by-step path with coaching and support."
+      },
+      {
+        "question": "What makes your program different?",
+        "answer": "We don’t just teach, we get you ready to work. You’ll graduate with a portfolio of real-world projects, job-ready experience, and a clear system to attract recruiters."
+      },
+      {
+        "question": "Do I get 1-on-1 support?",
+        "answer": "Yes. You’ll be guided by expert mentors, attend weekly coaching calls, and get personalized help through our client success system and private community."
+      },
+      {
+        "question": "What do students do after the 8 weeks?",
+        "answer": "They launch their careers. Most start interviewing in Week 6 to 8 and land their first $100K+ roles shortly after. Some even have multiple roles."
+      }
+    ],
+    "faqArray": [
+      {
+        "question": "How can a tech career give me more freedom in life?",
+        "answer": "A high-paying cloud engineering role puts you in control, working remotely, earning what you're truly worth, more time freedom, and designing a life on your terms. No degree needed. No years of climbing the corporate ladder."
+      },
+      {
+        "question": "Is this really something anyone can do?",
+        "answer": "Yes, if you’re willing to put in the work. Many of our students started with zero tech background. Our mentorship and step-by-step roadmap bridge the gap between where you are and where you want to be."
+      },
+      {
+        "question": "Why Cloud Engineering specifically?",
+        "answer": "It’s one of the fastest growing, highest paying paths in tech. Demand is high, remote work is standard, and the skillset is transferable across industries."
+      },
+      {
+        "question": "Why focus on hands-on learning?",
+        "answer": "Because it works. Real projects prove to employers you can do the job. That’s what leads to interviews and offers, not just certifications or theory."
+      },
+      {
+        "question": "Isn’t the tech industry too crowded?",
+        "answer": "Only if you follow the crowd. Most people are stuck chasing certs with no direction. We give you a proven system, personal mentorship, and the tools to stand out fast."
+      }
+    ]
   }
 }

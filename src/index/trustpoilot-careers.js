@@ -9,7 +9,7 @@ class TrustPilotCareer extends HTMLElement {
           if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
           const data = await response.json();
   
-          this.data = data.join_section
+          this.data = data.index.join_section
           this.render();
         } catch (error) {
           console.error('Failed to load students data:', error);

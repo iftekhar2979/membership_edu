@@ -9,8 +9,8 @@ class TestimonialGrid extends HTMLElement {
         const response = await fetch('./data/index/cards.json');  // your JSON URL here
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         const data = await response.json();
-        this.testimonials = data.testomanial
-        console.log(data.testomanial)
+        this.testimonials = data.index.testomanial
+        // console.log(data.testomanial)
         this.render();
       } catch (error) {
         console.error('Failed to load students data:', error);

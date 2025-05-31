@@ -253,7 +253,7 @@ a.custom-video-btn.custom-button-bg__gradient {
 .logo-contaner {
   display: flex;
   gap: 2rem;
-  animation: scroll-logos 30s linear infinite;
+  animation: scroll 30s linear infinite;
   white-space: nowrap;
   will-change: transform;
 }
@@ -987,4 +987,13 @@ a.custom-video-btn.custom-button-bg__gradient {
 }
 .video-reviews-col:hover .play-btn-img {
   transform: translate(-50%, -50%) scale(1.1);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 13));
+  }
 }

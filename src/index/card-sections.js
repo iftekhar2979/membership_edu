@@ -12,7 +12,7 @@
           const response = await fetch("./data/index/cards.json");
           if (!response.ok) throw new Error("Failed to fetch data");
           const data = await response.json();
-          this.render(data.cards);
+          this.render(data.index.cards);
         } catch (err) {
           this.innerHTML = `<p>Error loading data: ${err.message}</p>`;
         }
