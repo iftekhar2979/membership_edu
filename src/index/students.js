@@ -100,6 +100,14 @@ class="swiper-slide__card"
     position: relative;
     z-index: 2;
   ">${slide.subtitle}</p>
+  <p style="
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 0 0 15px 0;
+    letter-spacing: 0.05em;
+    position: relative;
+    z-index: 2;
+  ">Salary : ${slide.salary}</p>
 
   <!-- Subtitle -->
   <p style="

@@ -56,17 +56,60 @@
   },
   "students": [
     {
-      "img": "./images/students/Charles.jpeg",
-      "alt": "01",
-      "title": "Charles Cunningham Jr",
-      "subtitle": "",
-      "filter": "blur(6px)",
-      "linkedIn": "https://www.linkedin.com/in/charles-cunningham-jr-a4187988/",
-      "ariaLabel": "7 / 7",
-      "dataIndex": 0,
-      "zIndex": -2,
-      "transform": "translate3d(0px, 0px, -600.083px) rotateX(0deg) rotateY(0deg) scale(1)",
-      "extraClasses": "swiper-slide-duplicate swiper-slide-visible"
+      "img": "./images/students/Isaac.jpeg",
+      "alt": "05",
+      "title": "Isaac Rowaiye",
+      "subtitle": "Infrastructure Engineer ",
+      "filter": "blur(0px)",
+      "ariaLabel": "3 / 7",
+      "linkedIn": "https://www.linkedin.com/in/isaac-rowaiye-4b785b1a2/",
+      "dataIndex": 5,
+      "zIndex": 1,
+      "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
+      "extraClasses": "swiper-slide-visible swiper-slide-active",
+      "salary":"$ 416,064/Year"
+    },
+    {
+      "img": "./images/students/Greg.jpeg",
+      "alt": "05",
+      "title": "Gregory East",
+      "subtitle": "Senior Cloud Security Engineer",
+      "filter": "blur(0px)",
+      "linkedIn": "https://www.linkedin.com/in/gregoryaeast/",
+      "ariaLabel": "3 / 7",
+      "dataIndex": 4,
+      "zIndex": 1,
+      "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
+      "extraClasses": "swiper-slide-visible swiper-slide-active",
+      "salary":"$ 176,800/Year"
+    },
+    {
+      "img": "./images/students/Njinjoh.jpeg",
+      "alt": "05",
+      "title": "Brandon Njinjoh",
+      "subtitle": "DevOps/AWS Cloud Engineer",
+      "filter": "blur(0px)",
+      "linkedIn": "https://www.linkedin.com/in/brandon-njinjoh/",
+      "ariaLabel": "3 / 7",
+      "dataIndex": 4,
+      "zIndex": 1,
+      "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
+      "extraClasses": "swiper-slide-visible swiper-slide-active",
+      "salary":"$ 166,000/Year"
+    },
+    {
+      "img": "./images/students/Pelumi.jpeg",
+      "alt": "05",
+      "title": "Pelumi Adenikinju",
+      "subtitle": "AWS Cloud Engineer",
+      "linkedIn": "https://www.linkedin.com/in/pelumiade/",
+      "filter": "blur(0px)",
+      "ariaLabel": "3 / 7",
+      "dataIndex": 8,
+      "zIndex": 1,
+      "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
+      "extraClasses": "swiper-slide-visible swiper-slide-active",
+       "salary":"$ 152,000/Year"
     },
 
     {
@@ -80,7 +123,8 @@
       "linkedIn": "https://www.linkedin.com/in/darnell-hungerford-0a1226188/",
       "zIndex": -1,
       "transform": "translate3d(0px, 0px, -400px) rotateX(0deg) rotateY(0deg) scale(1)",
-      "extraClasses": "swiper-slide-visible"
+      "extraClasses": "swiper-slide-visible",
+       "salary":"$ 150,000/Year"
     },
 
     {
@@ -94,59 +138,8 @@
       "dataIndex": 2,
       "zIndex": 1,
       "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
-      "extraClasses": "swiper-slide-visible swiper-slide-active"
-    },
-    {
-      "img": "./images/students/Davis.jpeg",
-      "alt": "05",
-      "title": "Davis I.",
-      "subtitle": "Cloud Engineer",
-      "linkedIn": "https://www.linkedin.com/in/davisi/",
-      "filter": "blur(0px)",
-      "ariaLabel": "3 / 7",
-      "dataIndex": 3,
-      "zIndex": 1,
-      "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
-      "extraClasses": "swiper-slide-visible swiper-slide-active"
-    },
-    {
-      "img": "./images/students/Greg.jpeg",
-      "alt": "05",
-      "title": "Gregory East",
-      "subtitle": "Senior Cloud Security Engineer",
-      "filter": "blur(0px)",
-      "linkedIn": "https://www.linkedin.com/in/gregoryaeast/",
-      "ariaLabel": "3 / 7",
-      "dataIndex": 4,
-      "zIndex": 1,
-      "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
-      "extraClasses": "swiper-slide-visible swiper-slide-active"
-    },
-    {
-      "img": "./images/students/Isaac.jpeg",
-      "alt": "05",
-      "title": "Isaac Rowaiye",
-      "subtitle": "Infrastructure Engineer ",
-      "filter": "blur(0px)",
-      "ariaLabel": "3 / 7",
-      "linkedIn": "https://www.linkedin.com/in/isaac-rowaiye-4b785b1a2/",
-      "dataIndex": 5,
-      "zIndex": 1,
-      "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
-      "extraClasses": "swiper-slide-visible swiper-slide-active"
-    },
-    {
-      "img": "./images/students/Jalen.jpeg",
-      "alt": "05",
-      "title": "Jalen Verrett",
-      "subtitle": "DevSecOps Engineer",
-      "filter": "blur(0px)",
-      "linkedIn": "https://www.linkedin.com/in/jalen-verrett-0a069b190/",
-      "ariaLabel": "3 / 7",
-      "dataIndex": 6,
-      "zIndex": 1,
-      "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
-      "extraClasses": "swiper-slide-visible swiper-slide-active"
+      "extraClasses": "swiper-slide-visible swiper-slide-active" ,
+        "salary":"$ 145,000/Year"
     },
     {
       "img": "./images/students/Meko.jpeg",
@@ -159,20 +152,22 @@
       "dataIndex": 7,
       "zIndex": 1,
       "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
-      "extraClasses": "swiper-slide-visible swiper-slide-active"
+      "extraClasses": "swiper-slide-visible swiper-slide-active",
+         "salary":"$ 150,000/Year"
     },
     {
-      "img": "./images/students/Pelumi.jpeg",
+      "img": "./images/students/Jalen.jpeg",
       "alt": "05",
-      "title": "Pelumi Adenikinju",
-      "subtitle": "AWS Cloud Engineer",
-      "linkedIn": "https://www.linkedin.com/in/pelumiade/",
+      "title": "Jalen Verrett",
+      "subtitle": "DevSecOps Engineer",
       "filter": "blur(0px)",
+      "linkedIn": "https://www.linkedin.com/in/jalen-verrett-0a069b190/",
       "ariaLabel": "3 / 7",
-      "dataIndex": 8,
+      "dataIndex": 6,
       "zIndex": 1,
       "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
-      "extraClasses": "swiper-slide-visible swiper-slide-active"
+      "extraClasses": "swiper-slide-visible swiper-slide-active",
+      "salary":"$ 115,000 /Year"
     },
     {
       "img": "./images/students/Stormi.jpeg",
@@ -185,7 +180,36 @@
       "dataIndex": 9,
       "zIndex": 1,
       "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
-      "extraClasses": "swiper-slide-visible swiper-slide-active"
+      "extraClasses": "swiper-slide-visible swiper-slide-active",
+      "salary":"$ 110,000 /Year"
+    },
+    {
+      "img": "./images/students/Davis.jpeg",
+      "alt": "05",
+      "title": "Davis I.",
+      "subtitle": "Cloud Engineer",
+      "linkedIn": "https://www.linkedin.com/in/davisi/",
+      "filter": "blur(0px)",
+      "ariaLabel": "3 / 7",
+      "dataIndex": 3,
+      "zIndex": 1,
+      "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
+      "extraClasses": "swiper-slide-visible swiper-slide-active",
+        "salary":"$ 99,200/Year"
+    },
+    {
+      "img": "./images/students/Charles.jpeg",
+      "alt": "01",
+      "title": "Charles Cunningham Jr",
+      "subtitle": "",
+      "filter": "blur(6px)",
+      "linkedIn": "https://www.linkedin.com/in/charles-cunningham-jr-a4187988/",
+      "ariaLabel": "7 / 7",
+      "dataIndex": 0,
+      "zIndex": -2,
+      "transform": "translate3d(0px, 0px, -600.083px) rotateX(0deg) rotateY(0deg) scale(1)",
+      "extraClasses": "swiper-slide-duplicate swiper-slide-visible",
+      "salary":""
     }
   ],
   "featured_logo": [
@@ -584,68 +608,78 @@
       "paragraph": "No hype, just receipts. These offer letters show the real-life transformations of students who broke into tech and secured high-paying roles.",
       "items": [
         {
-          "img": "./images/offer_letters/Charles OL.png",
-          "offer": "./images/students/Charles.jpeg",
-          "name":"Charles",
-          "salary":"77,500.00 / Year"
+          "img": "./images/offer_letters/Njinjoh_s Offer Letter.png",
+          "offer": "./images/students/Njinjoh.jpeg",
+          "name":"Njinjoh",
+            "salary":"166,000 /Year"
         },
         {
-          "img": "./images/offer_letters/Darnell Offer Letter.png",
-          "offer": "./images/students/Darnell.jpeg",
-          "name":"Darnell",
-          "salary":"15,000.00 / Year"
-        },
-        {
-          "img": "./images/offer_letters/Davis Offer Letter.png",
-          "offer": "./images/students/Davis.jpeg",
-          "name":"Davis",
-          "salary":"99,200.00 / Year"
-        },
-        {
-          "img": "./images/offer_letters/Dela_s Offer Letter.png",
-          "offer": "./images/students/Dela.jpeg",
-          "name":"Dela",
-          "salary":"70.00 / Hour"
+          "img": "./images/offer_letters/Isaac Offer Letter $240,000 (Visa).png",
+          "offer": "./images/students/Isaac.jpeg",
+          "name":"Isaac Rowaiye",
+          "salary":" 416,064 /Year"
         },
         {
           "img": "./images/offer_letters/Greg $176,800 Offer Letter.png",
           "offer": "./images/students/Greg.jpeg",
           "name":"Greg",
-          "salary":"85.00 / Year"
+          "salary":"176,800 /Year"
+        },
+        
+   
+        {
+          "img": "./images/offer_letters/pelomi_offer_letter.png",
+          "offer": "./images/students/Pelumi.jpeg",
+          "name":"Pelumi",
+          "salary":"152,000 /Year"
+        }
+        ,
+        {
+          "img": "./images/offer_letters/Darnell Offer Letter.png",
+          "offer": "./images/students/Darnell.jpeg",
+          "name":"Darnell",
+          "salary":"150,000 /Year"
         },
         {
-          "img": "./images/offer_letters/Jalen_s Offer Letter ($115,000Yr).png",
-          "offer": "./images/students/Jalen.jpeg",
-          "name":"Jalen",
-          "salary":"115,000.00 / Year"
-        }
-        ,
-        {
-          "img": "./images/offer_letters/Lu $152K offer letter.PNG",
-          "offer": "./images/students/",
-          "name":"",
-          "salary":"152,000.00 / Year"
-        }
-        ,
+          "img": "./images/offer_letters/Dela_s Offer Letter.png",
+          "offer": "./images/students/Dela.jpeg",
+          "name":"Dela",
+          "salary":"145,000 /Year"
+        },
         {
           "img": "./images/offer_letters/Meko offer letter $130,000.png",
           "offer": "./images/students/Meko.jpeg",
           "name":"Meko",  
-          "salary":"62.00 / Hour"
-        }
+          "salary":"130,000 /Year"
+        }  
         ,
         {
-          "img": "./images/offer_letters/Njinjoh_s Offer Letter.png",
-          "offer": "./images/students/Pelumi.jpeg",
-          "name":"Pelumi",
-            "salary":"80.00 / Hour"
+          "img": "./images/offer_letters/Jalen_s Offer Letter ($115,000Yr).png",
+          "offer": "./images/students/Jalen.jpeg",
+          "name":"Jalen",
+          "salary":"115,000 /Year"
         }
         ,
+        
         {
           "img": "./images/offer_letters/Stormi offer letter.png",
           "offer": "./images/students/Stormi.jpeg",
           "name":"Stormi H.",
-            "salary":"110,000.00 / Year"
+            "salary":"110,000 /Year"
+        },
+        
+       
+        {
+          "img": "./images/offer_letters/Davis Offer Letter.png",
+          "offer": "./images/students/Davis.jpeg",
+          "name":"Davis",
+          "salary":"99,200 /Year"
+        },
+        {
+          "img": "./images/offer_letters/Charles OL.png",
+          "offer": "./images/students/Charles.jpeg",
+          "name":"Charles",
+          "salary":"77,500 /Year"
         }
       ]
     },

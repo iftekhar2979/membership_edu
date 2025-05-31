@@ -241,13 +241,13 @@ class SuccessContent {
           ${rowImages
             .map(
               (imgUrl) => `
-            <div class="column-31 w-col w-col-6">
+            <div class="column-31 w-col w-col-6 offer-card">
               <img
                 src="${imgUrl}"
                 loading="lazy"
                 sizes="100vw"
                 alt=""
-                class="image-22"
+                class="image-22 offer-student-card__offer-image"
               />
             </div>
           `
@@ -262,6 +262,57 @@ class SuccessContent {
       <div class="w-layout-blockcontainer container-37 w-container">
         <h3 class="heading-78">${data.heading}</h3>
         <p class="paragraph-17">${data.paragraph}</p>
+       <p style="
+  padding: 12px 24px;
+  margin: 3%;
+  font-size: 1rem;
+  color: rgb(250 249 251);
+  cursor: pointer;
+  text-align: center;
+  text-shadow:
+    0 0 5px #5e2b9f,
+    0 0 10px #5e2b9f,
+    0 0 20px #5e2b9f,
+    0 0 40px #5e2b9f;
+  box-shadow:
+    0 0 5px #5e2b9f,
+    0 0 10px #5e2b9f,
+    0 0 20px #5e2b9f,
+    0 0 40px #5e2b9f;
+  animation: neonGlow 3s ease-in-out infinite alternate;
+">
+
+  Click on Screenshots
+</p>
+
+<style>
+@keyframes neonGlow {
+  0% {
+    text-shadow:
+      0 0 5px #5e2b9f,
+      0 0 10px #5e2b9f,
+      0 0 20px #5e2b9f,
+      0 0 40px #5e2b9f;
+    box-shadow:
+      0 0 5px #5e2b9f,
+      0 0 10px #5e2b9f,
+      0 0 20px #5e2b9f,
+      0 0 40px #5e2b9f;
+  }
+  100% {
+    text-shadow:
+      0 0 10px #7a53c6,
+      0 0 20px #7a53c6,
+      0 0 30px #7a53c6,
+      0 0 60px #7a53c6;
+    box-shadow:
+      0 0 10px #7a53c6,
+      0 0 20px #7a53c6,
+      0 0 30px #7a53c6,
+      0 0 60px #7a53c6;
+  }
+}
+</style>
         ${rowsHTML}
       </div>
     `;
@@ -323,211 +374,6 @@ window.onload = () => {
 };
 
 
-// function successInterviewRender(){
-//   document.addEventListener("DOMContentLoaded", () => {
-    
-//     const successContainer = document.getElementById("tab-students-interview");
-//     if (!successContainer) return;
-  
-//     // Assuming tabsData.students-interview.items is an array of interview objects
-//     const interviewsInfo = tabsData["students-interview"];
-//     const interviews = tabsData["students-interview"].items;
-//     if (!interviews || !Array.isArray(interviews)) return;
-  
-//     // Add the banner to the container
-//     let banner = `<div class="w-layout-blockcontainer container-35 w-container">
-//           <h3 class="heading-78">${interviewsInfo.heading}</h3>
-//           <p class="paragraph-17">
-//           ${interviewsInfo.paragraph}
-//           </p>
-//         </div>`;
-//     successContainer.innerHTML += banner;
-//     // Generate all HTML and append it
-//     interviews.forEach((item) => {
-//       successContainer.innerHTML += successInterviews(item);
-//     });
-//   });
-  
-
-//   function successInterviews(item) {
-//   return `<div class="columns-14 w-row">
-//     <div class="column-30 w-col w-col-6">
-//       <img
-//         class="image-21 testimonial-video-thumbnail"
-//         data-video-embed-link="${item.videoLink}"
-//         src="${item.img}"
-//         alt=""
-//         sizes="(max-width: 479px) 89vw, (max-width: 767px) 42vw, (max-width: 991px) 44vw, 45vw"
-//         loading="lazy"
-//       />
-       
-//     </div>
-//     <div class="w-col w-col-6">
-//       <h4 class="heading-74">${item.title}<br />
-//       </h4>
-//       <p class="paragraph-19">
-//         <span class="text-span-4">${item.name}</span>
-//       </p>
-//       <p class="paragraph-19">
-//         ${item.description}
-//       </p>
-//     </div>
-//   </div>`;
-// }
-
-// }
-// function offerLetter (){
-//   document.addEventListener("DOMContentLoaded", () => {
-//     const successContainer = document.getElementById("tab-video-reviews");
-//     if (!successContainer) return;
-  
-//     const interviewsInfo = tabsData["video-reviews"];
-//     const interviews = interviewsInfo.items;
-//     if (!interviews || !Array.isArray(interviews)) return;
-  
-//     // Helper function to chunk array into groups of n
-//     function chunkArray(arr, size) {
-//       const chunks = [];
-//       for (let i = 0; i < arr.length; i += size) {
-//         chunks.push(arr.slice(i, i + size));
-//       }
-//       return chunks;
-//     }
-  
-//     // Split interviews into groups of 3
-//     const chunks = chunkArray(interviews, 3);
-  
-//     // Generate rows HTML
-//     const rowsHTML = chunks.map(chunk => {
-//       const cardsHTML = chunk.map(item => offerLetterItems(item)).join("");
-//       return `<div class="columns-59 w-row">${cardsHTML}</div>`;
-//     }).join("");
-  
-//     // Compose full HTML with banner + rows
-//     const fullHTML = `
-//       <div class="w-layout-blockcontainer container-36 w-container">
-//         <h3 class="heading-78">${interviewsInfo.heading}</h3>
-//         <p class="paragraph-17">${interviewsInfo.paragraph}</p>
-//         ${rowsHTML}
-//       </div>
-//     `;
-  
-//     successContainer.innerHTML = fullHTML;
-//   });
-// }
-// successInterviewRender()
-// offerLetter()
-
-
-// function successInterviews(item) {
-//   return `<div class="columns-14 w-row">
-//     <div class="column-30 w-col w-col-6">
-//       <img
-//         class="image-21 testimonial-video-thumbnail"
-//         data-video-embed-link="${item.videoLink}"
-//         src="${item.img}"
-//         alt=""
-//         sizes="(max-width: 479px) 89vw, (max-width: 767px) 42vw, (max-width: 991px) 44vw, 45vw"
-//         loading="lazy"
-//       />
-//     </div>
-//     <div class="w-col w-col-6">
-//       <h4 class="heading-74">${item.title}<br />
-//       </h4>
-//       <p class="paragraph-19">
-//         <span class="text-span-4">${item.name}</span>
-//       </p>
-//       <p class="paragraph-19">
-//         ${item.description}
-//       </p>
-//     </div>
-//   </div>`;
-// }
-
-// function offerLetterItems(item) {
-//   return `
-//     <div
-//       data-video-embed-link="${item.videoLink}"
-//       class="video-reviews-col testimonial-video-thumbnail w-col w-col-4"
-   
-//     >
-//       <img
-//         src="${item.img}"
-//         loading="lazy"
-//         alt=""
-//         class="image-74 video-review-thumbnail"
-//       />
-//       <img
-//         src="https://cdn.prod.website-files.com/65fc810e091c7ea4dc2da4c1/664df05128d2da83240c1b10_play-arrow.svg"
-//         loading="lazy"
-//         alt="Play button"
-//         class="image-80 play-btn-img"
-//       />
-//     </div>
-//   `;
-// }
-
-// document.addEventListener("DOMContentLoaded", () => {
-//   const container = document.getElementById("tab-success-posts");
-//   if (!container) return;
-
-//   const successPostsData = tabsData["success-posts"]
-//   container.innerHTML = generateSuccessPostsSection(successPostsData);
-// });
-
-// function generateSuccessPostsSection(data) {
-//   function chunkArray(arr, size = 2) {
-//     const chunks = [];
-//     for (let i = 0; i < arr.length; i += size) {
-//       chunks.push(arr.slice(i, i + size));
-//     }
-//     return chunks;
-//   }
-
-//   const imageRows = chunkArray(data.images, 2);
-
-//   const rowsHTML = imageRows
-//     .map(
-//       (rowImages) => `
-//       <div class="columns-15 w-row">
-//         ${rowImages
-//           .map(
-//             (imgUrl) => `
-//           <div class="column-31 w-col w-col-6">
-//             <img
-//               src="${imgUrl}"
-//               loading="lazy"
-//               sizes="100vw"
-//               alt=""
-//               class="image-22"
-//             />
-//           </div>
-//         `
-//           )
-//           .join("")}
-//       </div>
-//     `
-//     )
-//     .join("");
-
-//   return `
-//     <div class="w-layout-blockcontainer container-37 w-container">
-//       <h3 class="heading-78">${data.heading}</h3>
-//       <p class="paragraph-17">${data.paragraph}</p>
-//       ${rowsHTML}
-//     </div>
-//   `;
-// }
-
-
-// document.addEventListener("DOMContentLoaded", () => {
-//   const container = document.getElementById("tab-submit-your-success");
-//   if (!container) return;
-//   const submitSuccessData = tabsData["submit-your-success"]
-
-//   container.innerHTML = generateSubmitSuccessSection(submitSuccessData);
-// });
-
 function generateSubmitSuccessSection(data) {
   const paragraphsHTML = data.paragraphs
     .map((p) => `<p class="paragraph-24">${p}</p>`)
@@ -547,6 +393,51 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!container) return;
   
     const offerImg = container.querySelector('.offer-student-card__offer-image img');
+    if (!offerImg) return;
+  
+    let modal = document.getElementById('imageModal');
+    let modalImg = document.getElementById('modalImage');
+  
+    if (!modal) {
+      modal = document.createElement('div');
+      modal.id = 'imageModal';
+      modal.style.cssText = `
+        display: block; position: fixed; z-index: 9999; padding-top: 8%;
+        left: 0; top: 0; width: 100vw; height: 100vh; overflow: auto;
+        background-color: rgba(0, 0, 0, 0.8);
+      `;
+      modal.innerHTML = `
+        <span id="modalClose" style="
+          position: absolute; top: 20px; right: 30px; color: white;
+          font-size: 36px; font-weight: bold; cursor: pointer;
+        ">&times;</span>
+        <img id="modalImage" style="
+          margin: auto; display: block; max-width: 90vw; max-height: 80vh;
+          border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.8);
+        " alt="Offer Letter Full View" />
+      `;
+      document.body.appendChild(modal);
+  
+      document.getElementById('modalClose').onclick = () => modal.style.display = 'none';
+      modal.onclick = e => {
+        if (e.target === modal) modal.style.display = 'none';
+      };
+  
+      modalImg = document.getElementById('modalImage'); // get after creation
+    } else {
+      modal.style.display = 'block';
+    }
+  
+    // Set the modal image src and alt every time modal opens
+    modalImg.src = offerImg.src;
+    modalImg.alt = offerImg.alt;
+  });
+  document.body.addEventListener('click', event => {
+    const container = event.target.closest('.offer-card');
+    console.log('container',container)
+    if (!container) return;
+  
+    const offerImg = container.querySelector('.image-22');
     if (!offerImg) return;
   
     let modal = document.getElementById('imageModal');
