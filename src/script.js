@@ -164,11 +164,8 @@ function initFlipCounter(targetValue) {
           } else {
             $tick.value += valueInterval;
           }
-          // Update aria-label for accessibility
           $tick.root.setAttribute("data-value", $tick.value);
 
-          // DEBUG: print current value
-          // console.log("Tick updated to:", $tick.value);
         }, timeInterval);
       }
     });

@@ -373,6 +373,38 @@ document.addEventListener("DOMContentLoaded", () => {
   // Start the reverse rotation animation loop
   animateRotation();
 
+  const heading = document.getElementById('first-heading');
+  console.log(heading)
+  window.addEventListener('mousemove', (e) => {
+    const xPercent = e.clientX / window.innerWidth;
+    const yPercent = e.clientY / window.innerHeight;
+  
+    const maxTranslate = 20;
+    const translateX = (xPercent - 0.5) * maxTranslate;
+    const translateY = (yPercent - 0.5) * maxTranslate;
+  
+    heading.style.transform = `translate(${translateX}px, ${translateY}px)`;
+  });
+  
+  window.addEventListener('scroll', () => {
+    // Calculate scroll progress (0 at top, 1 at bottom)
+    const scrollTop = window.scrollY;
+    const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+    const scrollPercent = docHeight > 0 ? scrollTop / docHeight : 0;
+  
+    // Map scrollPercent to a color gradient, e.g. from purple to pink
+    // You can customize colors here:
+    const startColor = { r: 94, g: 43, b: 159 };   // #5e2b9f purple
+    const endColor = { r: 255, g: 105, b: 180 };   // hotpink-ish #ff69b4
+  
+    // Interpolate colors linearly
+    const r = Math.round(startColor.r + (endColor.r - startColor.r) * scrollPercent);
+    const g = Math.round(startColor.g + (endColor.g - startColor.g) * scrollPercent);
+    const b = Math.round(startColor.b + (endColor.b - startColor.b) * scrollPercent);
+  
+    heading.style.color = `rgb(${r}, ${g}, ${b})`;
+  });
+  
   const timeline = new Timeline();
   timeline.render();
 

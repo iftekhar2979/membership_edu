@@ -76,12 +76,13 @@ class="swiper-slide__card"
   <div style="
     width: 50px; 
     height: 30px; 
-    background: linear-gradient(90deg, #7d3abf 0%, #d44784 100%);
     border-radius: 12px;
     margin-bottom: 30px;
     position: relative;
     z-index: 2;
-  "></div>
+  ">
+  <img src="/images/small.png" alt="Logo"/>
+  </div>
 
   <!-- Name -->
   <h1 style="

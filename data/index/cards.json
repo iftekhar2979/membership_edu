@@ -155,7 +155,7 @@
         "zIndex": 1,
         "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
         "extraClasses": "swiper-slide-visible swiper-slide-active",
-        "salary": "$ 150,000/Year"
+        "salary": "$ 130,000/Year"
       },
       {
         "img": "./images/students/Jalen.jpeg",
@@ -199,21 +199,22 @@
         "extraClasses": "swiper-slide-visible swiper-slide-active",
         "salary": "$ 99,200/Year"
       },
-      
       {
         "img": "./images/students/Charles.jpeg",
-        "alt": "01",
-        "title": "Charles Cunningham Jr",
-        "subtitle": "",
-        "filter": "blur(6px)",
+        "alt": "Charles Cunningham Jr.",
+        "title": "Charles Cunningham Jr.",
+        "subtitle": "Project Engineer",
         "linkedIn": "https://www.linkedin.com/in/charles-cunningham-jr-a4187988/",
-        "ariaLabel": "7 / 7",
-        "dataIndex": 0,
-        "zIndex": -2,
-        "transform": "translate3d(0px, 0px, -600.083px) rotateX(0deg) rotateY(0deg) scale(1)",
-        "extraClasses": "swiper-slide-duplicate swiper-slide-visible",
-        "salary": ""
+        "filter": "blur(0px)",
+        "ariaLabel": "3 / 7",
+        "dataIndex": 3,
+        "zIndex": 1,
+        "transform": "translate3d(0px, 0px, -0.166667px) rotateX(0deg) rotateY(0deg) scale(1)",
+        "extraClasses": "swiper-slide-visible swiper-slide-active",
+        "salary": "$ 77,500/Year"
       }
+      
+   
     ],
     "featured_logo": [
       {
@@ -607,7 +608,7 @@
           "salary": "166,000 /Year"
         },
         {
-          "img": "./images/offer_letters/Isaac Offer Letter $240,000 (Visa).png",
+          "img": "./images/offer_letters/Isaac Offer Letter $200-hr OpenAI.png",
           "student_profile": "./images/students/Isaac.jpeg",
           "name": "Isaac Rowaiye",
           "salary": " 416,064 /Year"
