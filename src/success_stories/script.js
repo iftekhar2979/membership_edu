@@ -334,18 +334,49 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 window.onload = () => {
+  
+
   document.querySelectorAll(".section-14 a.butt.w-button").forEach((item) => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const section = urlParams.get('section');  // Get 'section' query param
+    console.log('Section query:', section);
+    
+    // Click event for button
     item.addEventListener("click", () => {
       let secId = "#" + item.id.replace("-btn", "");
+      
+      // Update button state (highlight clicked button)
       document
         .querySelector(".section-14 a.btn.butt.w-button")
         .classList.remove("btn");
       item.classList.add("btn");
+      
+      // Hide all sections and show the clicked one
       document
         .querySelector("section.d-sec-block")
         .classList.remove("d-sec-block");
       document.querySelector(secId).classList.add("d-sec-block");
+      
+      // Update URL to reflect the clicked section (optional)
+      history.pushState(null, "", `?section=${section}`);
     });
+  
+    // Automatically show the section based on the URL query parameter
+    if (section && item.id.includes(section)) {
+      // If the section matches, simulate a click on the corresponding button
+      let secId = "#" + item.id.replace("-btn", "");
+      
+      // Highlight the button and show the correct section
+      document
+        .querySelector(".section-14 a.btn.butt.w-button")
+        .classList.remove("btn");
+      item.classList.add("btn");
+      
+      document
+        .querySelector("section.d-sec-block")
+        .classList.remove("d-sec-block");
+      document.querySelector(secId).classList.add("d-sec-block");
+    }
   });
 
   const testimonialEmbedVideo = document.getElementById(
