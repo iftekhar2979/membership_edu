@@ -14,7 +14,7 @@ class SiteFooter extends HTMLElement {
               We help IT professionals break out of low-paying roles and
               transition into $150K+ cloud engineering careers .
             </p>
-            <p class="paragraph-11">Email: tayolusi@theonepercentuniversity.io</p>
+            <p class="paragraph-11">Email: tayolusi@theonepercentuniversity.co</p>
             <p class="paragraph-11">Phone: 240-932-8770</p>
             <p class="paragraph-11">Hours: Monday - Friday, 9:00AM - 6:00PM EST</p>
             <div class="columns-7 ">
