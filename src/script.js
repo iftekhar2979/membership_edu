@@ -176,3 +176,4 @@ function initFlipCounter(targetValue) {
 }
 
 
+document.querySelector('a').setAttribute('target', '_blank');

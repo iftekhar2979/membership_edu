@@ -122,10 +122,7 @@ class SiteFooter extends HTMLElement {
         </div>
       </div>
     </section>`;
-
-  }
-
- 
+  } 
 }
 
 customElements.define('site-footer', SiteFooter);
